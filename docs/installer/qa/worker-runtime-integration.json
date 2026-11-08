@@ -1,0 +1,12 @@
+{
+  "scope": "Actual source worker verify_tree against freshly extracted official Windows runtime on Linux. No Windows binary executed.",
+  "worker_sha256": "477a780da6980c6476250508a2a4ae98db5bf5e14c5dde419e2e4a176e0365e7",
+  "runtime_manifest_sha256": "6acc32df690bb3a0547a0c64818f91a2951aa24c8c1bd216b84a9d40cb1aad7d",
+  "runtime_root": "/tmp/ktw-runtime-qa-9oi_z6u5",
+  "files_verified": 140,
+  "bytes_verified": 4217782703,
+  "seconds": 3.044,
+  "pass": true,
+  "native_windows_installation": "NOT TESTED",
+  "native_windows_gameplay": "NOT TESTED"
+}

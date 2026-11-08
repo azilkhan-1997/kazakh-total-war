@@ -1,0 +1,102 @@
+{
+  "environment": {
+    "engine": "Pyrogenesis 0.28.0 WFG PPA Linux x64",
+    "renderer": "OpenGL Mesa llvmpipe; Xvfb1600x900",
+    "audio": "disabled -nosound",
+    "windowsTested": false,
+    "fpsBenchmark": false
+  },
+  "checks": {
+    "headlessNaturalBattle": {
+      "passed": true,
+      "simulationSeconds": 289,
+      "survivors": {
+        "kazakh": 49,
+        "abulkhair": 16
+      },
+      "commanderOutcomes": {
+        "abulkhair": "dead",
+        "kerei": "dead"
+      },
+      "rulerId": "janibek"
+    },
+    "nativeMenuRUandKK": true,
+    "nativeOptionsHotkeysCreditsOpen": true,
+    "councilAndArchiveKKRendered": true,
+    "nativeCampaignMovementEncounterAndBattle": true,
+    "v02MidbattleProcessRestart": {
+      "stateEqual": true,
+      "friendlyEntitiesEqual": true,
+      "friendlyEntityCount": 170,
+      "commanderMappingsEqual": true,
+      "wholeViewEqual": false,
+      "secondsBefore": 8,
+      "secondsAfter": 14,
+      "note": "Simulation resumed on load; elapsed timer advanced. Do not claim whole-view equality."
+    },
+    "nativeCampaignReturnAndSuccession": {
+      "passed": true,
+      "lastBattle": {
+        "battleId": "battle-1",
+        "provinceId": "sarysu",
+        "winner": "kazakh",
+        "losses": {
+          "abulkhair": 139,
+          "kazakh": 121
+        },
+        "captured": {
+          "abulkhair": 0,
+          "kazakh": 0
+        },
+        "turn": 2,
+        "deadCommanders": [
+          "abulkhair",
+          "kerei"
+        ]
+      },
+      "politicalEventCount": 6,
+      "rateNote": "Final part ran with Engine.SetSimRate(4); real combat, no edited damage or outcome."
+    },
+    "v02PostbattleProcessRestart": {
+      "stateEqual": true,
+      "politicalEventsEqual": true
+    },
+    "v01PostbattleMigration": {
+      "passed": true,
+      "schemaVersion": 2,
+      "error": ""
+    },
+    "v01MidbattleMigration": {
+      "passed": true,
+      "schemaVersion": 2,
+      "pendingBattleId": "battle-1",
+      "commanderMappings": [],
+      "secondsBefore": 15,
+      "secondsAfter": 38,
+      "friendlyEntitiesAfter": 144,
+      "allRemainingEntityIdentitiesMatch": true,
+      "fullEntityEquality": false,
+      "note": "Game resumed normally before capture; health/position/count changed through real combat. Only campaign migration and remaining entity identities are compared exactly."
+    },
+    "turnAutosaveCreated": {
+      "passed": true,
+      "observedFile": "ktw_autosave_0.0adsave",
+      "turn": 2,
+      "rotationSecondSlotNotExercised": true
+    },
+    "finalLocalizedJournalHeading": {
+      "passed": true,
+      "evidence": "15-journal-verified.png",
+      "secondStableFrame": "16-journal-second-frame.png",
+      "note": "Frame14 showed transient incomplete glyphs; a fresh process and3second settle produced two visually inspected complete frames. No production code changed."
+    }
+  },
+  "errorsInObservedRuns": 0,
+  "limitations": [
+    "No Windows execution or standalone Windows EXE",
+    "No measured GPU FPS, PBR or performance target",
+    "No audible music/effects acceptance (-nosound)",
+    "Options and hotkeys dialog opening verified; exhaustive controls not tested",
+    "No mocked or fabricated casualties in native battle evidence"
+  ]
+}

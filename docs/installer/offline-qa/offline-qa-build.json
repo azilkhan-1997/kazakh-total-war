@@ -1,0 +1,40 @@
+{
+  "status": "PRIVATE_QA_ONLY_NOT_CLEARED_FOR_DISTRIBUTION",
+  "file": "KazakhTotalWar_Offline_QA_0.4.0.exe",
+  "local_path": "/tmp/ktw-offline-qa-result/KazakhTotalWar_Offline_QA_0.4.0.exe",
+  "bytes": 1655605051,
+  "sha256": "ce2a1ecb29086cd55b7a950efc60dee486b51eb57768350d9602498e175d2f56",
+  "source_revision": "d87603fe71a7f390862bcfb0c0be1aafaf520774",
+  "source_dirty": true,
+  "game_module_version": "0.2.0",
+  "payload_files": 241,
+  "payload_manifest_sha256": "0ae9ac4158a050c88424f8d1af6a22303f5bebd9af979c0721f8c7602e022196",
+  "components": [
+    {
+      "name": "0ad-0.28.0-win64.exe",
+      "bytes": 1616727146,
+      "sha256": "9b5e1a16d4e0df9c84e052f56fb75da69518d5634c88d2b38db69baee63c16a1",
+      "input_path": "/tmp/ktw-official-download-4xfhv88f/0ad-0.28.0-win64.exe"
+    },
+    {
+      "name": "python-3.13.16-embed-amd64.zip",
+      "bytes": 11439094,
+      "sha256": "97dae5274cc54867065e8d5a3226e48c35017ed332a0fdb0e27d5b5821961297",
+      "input_path": "/tmp/ktw-offline-qa-components/python-3.13.16-embed-amd64.zip"
+    },
+    {
+      "name": "VC_redist.x64.exe",
+      "bytes": 18731856,
+      "sha256": "843068991daaa1f73ad9f6239bce4d0f6a07a51f18c37ea2a867e9beca71295c",
+      "input_path": "/tmp/ktw-offline-qa-components/VC_redist.x64.exe"
+    }
+  ],
+  "components_embedded_outside_source_payload": true,
+  "installer_component_network_acquisition": false,
+  "network_fallback": false,
+  "native_windows_install_tested": false,
+  "native_windows_gameplay_tested": false,
+  "redistribution_cleared": false,
+  "public_upload_permitted": false,
+  "nsis_version": "v3.09-4"
+}

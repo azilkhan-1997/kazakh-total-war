@@ -1,0 +1,55 @@
+{
+  "base_url": "https://archive.ubuntu.com/ubuntu/",
+  "host": "Ubuntu 24.04 x86_64 (glibc 2.39)",
+  "packages": [
+    {
+      "Package": "gcc-mingw-w64-x86-64-win32",
+      "Version": "13.2.0-6ubuntu1+26.1",
+      "Filename": "pool/universe/g/gcc-mingw-w64/gcc-mingw-w64-x86-64-win32_13.2.0-6ubuntu1+26.1_amd64.deb",
+      "SHA256": "80e1430303e1a619fc9cfc66225893d81486e52801e1916b712d8111d100ae38",
+      "Size": "35402818"
+    },
+    {
+      "Package": "g++-mingw-w64-x86-64-win32",
+      "Version": "13.2.0-6ubuntu1+26.1",
+      "Filename": "pool/universe/g/gcc-mingw-w64/g++-mingw-w64-x86-64-win32_13.2.0-6ubuntu1+26.1_amd64.deb",
+      "SHA256": "82ff9a2137f31c16c8cc8dd63b39c1a14416e1246033c7246b8070b7383d189a",
+      "Size": "14724844"
+    },
+    {
+      "Package": "gcc-mingw-w64-x86-64-win32-runtime",
+      "Version": "13.2.0-6ubuntu1+26.1",
+      "Filename": "pool/universe/g/gcc-mingw-w64/gcc-mingw-w64-x86-64-win32-runtime_13.2.0-6ubuntu1+26.1_amd64.deb",
+      "SHA256": "7ac09bc7f283f1148c8e1697373db069c1d4364a9f5fa58bb66c8a93760b8b65",
+      "Size": "14185558"
+    },
+    {
+      "Package": "gcc-mingw-w64-base",
+      "Version": "13.2.0-6ubuntu1+26.1",
+      "Filename": "pool/universe/g/gcc-mingw-w64/gcc-mingw-w64-base_13.2.0-6ubuntu1+26.1_amd64.deb",
+      "SHA256": "a30c07e807e9874ea93909448c5d6d37f9569ebe60ad32de8e490aad198538a3",
+      "Size": "188046"
+    },
+    {
+      "Package": "mingw-w64-x86-64-dev",
+      "Version": "11.0.1-3build1",
+      "Filename": "pool/universe/m/mingw-w64/mingw-w64-x86-64-dev_11.0.1-3build1_all.deb",
+      "SHA256": "018480a62907fcca19c6bf2975ae01f5c92c23dee8c3cf7a8355c10bf7d42c6f",
+      "Size": "3786378"
+    },
+    {
+      "Package": "mingw-w64-common",
+      "Version": "11.0.1-3build1",
+      "Filename": "pool/universe/m/mingw-w64/mingw-w64-common_11.0.1-3build1_all.deb",
+      "SHA256": "4a42fd30fbc3838c58c929d8a4882682fc12408bb7a0e6cafa913c0f0a57c187",
+      "Size": "5580230"
+    },
+    {
+      "Package": "binutils-mingw-w64-x86-64",
+      "Version": "2.41.90.20240122-1ubuntu1+11.4",
+      "Filename": "pool/universe/b/binutils-mingw-w64/binutils-mingw-w64-x86-64_2.41.90.20240122-1ubuntu1+11.4_amd64.deb",
+      "SHA256": "28bfabbf64a68813a56360bca056072af9ff71ef4090a4b8a8a085afcda3e4dd",
+      "Size": "6053282"
+    }
+  ]
+}

@@ -1,0 +1,1302 @@
+{
+  "source_url": "https://releases.wildfiregames.com/0ad-0.28.0-win64.exe",
+  "source_sha256": "9b5e1a16d4e0df9c84e052f56fb75da69518d5634c88d2b38db69baee63c16a1",
+  "source_bytes": 1616727146,
+  "nsisbi_source": "https://sourceforge.net/projects/nsisbi/files/nsisbi3.09.1/nsis-code-7405-1-NSIS-trunk.zip/download",
+  "file_count": 140,
+  "files": [
+    {
+      "path": "license_dbghelp.txt",
+      "offset": 203728,
+      "crc32": 2038324566,
+      "entry": 435,
+      "bytes": 10106,
+      "sha256": "5d680d9e58dd4aae70d7628e7bf4ee3253bb9458f15250315a24f0c95fe17a16",
+      "crc_verified": true
+    },
+    {
+      "path": "license_gpl-2.0.txt",
+      "offset": 213842,
+      "crc32": 172356888,
+      "entry": 436,
+      "bytes": 17987,
+      "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6",
+      "crc_verified": true
+    },
+    {
+      "path": "license_lgpl-2.1.txt",
+      "offset": 231837,
+      "crc32": 2608883550,
+      "entry": 437,
+      "bytes": 26425,
+      "sha256": "c68fd1ffc1623ea0dace21abf57305818e4998a4ae0c79010aaaa943eb660b55",
+      "crc_verified": true
+    },
+    {
+      "path": "license_mit.txt",
+      "offset": 258270,
+      "crc32": 2234509042,
+      "entry": 438,
+      "bytes": 1065,
+      "sha256": "1969da35a4ec9d24f82280fe693d656d890ad61a8b477144e8184d0969463b08",
+      "crc_verified": true
+    },
+    {
+      "path": "OpenLogsFolder.bat",
+      "offset": 259343,
+      "crc32": 1985706710,
+      "entry": 439,
+      "bytes": 219,
+      "sha256": "c0905944c95e57fb389b9320e138ed8e3a1a29ec004dc82de145cfd07fef41f1",
+      "crc_verified": true
+    },
+    {
+      "path": "OpenLogsFolder.vbs",
+      "offset": 259570,
+      "crc32": 1847917040,
+      "entry": 440,
+      "bytes": 275,
+      "sha256": "6dbac189b62759bfdd51e34e7cdc01d4b973f6dc3febdaec6de509aa68364df9",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/config/default.cfg",
+      "offset": 259853,
+      "crc32": 3351801071,
+      "entry": 444,
+      "bytes": 31959,
+      "sha256": "96fe2f626983f3a9b2392095c11f04b3a8a318531408ce9aea0f4bd5c2a60f5a",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/config/keys.txt",
+      "offset": 291820,
+      "crc32": 1926067374,
+      "entry": 445,
+      "bytes": 2525,
+      "sha256": "469f8fa2807838de81d53dda3a78b1676013e4fd18bd696d53693f09a21b9410",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/ca.engine.po",
+      "offset": 294353,
+      "crc32": 1864009838,
+      "entry": 447,
+      "bytes": 7041,
+      "sha256": "a1c07a8db1e20935a86cdd6354ff3897f633bba5a533c9e46170b96599dc1f6d",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/cs.engine.po",
+      "offset": 301402,
+      "crc32": 4109913431,
+      "entry": 448,
+      "bytes": 7034,
+      "sha256": "409139f2337cf54a6e599c30d5d81255a7c3fe092a57b307636556bdea05379e",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/de.engine.po",
+      "offset": 308444,
+      "crc32": 1174920920,
+      "entry": 449,
+      "bytes": 7318,
+      "sha256": "70f03f8c81905ec614c790b4abeadabf26a3b08fcdfb6f3db79f132464d1db4c",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/el.engine.po",
+      "offset": 315770,
+      "crc32": 3281811344,
+      "entry": 450,
+      "bytes": 8576,
+      "sha256": "212b93fe25bbe0696d7ebe6f991e1c3ff67a0b0c39a34f88d97c75627d556775",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/en_GB.engine.po",
+      "offset": 324354,
+      "crc32": 1233404311,
+      "entry": 451,
+      "bytes": 6616,
+      "sha256": "11d4a5fb307ce179fa62dae4f08cdbc9d7283972864a9d69053d00067ff32a94",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/engine.pot",
+      "offset": 330978,
+      "crc32": 2390167498,
+      "entry": 452,
+      "bytes": 4533,
+      "sha256": "da69a0c8a874cc8719d4b0a4823ffbb0ffb35f2c8d8a43bd73750f0f77e44003",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/es.engine.po",
+      "offset": 335519,
+      "crc32": 4105490892,
+      "entry": 453,
+      "bytes": 7435,
+      "sha256": "49075bbf0952ef5293db9814c7983db71fd1e50796b7da3cb5630bd3e793b1b8",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/eu.engine.po",
+      "offset": 342962,
+      "crc32": 2386124150,
+      "entry": 454,
+      "bytes": 6828,
+      "sha256": "10977f86ca158b880cfbb456309a92c7e1226569a126ced20e2ceeabe63ae571",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/fi.engine.po",
+      "offset": 349798,
+      "crc32": 1866629830,
+      "entry": 455,
+      "bytes": 6888,
+      "sha256": "306a8dc3e74625ded5cc4b5063ec30c36c755552497badb95723166905e3d1d7",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/fr.engine.po",
+      "offset": 356694,
+      "crc32": 674931956,
+      "entry": 456,
+      "bytes": 7345,
+      "sha256": "6333c06ef6a054a2b70cc413adc7742d1eac3d936ebfa90f52f01d529caba6af",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/gl.engine.po",
+      "offset": 364047,
+      "crc32": 3368977344,
+      "entry": 457,
+      "bytes": 6884,
+      "sha256": "e72d4ca0b0aa799b403d9f0f9a273aa9139f72eeae8a900ed7a950f1fdf59f30",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/hu.engine.po",
+      "offset": 370939,
+      "crc32": 1551803938,
+      "entry": 458,
+      "bytes": 7086,
+      "sha256": "28b3c10d3eb48c501443cbcbb38673cb558f906f961da92258f4b321ac03c409",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/id.engine.po",
+      "offset": 378033,
+      "crc32": 2733322723,
+      "entry": 459,
+      "bytes": 6746,
+      "sha256": "e608537ce3b2b3be8b481c6989b734b00819e3499c0b2ffd544bcee3fd91df2a",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/it.engine.po",
+      "offset": 384787,
+      "crc32": 3028673689,
+      "entry": 460,
+      "bytes": 7337,
+      "sha256": "07e4b808d3cda0108916d29c4e4ce14ce2dc77ddff519b42d6c75efe026d5b04",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/ja.engine.po",
+      "offset": 392132,
+      "crc32": 2864995707,
+      "entry": 461,
+      "bytes": 7434,
+      "sha256": "036cad0926938ebab3dc217c0a866a9374d4e76a30448a8980e8ba9b3d8695e0",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/ko.engine.po",
+      "offset": 399574,
+      "crc32": 1174799596,
+      "entry": 462,
+      "bytes": 7399,
+      "sha256": "f07399c60c61ff47d522f69edfc5b7bd57deed41b38777834fa457d659df9b3b",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/messages.json",
+      "offset": 406981,
+      "crc32": 492019692,
+      "entry": 463,
+      "bytes": 677,
+      "sha256": "69075b1f49598bce2061f8cf5f6667b14a83e852790c645da4801d3d590fe3ec",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/nl.engine.po",
+      "offset": 407666,
+      "crc32": 330444411,
+      "entry": 464,
+      "bytes": 7226,
+      "sha256": "76f884572e9b995d81066d857ef449e7fdeac8a030b032fa299fa0fb134a6ca4",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/pl.engine.po",
+      "offset": 414900,
+      "crc32": 616409243,
+      "entry": 465,
+      "bytes": 7187,
+      "sha256": "abe2a28c539aa44e5890824f9adb1086cc6f990544ea21e308bc65a6887371e3",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/pt_BR.engine.po",
+      "offset": 422095,
+      "crc32": 2188219897,
+      "entry": 466,
+      "bytes": 7338,
+      "sha256": "3a75e135d72ad7e9b74d2b2102b1d3c1d50dc85cfe67744566b44c8ee24b32d5",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/pt_PT.engine.po",
+      "offset": 429441,
+      "crc32": 3909264376,
+      "entry": 467,
+      "bytes": 7176,
+      "sha256": "18b2886502b571cce9e71753ae8c1698397b3860033f458aaf0716eb4532b622",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/ru.engine.po",
+      "offset": 436625,
+      "crc32": 3454851911,
+      "entry": 468,
+      "bytes": 8446,
+      "sha256": "8127458fec3a646de4b0d0746508bcf6807f284f9c0b8d092c88ed983483ce3f",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/sk.engine.po",
+      "offset": 445079,
+      "crc32": 4290630120,
+      "entry": 469,
+      "bytes": 7059,
+      "sha256": "130df26696f2f5a103ee1223ac931dc00edb84fb7c26e5e1159b7206a6fad527",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/sv.engine.po",
+      "offset": 452146,
+      "crc32": 757656336,
+      "entry": 470,
+      "bytes": 6885,
+      "sha256": "3b4232796a9254ea6d41c1fbcc8e8ec82632ca95c5bbd6e9f250a9ad2aedfa89",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/tr.engine.po",
+      "offset": 459039,
+      "crc32": 220290103,
+      "entry": 471,
+      "bytes": 6944,
+      "sha256": "0b0192793897e87ba2d5b60118711068c9b981de9c2d3788915af0f2b7376c17",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/uk.engine.po",
+      "offset": 465991,
+      "crc32": 3203470155,
+      "entry": 472,
+      "bytes": 8632,
+      "sha256": "303d5a0d4a33e0e3aba4e9434cad1441dc5b60192aa02dd7a5f4848108579726",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/vi.engine.po",
+      "offset": 474631,
+      "crc32": 2530932152,
+      "entry": 473,
+      "bytes": 7108,
+      "sha256": "d78db32075c6f14986fb7dd15aef9c16bb403218cad2fac4d4d2a93d26573feb",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/zh.engine.po",
+      "offset": 481747,
+      "crc32": 2994343171,
+      "entry": 474,
+      "bytes": 6952,
+      "sha256": "83ba33b05a7de119d01d05792fb8d83065713c113c523fc4c9c6042619600f90",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/zh_TW.engine.po",
+      "offset": 488707,
+      "crc32": 859610037,
+      "entry": 475,
+      "bytes": 6425,
+      "sha256": "39d9eb57dd0295f4a019c9b6a3143043a9e484accc5d2b1c7a896c6fd17b7f79",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/l10n/.tx/config",
+      "offset": 495140,
+      "crc32": 2500429855,
+      "entry": 477,
+      "bytes": 148,
+      "sha256": "5f52c7d149211b418ca602c5e737248be8b263bdd8ac3d79ecc7c5584f65b4e8",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/help.json",
+      "offset": 495296,
+      "crc32": 3243747538,
+      "entry": 481,
+      "bytes": 418,
+      "sha256": "e14fbfe3e32c5b5ab3d1de219408d2e5b14da2955743a1718fda9fa059a6bcd6",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/lists.xml",
+      "offset": 495722,
+      "crc32": 4219405765,
+      "entry": 482,
+      "bytes": 2473,
+      "sha256": "8df2fcdcc3a75eaf95b3dae799f6b3ec7c645676110f5b3c9bf40a67da2ea672",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/buttons/next_s.bmp",
+      "offset": 498203,
+      "crc32": 1341162335,
+      "entry": 484,
+      "bytes": 822,
+      "sha256": "291c20bf8254c37d95dadf541ad458b3886e4ba8156aefcc412b90c59ecfb515",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/buttons/pause_s.bmp",
+      "offset": 499033,
+      "crc32": 1148404124,
+      "entry": 485,
+      "bytes": 822,
+      "sha256": "61ec27c8ea864ebbd5b0839d8d5ba0de1018500d842620de24bf20c38454df4d",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/buttons/play_s.bmp",
+      "offset": 499863,
+      "crc32": 474031129,
+      "entry": 486,
+      "bytes": 822,
+      "sha256": "6d5fb1b46d0b7f5b602be4bbcacbd505b4bc807ac334883b1576abf354ddb4ad",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/buttons/previous_s.bmp",
+      "offset": 500693,
+      "crc32": 3436128138,
+      "entry": 487,
+      "bytes": 822,
+      "sha256": "a4363881352b7685e4f1ca24dafe00fc672ef310d5f5c6725aaf3ee9639dcb0f",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/buttons/record_s.bmp",
+      "offset": 501523,
+      "crc32": 3133741381,
+      "entry": 488,
+      "bytes": 822,
+      "sha256": "361cffd7cf22fd0f13c87918580f1aa76faf611fb2d52546aaf0ef8e3383ba0e",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/buttons/stop_s.bmp",
+      "offset": 502353,
+      "crc32": 4077760813,
+      "entry": 489,
+      "bytes": 822,
+      "sha256": "117c45646ebb73f6014a3d7bab55182e874d7e7bbdaeccf6f341b3daa596c2ac",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/icons/ScenarioEditor.ico",
+      "offset": 503183,
+      "crc32": 349351285,
+      "entry": 491,
+      "bytes": 29926,
+      "sha256": "acb95b0a5d84ec30b94113f4602ef5b5849a8aa89456972d9bd6df515fc1602c",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/alterelevation.png",
+      "offset": 533117,
+      "crc32": 2505850710,
+      "entry": 493,
+      "bytes": 1796,
+      "sha256": "3158882615afaff4f5bb883e95c34166772a17931ba6b1d9eddc51a6732da7fe",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/alterelevation_s.png",
+      "offset": 534921,
+      "crc32": 1680761382,
+      "entry": 494,
+      "bytes": 442,
+      "sha256": "0f57d5655576ddb4b2b03deeffd5728234c37cf94280656ea58ca1da5766b197",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/cinematic.png",
+      "offset": 535371,
+      "crc32": 287196990,
+      "entry": 495,
+      "bytes": 240,
+      "sha256": "ed2075f35e8996742b610aa501cca73bcf6ef50e824edd0452b69eb8206f3c79",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/default.png",
+      "offset": 535619,
+      "crc32": 983394038,
+      "entry": 496,
+      "bytes": 905,
+      "sha256": "348f2f783761b1895cba0293304247878c910076e4d76574604b4c9ba7a5f9ea",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/default_s.png",
+      "offset": 536532,
+      "crc32": 914484221,
+      "entry": 497,
+      "bytes": 255,
+      "sha256": "7adc1400f20502f8e362cbb2323141761b4c57c152b46563aa0d9100f08bcd28",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/environment.png",
+      "offset": 536795,
+      "crc32": 3626791585,
+      "entry": 498,
+      "bytes": 1649,
+      "sha256": "1af61c6c17c9b1ad5f6082e8ce5aff43de01ee6f37da74b22b8d9859126dddab",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/flattenelevation.png",
+      "offset": 538452,
+      "crc32": 3802887505,
+      "entry": 499,
+      "bytes": 1899,
+      "sha256": "17476b5c53d1c027150a48d8a999bee8ed92717f5c29a9d7a6908e521dce11e9",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/flattenelevation_s.png",
+      "offset": 540359,
+      "crc32": 3532998856,
+      "entry": 500,
+      "bytes": 512,
+      "sha256": "72bf80f1b5be3acb92d84898feb885cf7400bbd60e35fb6e716d2fa7c2c22e43",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/map.png",
+      "offset": 540879,
+      "crc32": 1538477586,
+      "entry": 501,
+      "bytes": 1881,
+      "sha256": "ed8079c6aba51d24cb471b2460d4106008ee50c5e44c951ebe968a18533447b2",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/mapsettings.png",
+      "offset": 542768,
+      "crc32": 948356198,
+      "entry": 502,
+      "bytes": 2607,
+      "sha256": "7ac59b77cefb6ac07fde109b989e391b32bf4fdfbb63b20867e894e446bd5d72",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/moveobject.png",
+      "offset": 545383,
+      "crc32": 3626228905,
+      "entry": 503,
+      "bytes": 752,
+      "sha256": "6824d3a1e57441ed7835bd05742c270ef57e6c30bbb0792c57fa067f3c1c0ae5",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/moveobject_s.png",
+      "offset": 546143,
+      "crc32": 875236707,
+      "entry": 504,
+      "bytes": 250,
+      "sha256": "8858656629baeebb7b4634cb85e8c58721fea709217de090f6c0cc4d4012daac",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/movepath.png",
+      "offset": 546401,
+      "crc32": 3952869414,
+      "entry": 505,
+      "bytes": 321,
+      "sha256": "9bf920e984c5ccd8037d3435cc4577b26676dee01e1193694269259932d0f54f",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/object.png",
+      "offset": 546730,
+      "crc32": 835516657,
+      "entry": 506,
+      "bytes": 1466,
+      "sha256": "efa18329ab71b953ec67c8db03da24347ee97fa58d842a856712158fb850b9db",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/objects.png",
+      "offset": 548204,
+      "crc32": 1221802907,
+      "entry": 507,
+      "bytes": 1874,
+      "sha256": "b75562287e9efd1acc7311d915537b0983a4b9e98a2f8b65b3309040c9b32535",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/paintterrain.png",
+      "offset": 550086,
+      "crc32": 768947111,
+      "entry": 508,
+      "bytes": 1931,
+      "sha256": "660276ce1cfd024000dcdb526ac4488c27b2dc81dc23d1b018116b81c0635b57",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/paintterrain_s.png",
+      "offset": 552025,
+      "crc32": 643581785,
+      "entry": 509,
+      "bytes": 673,
+      "sha256": "4af3333f0eff71a9243413e0bdfecda3389e26a256ac157e1a1cbc4f3a803a21",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/player.png",
+      "offset": 552706,
+      "crc32": 3851733977,
+      "entry": 510,
+      "bytes": 1018,
+      "sha256": "7c3811b0acf1d5d4db24450a0fb3f2f57966c7b2c950297339e6b7fcc7b325f0",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/redo.png",
+      "offset": 553732,
+      "crc32": 3806760561,
+      "entry": 511,
+      "bytes": 1965,
+      "sha256": "bf05bb824aa4669cc66982b1b1edc2abb3e8afcb1f6856b8bcddcffa1899089e",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/smoothelevation.png",
+      "offset": 555705,
+      "crc32": 2518355283,
+      "entry": 512,
+      "bytes": 2002,
+      "sha256": "5a94e39d63db9302d0bbbb5b6e1dcc43a426d87823639156a7d489d6111d6764",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/terrain.png",
+      "offset": 557715,
+      "crc32": 538672270,
+      "entry": 513,
+      "bytes": 1410,
+      "sha256": "661695c0c1fa5079500013d3145eb6fa5f116f67ed0b9c974172323a60d127c7",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/trigger.png",
+      "offset": 559133,
+      "crc32": 468787520,
+      "entry": 514,
+      "bytes": 207,
+      "sha256": "5609f427a36a8089ed27ffaa51c1337f0cd09f696e2bc637068fdfba8cc52ae6",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/tools/atlas/toolbar/undo.png",
+      "offset": 559348,
+      "crc32": 215348918,
+      "entry": 515,
+      "bytes": 1915,
+      "sha256": "cb7097e3407a1cf76aa2a395fddd75998be5512c9ca14f913c2848b8a348cef6",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/AtlasUI.dll",
+      "offset": 561271,
+      "crc32": 32708268,
+      "entry": 519,
+      "bytes": 6418944,
+      "sha256": "21657b67c68b521bce954aefb7a0e1d12d8ec35af4dd39a7fb07707846c67b0a",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/Collada.dll",
+      "offset": 6980223,
+      "crc32": 262710569,
+      "entry": 520,
+      "bytes": 102912,
+      "sha256": "1d182ac6bb96b0fcfa431e920fbe896007501b62ff4bfa73507026a4fccc1545",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/FCollada.dll",
+      "offset": 7083143,
+      "crc32": 1737475458,
+      "entry": 521,
+      "bytes": 2497536,
+      "sha256": "ec85c2c75af5c6e1e466aa36d38575115d8021e5ac15a8287e1526095d12260a",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/OpenAL32.dll",
+      "offset": 9580687,
+      "crc32": 2600842080,
+      "entry": 522,
+      "bytes": 1405952,
+      "sha256": "8a04311712bf315b0e025d599f0cff0b27cb2e587c56328ce361acd2b3fd7c72",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/SDL2.dll",
+      "offset": 10986647,
+      "crc32": 1940629374,
+      "entry": 523,
+      "bytes": 1619456,
+      "sha256": "48fa1415ebe7c07eaee6ea10e1baaee9e27b4e7bf29a56ab0c0f959c0ceb3196",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/concrt140.dll",
+      "offset": 12606111,
+      "crc32": 122304542,
+      "entry": 524,
+      "bytes": 324208,
+      "sha256": "2405355f0a58067b258f8df33c327e3a3d716eaac5a3a5aebb757842d85bd376",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/dbgcore.dll",
+      "offset": 12930327,
+      "crc32": 3482555216,
+      "entry": 525,
+      "bytes": 243256,
+      "sha256": "02589c5d971b184c838a41a2b2572da91c68f6e988e9b0c8512c9042cd37f5e8",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/dbghelp.dll",
+      "offset": 13173591,
+      "crc32": 3463225074,
+      "entry": 526,
+      "bytes": 2254392,
+      "sha256": "5b403dbbe3c029604c5aedbb15a069be7039ce3082401f8700cf604f90e651f3",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/enet.dll",
+      "offset": 15427991,
+      "crc32": 156187906,
+      "entry": 527,
+      "bytes": 44032,
+      "sha256": "69eba7f80786ea660704b1adaaa3ee7c21d6015ce345f658cc66d753a7668982",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/freetype.dll",
+      "offset": 15472031,
+      "crc32": 4285221222,
+      "entry": 528,
+      "bytes": 674816,
+      "sha256": "63daf4b69ef0c1eb3d4efdb1908fb2a42341f6bb13ee1e94c8c769df4947213e",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/gloox-1.0.dll",
+      "offset": 16146855,
+      "crc32": 859162135,
+      "entry": 529,
+      "bytes": 1432576,
+      "sha256": "dd5aefedfa2b3b0de79ddd3abc11c95fbc96bd983dd8cb1ade77dae234abdf29",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/icudt77.dll",
+      "offset": 17579439,
+      "crc32": 3716372437,
+      "entry": 530,
+      "bytes": 31898624,
+      "sha256": "5815d5a2d297ff381d485b597c662b96f6ba7993b7153eeb75abbd5532504e72",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/icuin77.dll",
+      "offset": 49478071,
+      "crc32": 3477723654,
+      "entry": 531,
+      "bytes": 3569664,
+      "sha256": "0996e60772cf73a414d68c0313ef86fb020aea1b8c8cd211b47261497ed6a8e2",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/icuio77.dll",
+      "offset": 53047743,
+      "crc32": 2245318996,
+      "entry": 532,
+      "bytes": 61952,
+      "sha256": "a570a3e5f2fb5976f0feb60b3dedd7c5f2fe1e394282f4320c04c930380840cf",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/icutu77.dll",
+      "offset": 53109703,
+      "crc32": 2808503154,
+      "entry": 533,
+      "bytes": 391168,
+      "sha256": "c81a796bd56546bd0499c77a0b7838cadf3afb2e9f115aaf66ae9ffe0fb361e7",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/icuuc77.dll",
+      "offset": 53500879,
+      "crc32": 3744065042,
+      "entry": 534,
+      "bytes": 2562560,
+      "sha256": "7575891d88bda9bf018bc7c07d7d0bd3c4507e0cac122ff78bf7926419841021",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/libcurl.dll",
+      "offset": 56063447,
+      "crc32": 4228142376,
+      "entry": 535,
+      "bytes": 681472,
+      "sha256": "88a8f251aa2ef548aa91fecbfdccf06f3a93b3ee8294edc0da0fd0963fa047df",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/libiconv.dll",
+      "offset": 56744927,
+      "crc32": 2023812948,
+      "entry": 536,
+      "bytes": 938496,
+      "sha256": "e826bffd039cf4bdc7e9dd6d8532078896ee9914aa9900fd5d23e0d82d6d4b67",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/libpng16.dll",
+      "offset": 57683431,
+      "crc32": 1897062945,
+      "entry": 537,
+      "bytes": 200192,
+      "sha256": "51294c00d4075af21232c6f2007ef8c1caa218f470e0dbf85fa00dc116c47839",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/libsodium.dll",
+      "offset": 57883631,
+      "crc32": 314582660,
+      "entry": 538,
+      "bytes": 344064,
+      "sha256": "c6d373383859dac3c29d3d887063f7239531f2fcf14a9e4baf014fe65e1b066d",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/libxml2.dll",
+      "offset": 58227703,
+      "crc32": 1497246832,
+      "entry": 539,
+      "bytes": 1266688,
+      "sha256": "448671d0e1ab0327cbf14ff44c1c91115fb810483d2aa3efdae4ff51c194460b",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/miniupnpc.dll",
+      "offset": 59494399,
+      "crc32": 1644622912,
+      "entry": 540,
+      "bytes": 49664,
+      "sha256": "e93026a6523e53ff37e0503d51f0efd905bd7039db80eb2c521ee3824ce38480",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/mozjs128-release.dll",
+      "offset": 59544071,
+      "crc32": 523672282,
+      "entry": 541,
+      "bytes": 11945472,
+      "sha256": "71c46d7c5c66c8efab32ba8fc463c311c38247ed57afd36ca86b2c823ad8051c",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/msvcp140.dll",
+      "offset": 71489551,
+      "crc32": 3535724379,
+      "entry": 542,
+      "bytes": 557728,
+      "sha256": "0f885b509a685d2bbfa652fed26b5fb31d88fbdab0a978c641d1c7b8aa460aa9",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/nvcore.dll",
+      "offset": 72047287,
+      "crc32": 1383544393,
+      "entry": 543,
+      "bytes": 95232,
+      "sha256": "1bf52017c4c122f7b8c3d81b95862ec62cd1e5b403f74156e54a13655b41b739",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/nvimage.dll",
+      "offset": 72142527,
+      "crc32": 3838481556,
+      "entry": 544,
+      "bytes": 531968,
+      "sha256": "9a03047f03db00f5e37323515dc6407394192192b31ef5ff8196766b7750f6f7",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/nvmath.dll",
+      "offset": 72674503,
+      "crc32": 3383315766,
+      "entry": 545,
+      "bytes": 124416,
+      "sha256": "0a0cf8e4aaa07a8aa593bb4d5eccee03b7c9ebc046d9526ea33c3b3a6cc8a50c",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/nvtt.dll",
+      "offset": 72798927,
+      "crc32": 1816040599,
+      "entry": 546,
+      "bytes": 545792,
+      "sha256": "d43e9f29477de907f611fa1f2ebff12de16bbea0e8d83fd1b7ff5a8299dd34e9",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/ogg.dll",
+      "offset": 73344727,
+      "crc32": 105602817,
+      "entry": 547,
+      "bytes": 31232,
+      "sha256": "c8698f7f90a6dfbb590fecdf5edbe8769ee923ae8439c6afaf0bbade8f53d7aa",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/vcruntime140.dll",
+      "offset": 73375967,
+      "crc32": 3297620265,
+      "entry": 548,
+      "bytes": 124544,
+      "sha256": "d5e4d9a3e835fa679450145d6a7d94e36573a509317111904d9b3712c30d9066",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/vorbis.dll",
+      "offset": 73500519,
+      "crc32": 3384712488,
+      "entry": 549,
+      "bytes": 738816,
+      "sha256": "f5e213ff3501ce292203aaeeaf73625c5a6564c87c8068c43d1e72841aac145f",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/vorbisenc.dll",
+      "offset": 74239343,
+      "crc32": 2735963412,
+      "entry": 550,
+      "bytes": 563712,
+      "sha256": "eef43f441f565601b8fa67972edfd4f95b1c5eab759baf12e7948d6f22421cbc",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/vorbisfile.dll",
+      "offset": 74803063,
+      "crc32": 2962332410,
+      "entry": 551,
+      "bytes": 36864,
+      "sha256": "efc506833d4f84404d72b9b332b534406c60b22aa7ef02011fc760bb0721dff2",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/zlib1.dll",
+      "offset": 74839935,
+      "crc32": 3382064586,
+      "entry": 552,
+      "bytes": 84992,
+      "sha256": "66827b4627df37177eaf7e81312b3eb465a1a4bf030be7f03c66df8f804f350d",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/ActorEditor.pdb",
+      "offset": 74924935,
+      "crc32": 4067277254,
+      "entry": 555,
+      "bytes": 528384,
+      "sha256": "8f57a708023c621b8b56d5d3fd42bdb59f67000bad54f34941d364ef30da8ab9",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/AtlasObject.pdb",
+      "offset": 75453327,
+      "crc32": 2079102167,
+      "entry": 556,
+      "bytes": 8024064,
+      "sha256": "e7ff41e9d17a2c629052e9108ceb0e4afccebbe49489c731c07f78e42ddc9f37",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/AtlasUI.pdb",
+      "offset": 83477399,
+      "crc32": 469582536,
+      "entry": 557,
+      "bytes": 60559360,
+      "sha256": "350c50fc700b82dd2747c4e0f81fe3306b16879770632d31ca4978ac8993d790",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/Collada.pdb",
+      "offset": 144036767,
+      "crc32": 4016398101,
+      "entry": 558,
+      "bytes": 3084288,
+      "sha256": "b1e1297308cdf1dafcc1595aff4977d4f38aba514468112ee4ee33ef0de48530",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/FCollada.pdb",
+      "offset": 147121063,
+      "crc32": 996184874,
+      "entry": 559,
+      "bytes": 15020032,
+      "sha256": "100a527a7c209f1cf8000785d7a1b6eac065d44b8fb51487b2c369f5e17881c8",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/atlas.pdb",
+      "offset": 162141103,
+      "crc32": 63260196,
+      "entry": 560,
+      "bytes": 12472320,
+      "sha256": "3ba9022088b69c64da47543403bd1a59e2fbdae948e2c56332d1c0875fb599ce",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/dapinterface.pdb",
+      "offset": 174613431,
+      "crc32": 612295767,
+      "entry": 561,
+      "bytes": 3805184,
+      "sha256": "9aaa16350d118888b0fa77fb69cbb981a72dfea49a24e58c083fc76c0db33609",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/engine.pdb",
+      "offset": 178418623,
+      "crc32": 1597076145,
+      "entry": 562,
+      "bytes": 28790784,
+      "sha256": "e3253e37e0f16c470e3103209adaa7d96e0815bfe4360d411453d1a3944d40f2",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/gladwrapper.pdb",
+      "offset": 207209415,
+      "crc32": 1592947252,
+      "entry": 563,
+      "bytes": 438272,
+      "sha256": "592857747071d414f8096e391a53323d2b0b515b1b8de2cbc303f2388989e4cd",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/gloox-1.0.pdb",
+      "offset": 207647695,
+      "crc32": 2438838533,
+      "entry": 564,
+      "bytes": 13635584,
+      "sha256": "279b86eab4484b0a81575a069dba031243843a22a8b9a9ae87d4483477bc1a85",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/graphics.pdb",
+      "offset": 221283287,
+      "crc32": 1500432439,
+      "entry": 565,
+      "bytes": 40939520,
+      "sha256": "fb7cc43493e329a48f9d57e9837671496fb275ea190f8f8fe907688b58024292",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/gui.pdb",
+      "offset": 262222815,
+      "crc32": 2351901813,
+      "entry": 566,
+      "bytes": 16871424,
+      "sha256": "4c477d6eba318d27c4883407e92b6f6fd094beef11810761313e325fec2fdbf0",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/libcurl.pdb",
+      "offset": 279094247,
+      "crc32": 1409166071,
+      "entry": 567,
+      "bytes": 1855488,
+      "sha256": "3f9c81691dfaee5a865c6a97ac8e75e3495dab0671dd35b46f93790d4959dfa4",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/libsodium.pdb",
+      "offset": 280949743,
+      "crc32": 838321887,
+      "entry": 568,
+      "bytes": 1978368,
+      "sha256": "e857857f6d1f3cac44902936dbbfb6f8d3ae2f47c8a61bb5326b005b55d7f326",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/lobby.pdb",
+      "offset": 282928119,
+      "crc32": 1742233646,
+      "entry": 569,
+      "bytes": 9416704,
+      "sha256": "51b7152a2a4b15567af6de1ae0e0d3e3f84a43df9d2b161973f1c52b51863179",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/lowlevel.pdb",
+      "offset": 292344831,
+      "crc32": 1807772500,
+      "entry": 570,
+      "bytes": 6803456,
+      "sha256": "8411767bcffbbf13ad8352122a272422aae0f0c091c0362158c65b4083c5e8f6",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/mocks_real.pdb",
+      "offset": 299148295,
+      "crc32": 1471386466,
+      "entry": 571,
+      "bytes": 438272,
+      "sha256": "550c1d066aad7baa4eba0a5d9d6197615581d3eb126f139e2b2985e931d8b047",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/mongoose.pdb",
+      "offset": 299586575,
+      "crc32": 1627587552,
+      "entry": 572,
+      "bytes": 258048,
+      "sha256": "9b7c5308fd211531cf75c769dbaed3457ff94442ac17e82c489ad9e25528d3ac",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/mozjs128-release.pdb",
+      "offset": 299844631,
+      "crc32": 460844267,
+      "entry": 573,
+      "bytes": 133328896,
+      "sha256": "65cea9930945582659e711a5266c43fe1db5654240bd044fece4dd5b46bfdd9d",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/network.pdb",
+      "offset": 433173535,
+      "crc32": 1657892306,
+      "entry": 574,
+      "bytes": 9228288,
+      "sha256": "d5ee38da32d507d323aa4381b66a7bf85366cdf97e8f0d64631af5c7e4ccb6d1",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/nvtt.pdb",
+      "offset": 442401831,
+      "crc32": 3363259011,
+      "entry": 575,
+      "bytes": 2797568,
+      "sha256": "84b4e6b3d3ed618dbc0e1267246af99cbfda81b4e2ae3e8c3c72b3b3f108e688",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/pyrogenesis.pdb",
+      "offset": 445199407,
+      "crc32": 1343464332,
+      "entry": 576,
+      "bytes": 113815552,
+      "sha256": "688f3d5a1456ec6f06a11c75d29ac5d8faee5cf8258872f0d77bf0d322c2476c",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/rlinterface.pdb",
+      "offset": 559014967,
+      "crc32": 331612287,
+      "entry": 577,
+      "bytes": 4616192,
+      "sha256": "0f097443df485e9b572c4bf902ef5290ff0708ecc45d7afeb4e1896e6b562182",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/scriptinterface.pdb",
+      "offset": 563631167,
+      "crc32": 47460311,
+      "entry": 578,
+      "bytes": 6672384,
+      "sha256": "1823ea4500c16df1384899ceadf3d29a348b64676d949e4b57b7ddff1831beb9",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/simulation2.pdb",
+      "offset": 570303559,
+      "crc32": 2086830513,
+      "entry": 579,
+      "bytes": 36147200,
+      "sha256": "0206078e9ee4883d4f5c0a3ceb4adec41f51b226e9ca7784d2bad91eccfb1806",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/tinygettext.pdb",
+      "offset": 606450767,
+      "crc32": 215115565,
+      "entry": 580,
+      "bytes": 3387392,
+      "sha256": "4e378bffcc8f7966bb0f4528f005384a130a4a33f10b04720b281828e9b5a75a",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/ActorEditor.exe",
+      "offset": 609838167,
+      "crc32": 3322556570,
+      "entry": 583,
+      "bytes": 34816,
+      "sha256": "052b1ff146bc3c2b8e42abb2209c99e2685db7c0ac1fb2ab35533e20e6f8b5ff",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/pyrogenesis.exe",
+      "offset": 609872991,
+      "crc32": 1289031983,
+      "entry": 584,
+      "bytes": 5857280,
+      "sha256": "11d79e7d1aba4ba71dd92b57131b2bd300962e2c94dcf5b79205e34aa076a24f",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/Atlas.bat",
+      "offset": 615730279,
+      "crc32": 4083410835,
+      "entry": 587,
+      "bytes": 30,
+      "sha256": "30a8debe9563b12ff06aacb836af3d59ac53b67e5e2c88e432410b90ef41bbfe",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/Quickstart.bat",
+      "offset": 615730317,
+      "crc32": 508763530,
+      "entry": 588,
+      "bytes": 34,
+      "sha256": "8f9770816bee8ea433d3de6c876e47c5e5d5dda1a3c58608a2b33b05f5c344f5",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/get-nightly-binaries.bat",
+      "offset": 615730359,
+      "crc32": 3416790514,
+      "entry": 589,
+      "bytes": 1184,
+      "sha256": "4b162799149f62b94791eb45724f53fd3906d72e2306b50c1367f860ba2ac8a4",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/system/readme.txt",
+      "offset": 615731551,
+      "crc32": 1300280670,
+      "entry": 592,
+      "bytes": 6876,
+      "sha256": "7e7da4d96bea199092f1147854bb17f06e5dcd1c9c12f8cad4252a0b198ef509",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/logs/readme.txt",
+      "offset": 615738435,
+      "crc32": 1877848088,
+      "entry": 597,
+      "bytes": 227,
+      "sha256": "731cbb3cf4fb4b8ff7abffa12e58cb5fbf6df0a4bb311eb08be57d9da10dce95",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/mods/mod/mod.zip",
+      "offset": 615738670,
+      "crc32": 283866331,
+      "entry": 602,
+      "bytes": 93421350,
+      "sha256": "8dad8b95d913501d11ed8628cc2e4f07680c43f071e0a6a2aee45f0daff0c809",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/mods/public/mod.json",
+      "offset": 709160028,
+      "crc32": 2013667730,
+      "entry": 604,
+      "bytes": 193,
+      "sha256": "a5cf63a85c0e40afbcacc1eb56c8f9c5852166104ee946a603873c29fea86573",
+      "crc_verified": true
+    },
+    {
+      "path": "binaries/data/mods/public/public.zip",
+      "offset": 709160229,
+      "crc32": 2419791342,
+      "entry": 605,
+      "bytes": 3508827314,
+      "sha256": "ccb24dedee399e6d2810ccb62b0b1b77a937999d9f1dedffbc189b3e359f2429",
+      "crc_verified": true
+    }
+  ],
+  "solid_chunks": 2013,
+  "solid_uncompressed_bytes": 4218196672,
+  "all_file_crc_verified": true,
+  "header_crc_verified": true,
+  "installer_execution": false,
+  "elapsed_seconds": 58.64,
+  "installer_stub_crc_verified": true,
+  "zip_validation": [
+    {
+      "archive": "binaries/data/mods/mod/mod.zip",
+      "members": 2013,
+      "uncompressed_bytes": 92951362,
+      "bad_member": null,
+      "crc_test_passed": true,
+      "seconds": 0.15
+    },
+    {
+      "archive": "binaries/data/mods/public/public.zip",
+      "members": 52829,
+      "uncompressed_bytes": 3497330785,
+      "bad_member": null,
+      "crc_test_passed": true,
+      "seconds": 2.23
+    }
+  ],
+  "engine_pe": {
+    "machine": "0x8664",
+    "optional_header_magic": "0x20b",
+    "architecture": "AMD64",
+    "verified_execution": false
+  },
+  "extractor_sha256": "c9c109967d74128e6d61c0cb285e397518a89e79d6899e87bb211c67018b3570",
+  "checked_at_utc": "2026-11-07"
+}

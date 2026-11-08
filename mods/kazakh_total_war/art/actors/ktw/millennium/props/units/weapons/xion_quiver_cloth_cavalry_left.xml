@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow />
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>ktw/millennium/props/weap_xion_quiver_cloth_cavalry_left.dae</mesh>
+      <props>
+        <prop actor="ktw/millennium/props/units/weapons/xion_arrow_front.xml" attachpoint="arrow_1" />
+        <prop actor="ktw/millennium/props/units/weapons/xion_arrow_front.xml" attachpoint="arrow_2" />
+        <prop actor="ktw/millennium/props/units/weapons/xion_arrow_front.xml" attachpoint="arrow_3" />
+        <prop actor="ktw/millennium/props/units/weapons/xion_arrow_front.xml" attachpoint="arrow_4" />
+        <prop actor="ktw/millennium/props/units/weapons/xion_arrow_front.xml" attachpoint="arrow_5" />
+        <prop actor="ktw/millennium/props/units/weapons/xion_arrow_front.xml" attachpoint="arrow_6" />
+        <prop actor="ktw/millennium/props/units/weapons/xion_arrow_front.xml" attachpoint="arrow_7" />
+        <prop actor="ktw/millennium/props/units/weapons/xion_arrow_front.xml" attachpoint="arrow_8" />
+        <prop actor="ktw/millennium/props/units/weapons/xion_arrow_front.xml" attachpoint="arrow_9" />
+        <prop actor="ktw/millennium/props/units/weapons/xion_arrow_front.xml" attachpoint="arrow_10" />
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Base_a">
+      <textures>
+        <texture file="ktw/millennium/props/xion_quiver_basic.png" name="baseTex" />
+        <texture file="ktw/millennium/props/xion_quiver_basic_norm.png" name="normTex" />
+        <texture file="ktw/millennium/props/xion_quiver_spec.png" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="100" name="Base_b">
+      <textures>
+        <texture file="ktw/millennium/props/xion_quiver_basic_b.png" name="baseTex" />
+        <texture file="ktw/millennium/props/xion_quiver_basic_norm.png" name="normTex" />
+        <texture file="ktw/millennium/props/xion_quiver_spec.png" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

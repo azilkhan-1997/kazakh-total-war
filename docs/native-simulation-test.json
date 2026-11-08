@@ -1,0 +1,1779 @@
+{
+  "engine": "0 A.D. 0.28.0",
+  "platform": "Linux x86_64 headless",
+  "rendered": false,
+  "testDate": "2026-11-08",
+  "rootUserNamespaceShim": "Test-only LD_PRELOAD geteuid compatibility shim; not game code or deliverable",
+  "campaignInitializationErrors": [],
+  "battleErrors": [],
+  "initial": {
+    "time": 1,
+    "stats": {
+      "kazakh": 170,
+      "abulkhair": 155,
+      "seconds": 1,
+      "regiments": [
+        {
+          "id": "r7",
+          "type": "mounted_archer",
+          "faction": "abulkhair",
+          "remaining": 25,
+          "initial": 25,
+          "morale": 73,
+          "fatigue": 0,
+          "routed": false
+        },
+        {
+          "id": "r8",
+          "type": "mounted_archer",
+          "faction": "abulkhair",
+          "remaining": 25,
+          "initial": 25,
+          "morale": 73,
+          "fatigue": 0,
+          "routed": false
+        },
+        {
+          "id": "r9",
+          "type": "light_cavalry",
+          "faction": "abulkhair",
+          "remaining": 30,
+          "initial": 30,
+          "morale": 73,
+          "fatigue": 0,
+          "routed": false
+        },
+        {
+          "id": "r10",
+          "type": "heavy_cavalry",
+          "faction": "abulkhair",
+          "remaining": 20,
+          "initial": 20,
+          "morale": 83,
+          "fatigue": 0,
+          "routed": false
+        },
+        {
+          "id": "r11",
+          "type": "spearman",
+          "faction": "abulkhair",
+          "remaining": 30,
+          "initial": 30,
+          "morale": 68,
+          "fatigue": 0,
+          "routed": false
+        },
+        {
+          "id": "r12",
+          "type": "infantry_archer",
+          "faction": "abulkhair",
+          "remaining": 25,
+          "initial": 25,
+          "morale": 63,
+          "fatigue": 0,
+          "routed": false
+        },
+        {
+          "id": "r1",
+          "type": "mounted_archer",
+          "faction": "kazakh",
+          "remaining": 30,
+          "initial": 30,
+          "morale": 73,
+          "fatigue": 0,
+          "routed": false
+        },
+        {
+          "id": "r2",
+          "type": "mounted_archer",
+          "faction": "kazakh",
+          "remaining": 30,
+          "initial": 30,
+          "morale": 73,
+          "fatigue": 0,
+          "routed": false
+        },
+        {
+          "id": "r3",
+          "type": "light_cavalry",
+          "faction": "kazakh",
+          "remaining": 30,
+          "initial": 30,
+          "morale": 73,
+          "fatigue": 0,
+          "routed": false
+        },
+        {
+          "id": "r4",
+          "type": "heavy_cavalry",
+          "faction": "kazakh",
+          "remaining": 20,
+          "initial": 20,
+          "morale": 83,
+          "fatigue": 0,
+          "routed": false
+        },
+        {
+          "id": "r5",
+          "type": "spearman",
+          "faction": "kazakh",
+          "remaining": 30,
+          "initial": 30,
+          "morale": 68,
+          "fatigue": 0,
+          "routed": false
+        },
+        {
+          "id": "r6",
+          "type": "infantry_archer",
+          "faction": "kazakh",
+          "remaining": 30,
+          "initial": 30,
+          "morale": 63,
+          "fatigue": 0,
+          "routed": false
+        }
+      ]
+    },
+    "transition": null,
+    "result": null,
+    "error": ""
+  },
+  "final": {
+    "time": 289,
+    "stats": {
+      "kazakh": 49,
+      "abulkhair": 16,
+      "seconds": 289,
+      "regiments": [
+        {
+          "id": "r7",
+          "type": "mounted_archer",
+          "faction": "abulkhair",
+          "remaining": 5,
+          "initial": 25,
+          "morale": 12,
+          "fatigue": 4.299999999999999,
+          "routed": true
+        },
+        {
+          "id": "r8",
+          "type": "mounted_archer",
+          "faction": "abulkhair",
+          "remaining": 4,
+          "initial": 25,
+          "morale": 9,
+          "fatigue": 0,
+          "routed": true
+        },
+        {
+          "id": "r9",
+          "type": "light_cavalry",
+          "faction": "abulkhair",
+          "remaining": 3,
+          "initial": 30,
+          "morale": 4,
+          "fatigue": 0,
+          "routed": true
+        },
+        {
+          "id": "r10",
+          "type": "heavy_cavalry",
+          "faction": "abulkhair",
+          "remaining": 2,
+          "initial": 20,
+          "morale": 4,
+          "fatigue": 0,
+          "routed": true
+        },
+        {
+          "id": "r11",
+          "type": "spearman",
+          "faction": "abulkhair",
+          "remaining": 0,
+          "initial": 30,
+          "morale": 0,
+          "fatigue": 0,
+          "routed": true
+        },
+        {
+          "id": "r12",
+          "type": "infantry_archer",
+          "faction": "abulkhair",
+          "remaining": 2,
+          "initial": 25,
+          "morale": 2,
+          "fatigue": 0,
+          "routed": true
+        },
+        {
+          "id": "r1",
+          "type": "mounted_archer",
+          "faction": "kazakh",
+          "remaining": 6,
+          "initial": 30,
+          "morale": 12,
+          "fatigue": 0,
+          "routed": true
+        },
+        {
+          "id": "r2",
+          "type": "mounted_archer",
+          "faction": "kazakh",
+          "remaining": 6,
+          "initial": 30,
+          "morale": 12,
+          "fatigue": 0,
+          "routed": true
+        },
+        {
+          "id": "r3",
+          "type": "light_cavalry",
+          "faction": "kazakh",
+          "remaining": 2,
+          "initial": 30,
+          "morale": 1,
+          "fatigue": 0,
+          "routed": true
+        },
+        {
+          "id": "r4",
+          "type": "heavy_cavalry",
+          "faction": "kazakh",
+          "remaining": 4,
+          "initial": 20,
+          "morale": 12,
+          "fatigue": 0,
+          "routed": true
+        },
+        {
+          "id": "r5",
+          "type": "spearman",
+          "faction": "kazakh",
+          "remaining": 5,
+          "initial": 30,
+          "morale": 9,
+          "fatigue": 6.5,
+          "routed": true
+        },
+        {
+          "id": "r6",
+          "type": "infantry_archer",
+          "faction": "kazakh",
+          "remaining": 26,
+          "initial": 30,
+          "morale": 69,
+          "fatigue": 4.1,
+          "routed": false
+        }
+      ]
+    },
+    "transition": "campaign",
+    "result": {
+      "battleId": "battle-1",
+      "winner": "kazakh",
+      "survivors": {
+        "r7": 5,
+        "r8": 4,
+        "r9": 3,
+        "r10": 2,
+        "r11": 0,
+        "r12": 2,
+        "r1": 6,
+        "r2": 6,
+        "r3": 2,
+        "r4": 4,
+        "r5": 5,
+        "r6": 26
+      }
+    },
+    "error": ""
+  },
+  "samples": [
+    {
+      "time": 1,
+      "stats": {
+        "kazakh": 170,
+        "abulkhair": 155,
+        "seconds": 1,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 73,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 73,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 73,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 20,
+            "initial": 20,
+            "morale": 83,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 68,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 63,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 73,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 73,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 73,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 20,
+            "initial": 20,
+            "morale": 83,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 68,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 63,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": ""
+    },
+    {
+      "time": 30,
+      "stats": {
+        "kazakh": 160,
+        "abulkhair": 136,
+        "seconds": 30,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 23,
+            "initial": 25,
+            "morale": 73,
+            "fatigue": 8.799999999999999,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 80,
+            "fatigue": 9.7,
+            "routed": false
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 13,
+            "initial": 30,
+            "morale": 40,
+            "fatigue": 8.799999999999999,
+            "routed": false
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 20,
+            "initial": 20,
+            "morale": 80,
+            "fatigue": 11.5,
+            "routed": false
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 80,
+            "fatigue": 11.5,
+            "routed": false
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 80,
+            "fatigue": 11.5,
+            "routed": false
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 28,
+            "initial": 30,
+            "morale": 74,
+            "fatigue": 1.0000000000000004,
+            "routed": false
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 29,
+            "initial": 30,
+            "morale": 77,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 23,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 2.3000000000000003,
+            "routed": false
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 20,
+            "initial": 20,
+            "morale": 80,
+            "fatigue": 1,
+            "routed": false
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 80,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 80,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": ""
+    },
+    {
+      "time": 60,
+      "stats": {
+        "kazakh": 115,
+        "abulkhair": 75,
+        "seconds": 60,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 19,
+            "initial": 25,
+            "morale": 60,
+            "fatigue": 1.6,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 80,
+            "fatigue": 8.499999999999993,
+            "routed": false
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 19.299999999999997,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 12.099999999999994,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 1,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 25.6,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 80,
+            "fatigue": 13.899999999999995,
+            "routed": false
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 18,
+            "initial": 30,
+            "morale": 46,
+            "fatigue": 0.5,
+            "routed": false
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 25,
+            "initial": 30,
+            "morale": 66,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 15.5,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 13,
+            "initial": 20,
+            "morale": 50,
+            "fatigue": 9.7,
+            "routed": false
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 29,
+            "initial": 30,
+            "morale": 77,
+            "fatigue": 13.6,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 28,
+            "initial": 30,
+            "morale": 74,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": ""
+    },
+    {
+      "time": 90,
+      "stats": {
+        "kazakh": 87,
+        "abulkhair": 39,
+        "seconds": 90,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 14,
+            "initial": 25,
+            "morale": 43,
+            "fatigue": 2,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 18,
+            "initial": 25,
+            "morale": 60,
+            "fatigue": 9.999999999999988,
+            "routed": false
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 12.700000000000015,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 27.099999999999994,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 14.500000000000036,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 14.499999999999995,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 1,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 10,
+            "initial": 30,
+            "morale": 26,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 7.099999999999996,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 12,
+            "initial": 20,
+            "morale": 46,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 29,
+            "initial": 30,
+            "morale": 77,
+            "fatigue": 8.8,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 28,
+            "initial": 30,
+            "morale": 74,
+            "fatigue": 3,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": ""
+    },
+    {
+      "time": 120,
+      "stats": {
+        "kazakh": 77,
+        "abulkhair": 21,
+        "seconds": 120,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 10,
+            "initial": 25,
+            "morale": 29,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 12.399999999999983,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 0.7000000000000085,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 19.60000000000003,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 2.5000000000000266,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 29.499999999999993,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 5.199999999999996,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 6.5,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 8,
+            "initial": 20,
+            "morale": 29,
+            "fatigue": 4.5,
+            "routed": false
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 29,
+            "initial": 30,
+            "morale": 77,
+            "fatigue": 6.699999999999997,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 3.5999999999999965,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": ""
+    },
+    {
+      "time": 150,
+      "stats": {
+        "kazakh": 72,
+        "abulkhair": 20,
+        "seconds": 150,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 9,
+            "initial": 25,
+            "morale": 26,
+            "fatigue": 0.8000000000000002,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 27.399999999999984,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 0.5,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 8.500000000000036,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 35.50000000000001,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0.7999999999999957,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 4,
+            "initial": 20,
+            "morale": 12,
+            "fatigue": 3.5,
+            "routed": true
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 28,
+            "initial": 30,
+            "morale": 77,
+            "fatigue": 2,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 2,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": ""
+    },
+    {
+      "time": 180,
+      "stats": {
+        "kazakh": 68,
+        "abulkhair": 19,
+        "seconds": 180,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 8,
+            "initial": 25,
+            "morale": 22,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 19.90000000000002,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 0.6,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 24.40000000000005,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 4,
+            "initial": 20,
+            "morale": 12,
+            "fatigue": 2.299999999999996,
+            "routed": true
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 24,
+            "initial": 30,
+            "morale": 63,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": ""
+    },
+    {
+      "time": 210,
+      "stats": {
+        "kazakh": 62,
+        "abulkhair": 19,
+        "seconds": 210,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 8,
+            "initial": 25,
+            "morale": 22,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 11.500000000000032,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 1.1,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 0.5,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 13.300000000000075,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 4,
+            "initial": 20,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 18,
+            "initial": 30,
+            "morale": 46,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": ""
+    },
+    {
+      "time": 240,
+      "stats": {
+        "kazakh": 57,
+        "abulkhair": 19,
+        "seconds": 240,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 8,
+            "initial": 25,
+            "morale": 22,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 1.3000000000000251,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 2.2000000000000677,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 4,
+            "initial": 20,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 13,
+            "initial": 30,
+            "morale": 32,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": ""
+    },
+    {
+      "time": 270,
+      "stats": {
+        "kazakh": 52,
+        "abulkhair": 19,
+        "seconds": 270,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 8,
+            "initial": 25,
+            "morale": 22,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 3.699999999999998,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 4,
+            "initial": 20,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 8,
+            "initial": 30,
+            "morale": 18,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": ""
+    },
+    {
+      "time": 289,
+      "stats": {
+        "kazakh": 49,
+        "abulkhair": 16,
+        "seconds": 289,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 5,
+            "initial": 25,
+            "morale": 12,
+            "fatigue": 4.299999999999999,
+            "routed": true
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 4,
+            "initial": 20,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 5,
+            "initial": 30,
+            "morale": 9,
+            "fatigue": 6.5,
+            "routed": true
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 4.1,
+            "routed": false
+          }
+        ]
+      },
+      "transition": "campaign",
+      "result": {
+        "battleId": "battle-1",
+        "winner": "kazakh",
+        "survivors": {
+          "r7": 5,
+          "r8": 4,
+          "r9": 3,
+          "r10": 2,
+          "r11": 0,
+          "r12": 2,
+          "r1": 6,
+          "r2": 6,
+          "r3": 2,
+          "r4": 4,
+          "r5": 5,
+          "r6": 26
+        }
+      },
+      "error": ""
+    }
+  ],
+  "logSHA256": "0b6e995713c89362de454b085d9f9cfe151b419b89dfd60d1fb0db7bb547e6cf",
+  "serializationTest": "Engine rejected -serializationtest because random maps are unsupported. Native save-load must be tested separately.",
+  "measurementCaveat": "Fast nonvisual simulation, no FPS or graphical quality evidence.",
+  "fullLogArtifact": "evidence/headless-battle-full.log.gz",
+  "fixture": "tests/native_fixture/ktw_test"
+}

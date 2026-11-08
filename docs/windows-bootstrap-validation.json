@@ -1,0 +1,35 @@
+{
+  "component": "Windows bootstrap embedded runtime validator",
+  "recorded_at_utc": "2026-11-07T23:45:53.436110+00:00",
+  "host_platform": "linux",
+  "host_python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "setup_script": "tools/Install-WindowsRuntime.ps1",
+  "setup_script_sha256": "474167cf71f82623bc2a280f152f59e1d41832444119f328955b53a69551893c",
+  "embedded_validator_sha256": "a28f1e0e2757e4faaa88ba6efdf857931f1a3a3c9b8c5011b1affa972e77f9f9",
+  "expected_manifest": "docs/windows-runtime-manifest.json",
+  "expected_manifest_sha256": "6acc32df690bb3a0547a0c64818f91a2951aa24c8c1bd216b84a9d40cb1aad7d",
+  "official_installer_sha256": "9b5e1a16d4e0df9c84e052f56fb75da69518d5634c88d2b38db69baee63c16a1",
+  "method": "Extracted the literal $validator here-string from the setup script and executed it with python3 -I - against a disposable hardlink copy restricted to the 140 official manifest paths. Corruption tests replaced only disposable clone files; original payload files were not modified.",
+  "cases": [
+    {
+      "name": "Corrupted payload file",
+      "passed": true,
+      "observed": "Runtime size/hash mismatch; no runtime publication"
+    },
+    {
+      "name": "Duplicated path with omitted manifest entry",
+      "passed": true,
+      "observed": "Unexpected, missing or duplicate extraction manifest paths; no runtime publication"
+    },
+    {
+      "name": "Authentic complete R28 payload and current game module",
+      "passed": true,
+      "observed": "Validated all 140 official payload files, both data ZIP CRCs, AMD64 engine and copied game module. No engine execution was performed."
+    }
+  ],
+  "native_powershell_executed": false,
+  "native_windows_executed": false,
+  "powershell_downloads_or_directory_rename_tested": false,
+  "engine_or_gameplay_executed": false,
+  "limitations": "Linux-only test of embedded Python validator. It does not validate the Windows PowerShell wrapper, network download flow, Windows file permissions, process startup or gameplay."
+}

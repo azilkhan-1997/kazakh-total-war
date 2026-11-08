@@ -1,0 +1,2698 @@
+{
+  "exitCode": 124,
+  "errors": [],
+  "samples": [
+    {
+      "seconds": 1,
+      "stats": {
+        "kazakh": 170,
+        "abulkhair": 155,
+        "seconds": 1,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 73,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 73,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 73,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 20,
+            "initial": 20,
+            "morale": 83,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 68,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 63,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 73,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 73,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 73,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 20,
+            "initial": 20,
+            "morale": 83,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 68,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 63,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": "",
+      "state": null,
+      "commanders": [
+        {
+          "characterId": "abulkhair",
+          "armyId": "abulkhair_main",
+          "entity": 1127
+        },
+        {
+          "characterId": "kerei",
+          "armyId": "kazakh_main",
+          "entity": 1282
+        }
+      ]
+    },
+    {
+      "seconds": 30,
+      "stats": {
+        "kazakh": 160,
+        "abulkhair": 136,
+        "seconds": 30,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 23,
+            "initial": 25,
+            "morale": 73,
+            "fatigue": 8.799999999999999,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 80,
+            "fatigue": 9.7,
+            "routed": false
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 13,
+            "initial": 30,
+            "morale": 40,
+            "fatigue": 8.799999999999999,
+            "routed": false
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 20,
+            "initial": 20,
+            "morale": 80,
+            "fatigue": 11.5,
+            "routed": false
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 80,
+            "fatigue": 11.5,
+            "routed": false
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 80,
+            "fatigue": 11.5,
+            "routed": false
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 28,
+            "initial": 30,
+            "morale": 74,
+            "fatigue": 1.0000000000000004,
+            "routed": false
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 29,
+            "initial": 30,
+            "morale": 77,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 23,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 2.3000000000000003,
+            "routed": false
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 20,
+            "initial": 20,
+            "morale": 80,
+            "fatigue": 1,
+            "routed": false
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 80,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 30,
+            "initial": 30,
+            "morale": 80,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": "",
+      "state": null,
+      "commanders": [
+        {
+          "characterId": "abulkhair",
+          "armyId": "abulkhair_main",
+          "entity": 1127
+        },
+        {
+          "characterId": "kerei",
+          "armyId": "kazakh_main",
+          "entity": 1282
+        }
+      ]
+    },
+    {
+      "seconds": 60,
+      "stats": {
+        "kazakh": 115,
+        "abulkhair": 75,
+        "seconds": 60,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 19,
+            "initial": 25,
+            "morale": 60,
+            "fatigue": 1.6,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 80,
+            "fatigue": 8.499999999999993,
+            "routed": false
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 19.299999999999997,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 12.099999999999994,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 1,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 25.6,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 25,
+            "initial": 25,
+            "morale": 80,
+            "fatigue": 13.899999999999995,
+            "routed": false
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 18,
+            "initial": 30,
+            "morale": 46,
+            "fatigue": 0.5,
+            "routed": false
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 25,
+            "initial": 30,
+            "morale": 66,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 15.5,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 13,
+            "initial": 20,
+            "morale": 50,
+            "fatigue": 9.7,
+            "routed": false
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 29,
+            "initial": 30,
+            "morale": 77,
+            "fatigue": 13.6,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 28,
+            "initial": 30,
+            "morale": 74,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": "",
+      "state": null,
+      "commanders": [
+        {
+          "characterId": "abulkhair",
+          "armyId": "abulkhair_main",
+          "entity": 1127
+        },
+        {
+          "characterId": "kerei",
+          "armyId": "kazakh_main",
+          "entity": 1282
+        }
+      ]
+    },
+    {
+      "seconds": 90,
+      "stats": {
+        "kazakh": 87,
+        "abulkhair": 39,
+        "seconds": 90,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 14,
+            "initial": 25,
+            "morale": 43,
+            "fatigue": 2,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 18,
+            "initial": 25,
+            "morale": 60,
+            "fatigue": 9.999999999999988,
+            "routed": false
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 12.700000000000015,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 27.099999999999994,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 14.500000000000036,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 14.499999999999995,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 1,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 10,
+            "initial": 30,
+            "morale": 26,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 7.099999999999996,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 12,
+            "initial": 20,
+            "morale": 46,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 29,
+            "initial": 30,
+            "morale": 77,
+            "fatigue": 8.8,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 28,
+            "initial": 30,
+            "morale": 74,
+            "fatigue": 3,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": "",
+      "state": null,
+      "commanders": [
+        {
+          "characterId": "abulkhair",
+          "armyId": "abulkhair_main",
+          "entity": 1127
+        },
+        {
+          "characterId": "kerei",
+          "armyId": "kazakh_main",
+          "entity": 1282
+        }
+      ]
+    },
+    {
+      "seconds": 120,
+      "stats": {
+        "kazakh": 77,
+        "abulkhair": 21,
+        "seconds": 120,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 10,
+            "initial": 25,
+            "morale": 29,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 12.399999999999983,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 0.7000000000000085,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 19.60000000000003,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 2.5000000000000266,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 29.499999999999993,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 5.199999999999996,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 6.5,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 8,
+            "initial": 20,
+            "morale": 29,
+            "fatigue": 4.5,
+            "routed": false
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 29,
+            "initial": 30,
+            "morale": 77,
+            "fatigue": 6.699999999999997,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 3.5999999999999965,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": "",
+      "state": null,
+      "commanders": [
+        {
+          "characterId": "abulkhair",
+          "armyId": "abulkhair_main",
+          "entity": 1127
+        },
+        {
+          "characterId": "kerei",
+          "armyId": "kazakh_main",
+          "entity": 1282
+        }
+      ]
+    },
+    {
+      "seconds": 150,
+      "stats": {
+        "kazakh": 72,
+        "abulkhair": 20,
+        "seconds": 150,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 9,
+            "initial": 25,
+            "morale": 26,
+            "fatigue": 0.8000000000000002,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 27.399999999999984,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 0.5,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 8.500000000000036,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 35.50000000000001,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0.7999999999999957,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 4,
+            "initial": 20,
+            "morale": 12,
+            "fatigue": 3.5,
+            "routed": true
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 28,
+            "initial": 30,
+            "morale": 77,
+            "fatigue": 2,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 2,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": "",
+      "state": null,
+      "commanders": [
+        {
+          "characterId": "abulkhair",
+          "armyId": "abulkhair_main",
+          "entity": 1127
+        },
+        {
+          "characterId": "kerei",
+          "armyId": "kazakh_main",
+          "entity": 1282
+        }
+      ]
+    },
+    {
+      "seconds": 180,
+      "stats": {
+        "kazakh": 68,
+        "abulkhair": 19,
+        "seconds": 180,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 8,
+            "initial": 25,
+            "morale": 22,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 19.90000000000002,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 0.6,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 24.40000000000005,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 4,
+            "initial": 20,
+            "morale": 12,
+            "fatigue": 2.299999999999996,
+            "routed": true
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 24,
+            "initial": 30,
+            "morale": 63,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": "",
+      "state": null,
+      "commanders": [
+        {
+          "characterId": "abulkhair",
+          "armyId": "abulkhair_main",
+          "entity": 1127
+        },
+        {
+          "characterId": "kerei",
+          "armyId": "kazakh_main",
+          "entity": 1282
+        }
+      ]
+    },
+    {
+      "seconds": 210,
+      "stats": {
+        "kazakh": 62,
+        "abulkhair": 19,
+        "seconds": 210,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 8,
+            "initial": 25,
+            "morale": 22,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 11.500000000000032,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 1.1,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 0.5,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 13.300000000000075,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 4,
+            "initial": 20,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 18,
+            "initial": 30,
+            "morale": 46,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": "",
+      "state": null,
+      "commanders": [
+        {
+          "characterId": "abulkhair",
+          "armyId": "abulkhair_main",
+          "entity": 1127
+        },
+        {
+          "characterId": "kerei",
+          "armyId": "kazakh_main",
+          "entity": 1282
+        }
+      ]
+    },
+    {
+      "seconds": 240,
+      "stats": {
+        "kazakh": 57,
+        "abulkhair": 19,
+        "seconds": 240,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 8,
+            "initial": 25,
+            "morale": 22,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 1.3000000000000251,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 2.2000000000000677,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 4,
+            "initial": 20,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 13,
+            "initial": 30,
+            "morale": 32,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": "",
+      "state": null,
+      "commanders": [
+        {
+          "characterId": "abulkhair",
+          "armyId": "abulkhair_main",
+          "entity": 1127
+        },
+        {
+          "characterId": "kerei",
+          "armyId": "kazakh_main",
+          "entity": 1282
+        }
+      ]
+    },
+    {
+      "seconds": 270,
+      "stats": {
+        "kazakh": 52,
+        "abulkhair": 19,
+        "seconds": 270,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 8,
+            "initial": 25,
+            "morale": 22,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 3.699999999999998,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 4,
+            "initial": 20,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 8,
+            "initial": 30,
+            "morale": 18,
+            "fatigue": 0,
+            "routed": false
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 0,
+            "routed": false
+          }
+        ]
+      },
+      "transition": null,
+      "result": null,
+      "error": "",
+      "state": null,
+      "commanders": [
+        {
+          "characterId": "abulkhair",
+          "armyId": "abulkhair_main",
+          "entity": 1127
+        },
+        {
+          "characterId": "kerei",
+          "armyId": "kazakh_main",
+          "entity": 1282
+        }
+      ]
+    },
+    {
+      "seconds": 289,
+      "stats": {
+        "kazakh": 49,
+        "abulkhair": 16,
+        "seconds": 289,
+        "regiments": [
+          {
+            "id": "r7",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 5,
+            "initial": 25,
+            "morale": 12,
+            "fatigue": 4.299999999999999,
+            "routed": true
+          },
+          {
+            "id": "r8",
+            "type": "mounted_archer",
+            "faction": "abulkhair",
+            "remaining": 4,
+            "initial": 25,
+            "morale": 9,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r9",
+            "type": "light_cavalry",
+            "faction": "abulkhair",
+            "remaining": 3,
+            "initial": 30,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r10",
+            "type": "heavy_cavalry",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 20,
+            "morale": 4,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r11",
+            "type": "spearman",
+            "faction": "abulkhair",
+            "remaining": 0,
+            "initial": 30,
+            "morale": 0,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r12",
+            "type": "infantry_archer",
+            "faction": "abulkhair",
+            "remaining": 2,
+            "initial": 25,
+            "morale": 2,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r1",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r2",
+            "type": "mounted_archer",
+            "faction": "kazakh",
+            "remaining": 6,
+            "initial": 30,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r3",
+            "type": "light_cavalry",
+            "faction": "kazakh",
+            "remaining": 2,
+            "initial": 30,
+            "morale": 1,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r4",
+            "type": "heavy_cavalry",
+            "faction": "kazakh",
+            "remaining": 4,
+            "initial": 20,
+            "morale": 12,
+            "fatigue": 0,
+            "routed": true
+          },
+          {
+            "id": "r5",
+            "type": "spearman",
+            "faction": "kazakh",
+            "remaining": 5,
+            "initial": 30,
+            "morale": 9,
+            "fatigue": 6.5,
+            "routed": true
+          },
+          {
+            "id": "r6",
+            "type": "infantry_archer",
+            "faction": "kazakh",
+            "remaining": 26,
+            "initial": 30,
+            "morale": 69,
+            "fatigue": 4.1,
+            "routed": false
+          }
+        ]
+      },
+      "transition": "campaign",
+      "result": {
+        "battleId": "battle-1",
+        "winner": "kazakh",
+        "survivors": {
+          "r7": 5,
+          "r8": 4,
+          "r9": 3,
+          "r10": 2,
+          "r11": 0,
+          "r12": 2,
+          "r1": 6,
+          "r2": 6,
+          "r3": 2,
+          "r4": 4,
+          "r5": 5,
+          "r6": 26
+        },
+        "commanderOutcomes": {
+          "abulkhair": "dead",
+          "kerei": "dead"
+        }
+      },
+      "error": "",
+      "state": {
+        "schemaVersion": 2,
+        "campaignId": "great_steppe_1465_slice",
+        "seed": 1465,
+        "rng": 3452433348,
+        "turn": 2,
+        "year": 1465,
+        "season": "summer",
+        "status": "playing",
+        "selectedArmy": "kazakh_main",
+        "selectedProvince": "sarysu",
+        "nextBattleId": 2,
+        "nextRegimentId": 13,
+        "relation": "war",
+        "ceasefireUntil": 0,
+        "treasury": {
+          "kazakh": {
+            "silver": 800,
+            "food": 1000
+          },
+          "abulkhair": {
+            "silver": 1045,
+            "food": 1195
+          }
+        },
+        "provinces": [
+          {
+            "id": "shu",
+            "name": {
+              "ru": "Чуйская долина",
+              "kk": "Шу аңғары",
+              "en": "Shu valley"
+            },
+            "mapPosition": {
+              "x": 0.8889,
+              "z": 0.7143,
+              "coordinateSystem": "normalized 0..1; x east, z south"
+            },
+            "terrain": "river_steppe",
+            "adjacent": [
+              "talas",
+              "sarysu"
+            ],
+            "settlement": {
+              "name": {
+                "ru": "Зимовка в долине Шу",
+                "kk": "Шу аңғарындағы қыстау",
+                "en": "Shu winter camp"
+              },
+              "kind": "nomadic_camp"
+            },
+            "owner": "kazakh",
+            "buildings": {
+              "pasture": 0,
+              "market": 0,
+              "workshop": 0
+            }
+          },
+          {
+            "id": "talas",
+            "name": {
+              "ru": "Таласская долина",
+              "kk": "Талас аңғары",
+              "en": "Talas valley"
+            },
+            "mapPosition": {
+              "x": 0.6296,
+              "z": 0.8286,
+              "coordinateSystem": "normalized 0..1; x east, z south"
+            },
+            "terrain": "foothill_steppe",
+            "adjacent": [
+              "shu",
+              "suzak",
+              "otrar"
+            ],
+            "settlement": {
+              "name": {
+                "ru": "Кочевье у Таласа",
+                "kk": "Талас бойындағы қоныс",
+                "en": "Talas encampment"
+              },
+              "kind": "nomadic_camp"
+            },
+            "owner": "kazakh",
+            "buildings": {
+              "pasture": 0,
+              "market": 0,
+              "workshop": 0
+            }
+          },
+          {
+            "id": "sarysu",
+            "name": {
+              "ru": "Сарысу",
+              "kk": "Сарысу",
+              "en": "Sarysu"
+            },
+            "mapPosition": {
+              "x": 0.3951,
+              "z": 0.1714,
+              "coordinateSystem": "normalized 0..1; x east, z south"
+            },
+            "terrain": "dry_steppe",
+            "adjacent": [
+              "shu",
+              "suzak",
+              "sygnak"
+            ],
+            "settlement": {
+              "name": {
+                "ru": "Степная ставка",
+                "kk": "Дала ордасы",
+                "en": "Steppe camp"
+              },
+              "kind": "nomadic_camp"
+            },
+            "owner": "kazakh",
+            "buildings": {
+              "pasture": 0,
+              "market": 0,
+              "workshop": 0
+            }
+          },
+          {
+            "id": "suzak",
+            "name": {
+              "ru": "Сузак",
+              "kk": "Созақ",
+              "en": "Suzak"
+            },
+            "mapPosition": {
+              "x": 0.2716,
+              "z": 0.4571,
+              "coordinateSystem": "normalized 0..1; x east, z south"
+            },
+            "terrain": "foothills",
+            "adjacent": [
+              "talas",
+              "sarysu",
+              "sygnak",
+              "sauran",
+              "yasy"
+            ],
+            "settlement": {
+              "name": {
+                "ru": "Сузак",
+                "kk": "Созақ",
+                "en": "Suzak"
+              },
+              "kind": "fortified_town"
+            },
+            "owner": "abulkhair",
+            "buildings": {
+              "pasture": 0,
+              "market": 0,
+              "workshop": 0
+            }
+          },
+          {
+            "id": "sygnak",
+            "name": {
+              "ru": "Сыгнак",
+              "kk": "Сығанақ",
+              "en": "Sygnak"
+            },
+            "mapPosition": {
+              "x": 0.0864,
+              "z": 0.4571,
+              "coordinateSystem": "normalized 0..1; x east, z south"
+            },
+            "terrain": "river_oasis",
+            "adjacent": [
+              "sarysu",
+              "suzak",
+              "sauran"
+            ],
+            "settlement": {
+              "name": {
+                "ru": "Сыгнак",
+                "kk": "Сығанақ",
+                "en": "Sygnak"
+              },
+              "kind": "fortified_city"
+            },
+            "owner": "abulkhair",
+            "buildings": {
+              "pasture": 0,
+              "market": 0,
+              "workshop": 0
+            }
+          },
+          {
+            "id": "sauran",
+            "name": {
+              "ru": "Сауран",
+              "kk": "Сауран",
+              "en": "Sauran"
+            },
+            "mapPosition": {
+              "x": 0.1852,
+              "z": 0.6571,
+              "coordinateSystem": "normalized 0..1; x east, z south"
+            },
+            "terrain": "oasis",
+            "adjacent": [
+              "sygnak",
+              "suzak",
+              "yasy"
+            ],
+            "settlement": {
+              "name": {
+                "ru": "Сауран",
+                "kk": "Сауран",
+                "en": "Sauran"
+              },
+              "kind": "fortified_city"
+            },
+            "owner": "abulkhair",
+            "buildings": {
+              "pasture": 0,
+              "market": 0,
+              "workshop": 0
+            }
+          },
+          {
+            "id": "yasy",
+            "name": {
+              "ru": "Ясы",
+              "kk": "Ясы",
+              "en": "Yasy"
+            },
+            "mapPosition": {
+              "x": 0.2469,
+              "z": 0.7143,
+              "coordinateSystem": "normalized 0..1; x east, z south"
+            },
+            "terrain": "oasis",
+            "adjacent": [
+              "sauran",
+              "suzak",
+              "otrar"
+            ],
+            "settlement": {
+              "name": {
+                "ru": "Ясы — Туркестан",
+                "kk": "Ясы — Түркістан",
+                "en": "Yasy — Turkestan"
+              },
+              "kind": "city"
+            },
+            "owner": "abulkhair",
+            "buildings": {
+              "pasture": 0,
+              "market": 0,
+              "workshop": 0
+            }
+          },
+          {
+            "id": "otrar",
+            "name": {
+              "ru": "Отрар",
+              "kk": "Отырар",
+              "en": "Otrar"
+            },
+            "mapPosition": {
+              "x": 0.2469,
+              "z": 0.8286,
+              "coordinateSystem": "normalized 0..1; x east, z south"
+            },
+            "terrain": "river_oasis",
+            "adjacent": [
+              "yasy",
+              "talas"
+            ],
+            "settlement": {
+              "name": {
+                "ru": "Отрар",
+                "kk": "Отырар",
+                "en": "Otrar"
+              },
+              "kind": "fortified_city"
+            },
+            "owner": "abulkhair",
+            "buildings": {
+              "pasture": 0,
+              "market": 0,
+              "workshop": 0
+            }
+          }
+        ],
+        "armies": [
+          {
+            "id": "kazakh_main",
+            "faction": "kazakh",
+            "province": "sarysu",
+            "previousProvince": "sarysu",
+            "commander": "janibek",
+            "movement": 0,
+            "regiments": [
+              {
+                "id": "r1",
+                "type": "mounted_archer",
+                "count": 6,
+                "morale": 83,
+                "fatigue": 65,
+                "experience": 10
+              },
+              {
+                "id": "r2",
+                "type": "mounted_archer",
+                "count": 6,
+                "morale": 83,
+                "fatigue": 65,
+                "experience": 10
+              },
+              {
+                "id": "r3",
+                "type": "light_cavalry",
+                "count": 2,
+                "morale": 83,
+                "fatigue": 65,
+                "experience": 10
+              },
+              {
+                "id": "r4",
+                "type": "heavy_cavalry",
+                "count": 4,
+                "morale": 93,
+                "fatigue": 65,
+                "experience": 10
+              },
+              {
+                "id": "r5",
+                "type": "spearman",
+                "count": 5,
+                "morale": 78,
+                "fatigue": 65,
+                "experience": 10
+              },
+              {
+                "id": "r6",
+                "type": "infantry_archer",
+                "count": 26,
+                "morale": 73,
+                "fatigue": 65,
+                "experience": 10
+              }
+            ]
+          },
+          {
+            "id": "abulkhair_main",
+            "faction": "abulkhair",
+            "province": "sygnak",
+            "previousProvince": "sygnak",
+            "commander": null,
+            "movement": 0,
+            "regiments": [
+              {
+                "id": "r7",
+                "type": "mounted_archer",
+                "count": 5,
+                "morale": 53,
+                "fatigue": 65,
+                "experience": 3
+              },
+              {
+                "id": "r8",
+                "type": "mounted_archer",
+                "count": 4,
+                "morale": 53,
+                "fatigue": 65,
+                "experience": 3
+              },
+              {
+                "id": "r9",
+                "type": "light_cavalry",
+                "count": 3,
+                "morale": 53,
+                "fatigue": 65,
+                "experience": 3
+              },
+              {
+                "id": "r10",
+                "type": "heavy_cavalry",
+                "count": 2,
+                "morale": 63,
+                "fatigue": 65,
+                "experience": 3
+              },
+              {
+                "id": "r11",
+                "type": "spearman",
+                "count": 0,
+                "morale": 48,
+                "fatigue": 65,
+                "experience": 3
+              },
+              {
+                "id": "r12",
+                "type": "infantry_archer",
+                "count": 2,
+                "morale": 43,
+                "fatigue": 65,
+                "experience": 3
+              }
+            ]
+          }
+        ],
+        "pendingBattle": null,
+        "resolvedBattles": [
+          {
+            "id": "battle-1",
+            "signature": "{\"battleId\":\"battle-1\",\"winner\":\"kazakh\",\"survivors\":[[\"r1\",6],[\"r10\",2],[\"r11\",0],[\"r12\",2],[\"r2\",6],[\"r3\",2],[\"r4\",4],[\"r5\",5],[\"r6\",26],[\"r7\",5],[\"r8\",4],[\"r9\",3]],\"deadCommanders\":[\"abulkhair\",\"kerei\"]}",
+            "commanderIds": [
+              "abulkhair",
+              "kerei"
+            ]
+          }
+        ],
+        "events": [
+          {
+            "turn": 1,
+            "key": "campaign_started",
+            "data": {},
+            "id": "event-1"
+          },
+          {
+            "turn": 1,
+            "key": "army_moved",
+            "data": {
+              "armyId": "kazakh_main",
+              "provinceId": "sarysu"
+            },
+            "id": "event-2"
+          },
+          {
+            "turn": 2,
+            "key": "turn_started",
+            "data": {
+              "season": "summer",
+              "year": 1465
+            },
+            "id": "event-3"
+          },
+          {
+            "turn": 2,
+            "key": "battle_pending",
+            "data": {
+              "battleId": "battle-1",
+              "provinceId": "sarysu"
+            },
+            "id": "event-4"
+          },
+          {
+            "id": "event-5",
+            "turn": 2,
+            "key": "battle_resolved",
+            "data": {
+              "battleId": "battle-1",
+              "provinceId": "sarysu",
+              "winner": "kazakh",
+              "losses": {
+                "abulkhair": 139,
+                "kazakh": 121
+              },
+              "captured": {
+                "abulkhair": 0,
+                "kazakh": 0
+              },
+              "turn": 2,
+              "deadCommanders": [
+                "abulkhair",
+                "kerei"
+              ]
+            }
+          }
+        ],
+        "lastBattle": {
+          "battleId": "battle-1",
+          "provinceId": "sarysu",
+          "winner": "kazakh",
+          "losses": {
+            "abulkhair": 139,
+            "kazakh": 121
+          },
+          "captured": {
+            "abulkhair": 0,
+            "kazakh": 0
+          },
+          "turn": 2,
+          "deadCommanders": [
+            "abulkhair",
+            "kerei"
+          ]
+        },
+        "characters": [
+          {
+            "id": "kerei",
+            "name": {
+              "ru": "Керей хан",
+              "kk": "Керей хан",
+              "en": "Kerei Khan"
+            },
+            "factionId": "kazakh",
+            "dynastyId": "kerei_line",
+            "parents": [],
+            "children": [
+              "burunduk"
+            ],
+            "spouses": [],
+            "birthYear": null,
+            "historicalPeriod": "15th-early16th-century",
+            "alive": false,
+            "health": 0,
+            "status": "dead",
+            "title": "khan",
+            "roleAtStart": "khan",
+            "abilities": {
+              "leadership": 50,
+              "warfare": 50,
+              "diplomacy": 50
+            },
+            "traits": [],
+            "militaryExperience": 0,
+            "relationships": {},
+            "death": {
+              "turn": 2,
+              "year": 1465,
+              "season": "summer",
+              "battleId": "battle-1",
+              "cause": "battle"
+            },
+            "sourceIds": [
+              "H5"
+            ],
+            "statisticsBasis": "gameplay_placeholder"
+          },
+          {
+            "id": "janibek",
+            "name": {
+              "ru": "Жанибек",
+              "kk": "Жәнібек",
+              "en": "Janibek"
+            },
+            "factionId": "kazakh",
+            "dynastyId": "janibek_line",
+            "parents": [],
+            "children": [
+              "kasym"
+            ],
+            "spouses": [],
+            "birthYear": null,
+            "historicalPeriod": "15th-early16th-century",
+            "alive": true,
+            "health": 100,
+            "status": "active",
+            "title": "khan",
+            "roleAtStart": "cofounder",
+            "abilities": {
+              "leadership": 50,
+              "warfare": 50,
+              "diplomacy": 50
+            },
+            "traits": [],
+            "militaryExperience": 0,
+            "relationships": {},
+            "death": null,
+            "sourceIds": [
+              "H1",
+              "H5"
+            ],
+            "statisticsBasis": "gameplay_placeholder"
+          },
+          {
+            "id": "burunduk",
+            "name": {
+              "ru": "Бурундук",
+              "kk": "Бұрындық",
+              "en": "Burunduk"
+            },
+            "factionId": "kazakh",
+            "dynastyId": "kerei_line",
+            "parents": [
+              "kerei"
+            ],
+            "children": [],
+            "spouses": [],
+            "birthYear": null,
+            "historicalPeriod": "15th-early16th-century",
+            "alive": true,
+            "health": 100,
+            "status": "reserve",
+            "title": "sultan",
+            "roleAtStart": "not_deployed",
+            "abilities": {
+              "leadership": 50,
+              "warfare": 50,
+              "diplomacy": 50
+            },
+            "traits": [],
+            "militaryExperience": 0,
+            "relationships": {},
+            "death": null,
+            "sourceIds": [
+              "H3"
+            ],
+            "statisticsBasis": "gameplay_placeholder"
+          },
+          {
+            "id": "kasym",
+            "name": {
+              "ru": "Касым",
+              "kk": "Қасым",
+              "en": "Kasym"
+            },
+            "factionId": "kazakh",
+            "dynastyId": "janibek_line",
+            "parents": [
+              "janibek"
+            ],
+            "children": [],
+            "spouses": [],
+            "birthYear": null,
+            "historicalPeriod": "15th-early16th-century",
+            "alive": true,
+            "health": 100,
+            "status": "reserve",
+            "title": "sultan",
+            "roleAtStart": "not_deployed",
+            "abilities": {
+              "leadership": 50,
+              "warfare": 50,
+              "diplomacy": 50
+            },
+            "traits": [],
+            "militaryExperience": 0,
+            "relationships": {},
+            "death": null,
+            "sourceIds": [
+              "H4"
+            ],
+            "statisticsBasis": "gameplay_placeholder"
+          },
+          {
+            "id": "abulkhair",
+            "name": {
+              "ru": "Абулхаир хан",
+              "kk": "Әбілқайыр хан",
+              "en": "Abulkhair Khan"
+            },
+            "factionId": "abulkhair",
+            "dynastyId": null,
+            "parents": [],
+            "children": [],
+            "spouses": [],
+            "birthYear": null,
+            "historicalPeriod": "15th-early16th-century",
+            "alive": false,
+            "health": 0,
+            "status": "dead",
+            "title": "khan",
+            "roleAtStart": "rival_khan",
+            "abilities": {
+              "leadership": 50,
+              "warfare": 50,
+              "diplomacy": 50
+            },
+            "traits": [],
+            "militaryExperience": 0,
+            "relationships": {},
+            "death": {
+              "turn": 2,
+              "year": 1465,
+              "season": "summer",
+              "battleId": "battle-1",
+              "cause": "battle"
+            },
+            "sourceIds": [
+              "H2"
+            ],
+            "statisticsBasis": "gameplay_placeholder"
+          }
+        ],
+        "dynasties": [
+          {
+            "id": "kerei_line",
+            "name": {
+              "ru": "Линия Керея",
+              "kk": "Керей әулеті",
+              "en": "Kerei lineage"
+            },
+            "members": [
+              "kerei",
+              "burunduk"
+            ],
+            "sourceIds": [
+              "H3"
+            ],
+            "classification": "lineage_archive"
+          },
+          {
+            "id": "janibek_line",
+            "name": {
+              "ru": "Линия Жанибека",
+              "kk": "Жәнібек әулеті",
+              "en": "Janibek lineage"
+            },
+            "members": [
+              "janibek",
+              "kasym"
+            ],
+            "sourceIds": [
+              "H4"
+            ],
+            "classification": "lineage_archive"
+          }
+        ],
+        "factions": [
+          {
+            "id": "kazakh",
+            "rulerId": "janibek",
+            "authority": 45,
+            "politicalGroups": [
+              {
+                "id": "kazakh_council",
+                "name": {
+                  "ru": "Совет",
+                  "kk": "Кеңес",
+                  "en": "Council"
+                },
+                "influence": 2,
+                "weights": {
+                  "leadership": 2,
+                  "warfare": 0,
+                  "diplomacy": 1,
+                  "cofounder": 25,
+                  "ruling_dynasty": 10
+                }
+              },
+              {
+                "id": "kazakh_commanders",
+                "name": {
+                  "ru": "Военачальники",
+                  "kk": "Қолбасшылар",
+                  "en": "Commanders"
+                },
+                "influence": 1,
+                "weights": {
+                  "leadership": 1,
+                  "warfare": 2,
+                  "diplomacy": 0,
+                  "cofounder": 10,
+                  "ruling_dynasty": 0
+                }
+              }
+            ]
+          },
+          {
+            "id": "abulkhair",
+            "rulerId": null,
+            "authority": 45,
+            "politicalGroups": [
+              {
+                "id": "abulkhair_council",
+                "name": {
+                  "ru": "Совет",
+                  "kk": "Кеңес",
+                  "en": "Council"
+                },
+                "influence": 2,
+                "weights": {
+                  "leadership": 2,
+                  "warfare": 0,
+                  "diplomacy": 1,
+                  "cofounder": 25,
+                  "ruling_dynasty": 10
+                }
+              },
+              {
+                "id": "abulkhair_commanders",
+                "name": {
+                  "ru": "Военачальники",
+                  "kk": "Қолбасшылар",
+                  "en": "Commanders"
+                },
+                "influence": 1,
+                "weights": {
+                  "leadership": 1,
+                  "warfare": 2,
+                  "diplomacy": 0,
+                  "cofounder": 10,
+                  "ruling_dynasty": 0
+                }
+              }
+            ]
+          }
+        ],
+        "politicalEvents": [
+          {
+            "id": "politics-1",
+            "turn": 2,
+            "year": 1465,
+            "season": "summer",
+            "type": "character_died",
+            "data": {
+              "characterId": "abulkhair",
+              "factionId": "abulkhair",
+              "battleId": "battle-1",
+              "reasonCode": "confirmed_battle_death"
+            }
+          },
+          {
+            "id": "politics-2",
+            "turn": 2,
+            "year": 1465,
+            "season": "summer",
+            "type": "character_died",
+            "data": {
+              "characterId": "kerei",
+              "factionId": "kazakh",
+              "battleId": "battle-1",
+              "reasonCode": "confirmed_battle_death"
+            }
+          },
+          {
+            "id": "politics-3",
+            "turn": 2,
+            "year": 1465,
+            "season": "summer",
+            "type": "succession_vacant",
+            "data": {
+              "factionId": "abulkhair",
+              "battleId": "battle-1",
+              "previousRulerId": "abulkhair",
+              "rulerId": null,
+              "reasonCode": "no_eligible_successor",
+              "authorityChange": -15,
+              "council": {
+                "factionId": "abulkhair",
+                "rulerId": "abulkhair",
+                "rule": "weighted_council_v1",
+                "ruleBasis": "gameplay_abstraction",
+                "tieBreak": "support_weight_then_weighted_score_then_character_id",
+                "groups": [
+                  {
+                    "id": "abulkhair_council",
+                    "name": {
+                      "ru": "Совет",
+                      "kk": "Кеңес",
+                      "en": "Council"
+                    },
+                    "influence": 2,
+                    "supportsCharacterId": null,
+                    "candidates": []
+                  },
+                  {
+                    "id": "abulkhair_commanders",
+                    "name": {
+                      "ru": "Военачальники",
+                      "kk": "Қолбасшылар",
+                      "en": "Commanders"
+                    },
+                    "influence": 1,
+                    "supportsCharacterId": null,
+                    "candidates": []
+                  }
+                ],
+                "candidates": [
+                  {
+                    "characterId": "abulkhair",
+                    "eligible": false,
+                    "exclusionReason": "dead",
+                    "totalScore": 0,
+                    "supportWeight": 0
+                  }
+                ],
+                "selectedCandidateId": null
+              }
+            }
+          },
+          {
+            "id": "politics-4",
+            "turn": 2,
+            "year": 1465,
+            "season": "summer",
+            "type": "commander_reassigned",
+            "data": {
+              "armyId": "abulkhair_main",
+              "factionId": "abulkhair",
+              "battleId": "battle-1",
+              "characterId": null,
+              "previousCommanderId": "abulkhair",
+              "reasonCode": "no_eligible_commander"
+            }
+          },
+          {
+            "id": "politics-5",
+            "turn": 2,
+            "year": 1465,
+            "season": "summer",
+            "type": "succession_completed",
+            "data": {
+              "factionId": "kazakh",
+              "battleId": "battle-1",
+              "previousRulerId": "kerei",
+              "rulerId": "janibek",
+              "reasonCode": "weighted_council_vote",
+              "authorityChange": -15,
+              "council": {
+                "factionId": "kazakh",
+                "rulerId": "kerei",
+                "rule": "weighted_council_v1",
+                "ruleBasis": "gameplay_abstraction",
+                "tieBreak": "support_weight_then_weighted_score_then_character_id",
+                "groups": [
+                  {
+                    "id": "kazakh_council",
+                    "name": {
+                      "ru": "Совет",
+                      "kk": "Кеңес",
+                      "en": "Council"
+                    },
+                    "influence": 2,
+                    "supportsCharacterId": "janibek",
+                    "candidates": [
+                      {
+                        "characterId": "janibek",
+                        "score": 175,
+                        "factors": [
+                          {
+                            "code": "leadership",
+                            "value": 50,
+                            "weight": 2,
+                            "points": 100
+                          },
+                          {
+                            "code": "warfare",
+                            "value": 50,
+                            "weight": 0,
+                            "points": 0
+                          },
+                          {
+                            "code": "diplomacy",
+                            "value": 50,
+                            "weight": 1,
+                            "points": 50
+                          },
+                          {
+                            "code": "cofounder",
+                            "value": 1,
+                            "weight": 25,
+                            "points": 25
+                          },
+                          {
+                            "code": "ruling_dynasty",
+                            "value": 0,
+                            "weight": 10,
+                            "points": 0
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "kazakh_commanders",
+                    "name": {
+                      "ru": "Военачальники",
+                      "kk": "Қолбасшылар",
+                      "en": "Commanders"
+                    },
+                    "influence": 1,
+                    "supportsCharacterId": "janibek",
+                    "candidates": [
+                      {
+                        "characterId": "janibek",
+                        "score": 160,
+                        "factors": [
+                          {
+                            "code": "leadership",
+                            "value": 50,
+                            "weight": 1,
+                            "points": 50
+                          },
+                          {
+                            "code": "warfare",
+                            "value": 50,
+                            "weight": 2,
+                            "points": 100
+                          },
+                          {
+                            "code": "diplomacy",
+                            "value": 50,
+                            "weight": 0,
+                            "points": 0
+                          },
+                          {
+                            "code": "cofounder",
+                            "value": 1,
+                            "weight": 10,
+                            "points": 10
+                          },
+                          {
+                            "code": "ruling_dynasty",
+                            "value": 0,
+                            "weight": 0,
+                            "points": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "candidates": [
+                  {
+                    "characterId": "kerei",
+                    "eligible": false,
+                    "exclusionReason": "dead",
+                    "totalScore": 0,
+                    "supportWeight": 0
+                  },
+                  {
+                    "characterId": "janibek",
+                    "eligible": true,
+                    "exclusionReason": null,
+                    "totalScore": 510,
+                    "supportWeight": 3
+                  },
+                  {
+                    "characterId": "burunduk",
+                    "eligible": false,
+                    "exclusionReason": "reserve",
+                    "totalScore": 0,
+                    "supportWeight": 0
+                  },
+                  {
+                    "characterId": "kasym",
+                    "eligible": false,
+                    "exclusionReason": "reserve",
+                    "totalScore": 0,
+                    "supportWeight": 0
+                  }
+                ],
+                "selectedCandidateId": "janibek"
+              }
+            }
+          },
+          {
+            "id": "politics-6",
+            "turn": 2,
+            "year": 1465,
+            "season": "summer",
+            "type": "commander_reassigned",
+            "data": {
+              "armyId": "kazakh_main",
+              "factionId": "kazakh",
+              "battleId": "battle-1",
+              "characterId": "janibek",
+              "previousCommanderId": "kerei",
+              "reasonCode": "ruler_takes_command"
+            }
+          }
+        ],
+        "nextPoliticalEventId": 7,
+        "nextEventId": 6
+      },
+      "commanders": [
+        {
+          "characterId": "abulkhair",
+          "armyId": "abulkhair_main",
+          "entity": 1127
+        },
+        {
+          "characterId": "kerei",
+          "armyId": "kazakh_main",
+          "entity": 1282
+        }
+      ]
+    }
+  ]
+}

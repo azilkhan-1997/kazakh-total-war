@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: GPL-2.0-or-later -->
+<Entity>
+  <Position><Altitude>0</Altitude><Anchor>pitch</Anchor><Floating>false</Floating><FloatDepth>0</FloatDepth><TurnRate>5</TurnRate></Position>
+  <Ownership/>
+  <Identity><Civ>pers</Civ><GenericName>Provincial camp</GenericName><Icon>structures/civic_centre.png</Icon><Classes datatype="tokens">KtwProvince</Classes><Undeletable>true</Undeletable></Identity>
+  <VisualActor><Actor>structures/tent_big.xml</Actor><SilhouetteDisplay>true</SilhouetteDisplay><SilhouetteOccluder>false</SilhouetteOccluder><VisibleInAtlasOnly>false</VisibleInAtlasOnly></VisualActor>
+  <Selectable><Overlay><Texture><MainTexture>128x128/ellipse.png</MainTexture><MainTextureMask>128x128/ellipse_mask.png</MainTextureMask></Texture></Overlay></Selectable>
+  <Footprint><Circle radius="12"/><Height>8</Height></Footprint>
+  <Minimap><Type>structure</Type></Minimap>
+</Entity>

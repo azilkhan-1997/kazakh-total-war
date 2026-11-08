@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: GPL-2.0-or-later; original gameplay template. Art attribution in THIRD_PARTY_NOTICES. -->
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity><Civ>pers</Civ><Lang>persian</Lang><GenericName>Foot Archer</GenericName><SelectionGroupName>units/ktw/infantry_archer</SelectionGroupName><Icon>units/pers/infantry_archer.png</Icon></Identity>
+  <Health><Max>85</Max></Health>
+  <Resistance><Entity><Damage><Hack>2</Hack><Pierce>1</Pierce><Crush>5</Crush></Damage></Entity></Resistance>
+  <UnitMotion><WalkSpeed>8.5</WalkSpeed></UnitMotion>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <ResourceDropsite disable=""/>
+  <Builder disable=""/>
+  <VisualActor><Actor>ktw/units/infantry_archer.xml</Actor></VisualActor>
+</Entity>

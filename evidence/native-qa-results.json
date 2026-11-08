@@ -1,0 +1,35 @@
+{
+  "engine": "Pyrogenesis 0.28.0 WFG PPA Linux x64",
+  "environment": "Xvfb/OpenGL/Mesa llvmpipe; no audio",
+  "windows_tested": false,
+  "fps_benchmark_performed": false,
+  "checks": {
+    "campaign_state_equal_after_menu_load": true,
+    "postbattle_state_equal_after_process_restart": true,
+    "midbattle_view_equal_after_process_restart": true,
+    "midbattle_all_170_friendly_entities_equal": true,
+    "loaded_battle_resumed_and_incurred_casualties": true,
+    "final_runtime_no_errors": true
+  },
+  "final_runtime_errors": [],
+  "battle_result": {
+    "battleId": "battle-1",
+    "provinceId": "sarysu",
+    "winner": "kazakh",
+    "losses": {
+      "abulkhair": 143,
+      "kazakh": 108
+    },
+    "captured": {
+      "abulkhair": 0,
+      "kazakh": 0
+    },
+    "turn": 2
+  },
+  "resumed_battle_seconds": 89,
+  "resumed_battle_survivors": {
+    "kazakh": 88,
+    "abulkhair": 40
+  },
+  "damaged_friendly_survivors": 39
+}

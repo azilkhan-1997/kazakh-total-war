@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: GPL-2.0-or-later; original gameplay template. Art attribution in THIRD_PARTY_NOTICES. -->
+<Entity parent="template_unit_cavalry_ranged_archer">
+  <Identity><Civ>pers</Civ><Lang>persian</Lang><GenericName>Mounted Archer</GenericName><SelectionGroupName>units/ktw/mounted_archer</SelectionGroupName><Icon>units/pers/cavalry_archer.png</Icon></Identity>
+  <Health><Max>130</Max></Health>
+  <Resistance><Entity><Damage><Hack>3</Hack><Pierce>2</Pierce><Crush>5</Crush></Damage></Entity></Resistance>
+  <UnitMotion><WalkSpeed>14</WalkSpeed></UnitMotion>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <ResourceDropsite disable=""/>
+  <Builder disable=""/>
+  <VisualActor><Actor>ktw/units/mounted_archer.xml</Actor></VisualActor>
+</Entity>

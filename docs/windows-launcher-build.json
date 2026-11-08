@@ -1,0 +1,36 @@
+{
+  "component": "Kazakh Total War native Windows launcher",
+  "component_version": "0.3.0",
+  "required_engine": "0.28.0",
+  "compiler": "x86_64-w64-mingw32-g++-win32 (GCC) 13-win32",
+  "resource_compiler": "GNU windres (GNU Binutils) 2.41.90.20240122",
+  "executable": "KazakhTotalWar.exe",
+  "bytes": 2400523,
+  "sha256": "3c1906f7b2c384d2470c4ddcdf35b1da01697f61260fdb3033e44d9c3e12f969",
+  "pe": {
+    "machine": "AMD64",
+    "format": "PE32+",
+    "subsystem": "Windows GUI",
+    "sections": 20,
+    "timestamp": 0
+  },
+  "imports": [
+    "KERNEL32.dll",
+    "msvcrt.dll",
+    "SHELL32.dll",
+    "USER32.dll"
+  ],
+  "source_sha256": {
+    "launcher/windows/launcher_core_tests.cpp": "5c1dfa020e29bfeeae19cff24c8e06c19c3ff7c420a7de876d4cbba1ede66790",
+    "launcher/windows/main.cpp": "0269f591438506a79b5435bb1a13797247d3001385dcdd1057d932b20b6066f7",
+    "launcher/windows/launcher_core.hpp": "e7d5e7a93766d6305fff329cd214962303f09b3075db00abdac0305fea36c98b",
+    "launcher/windows/launcher.rc": "2ff82c2de42bfbfdc760de1a9c572cdc3163f8f9298b6d30d11c71daab4b4195",
+    "launcher/windows/launcher.manifest": "2b7455e97b35ec6ab51bd7e87f22fd60f48602b65213c399e0d94a54ff4338be",
+    "launcher/windows/toolchain-lock.json": "2ef17959c22c2a154d4ad2ba8530f8d887f0cf0d0fc8afdb1e60dd9c3091232d",
+    "tools/build_windows_launcher.py": "6632f3b40a92939893e56eafa5e00a55cd3bcbaae143e3add1e817125993f059"
+  },
+  "host_logic_tests": "Launcher core: argument quoting, metadata/version/dependency validation, Unicode JSON and corruption guards passed.",
+  "native_windows_execution": "NOT RUN by this build script",
+  "bundled_engine_execution": "NOT RUN by this build script",
+  "scope": "Launcher only. Official Pyrogenesis and game data must be packaged separately."
+}

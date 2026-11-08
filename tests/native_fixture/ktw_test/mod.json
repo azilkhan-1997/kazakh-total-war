@@ -1,0 +1,1 @@
+{"name": "ktw_test", "version": "0.1", "label": "KTW local QA", "dependencies": ["0ad=0.28.0", "kazakh_total_war"]}

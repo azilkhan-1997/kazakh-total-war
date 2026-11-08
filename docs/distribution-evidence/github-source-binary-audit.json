@@ -1,0 +1,207 @@
+{
+  "scope": "Only 19 admitted Millennium PNG artwork assets and 2 project-owned diagnostic logs; NOT engine/VC/Python runtime packages",
+  "license_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/license.txt",
+  "license_sha256": "247ea9380781c56e71018bb3714faf557192f0c3ad6a3d7d231c6f20f325d0e4",
+  "upstream_license_verified": true,
+  "all_art_bytes_identical_to_pinned_source": true,
+  "attribution_and_license_paths": [
+    "THIRD_PARTY_NOTICES.md",
+    "LICENSES/Millennium-Art.txt",
+    "mods/kazakh_total_war/art/ktw-MILLENNIUM-LICENSE.txt",
+    "docs/asset-manifest-millennium.json"
+  ],
+  "runtime_redistribution_still_unresolved": true,
+  "textures": [
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/head/chin_b.png",
+      "bytes": 25442,
+      "sha256": "146bc14cbc1b671209c7f18bd6d7dcb4c6ba3e6810ca8d37b5b7c1276a280014",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/head/chin_b.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/head/xion_b.png",
+      "bytes": 19094,
+      "sha256": "bbb674371b41c7593ca9948e0400ef53bdf4f5bfcf85844338ae72e54d40aa63",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/head/xion_b.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/structural/xion_structure.png",
+      "bytes": 1741352,
+      "sha256": "66993d3783940de65c857543794e596c8e560b020527d2d899f0876e00af8315",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/structural/xion_structure.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic.png",
+      "bytes": 376939,
+      "sha256": "a6a5bfd7af728291515074b89670a0de4a40fba22ca1927bda5b4ec676260b1d",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/xion_quiver_basic.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic_norm.png",
+      "bytes": 422821,
+      "sha256": "4ed6d682e4192541be68a2705258017e645dcf2fb7ba87662eeb35bbfb956c33",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/xion_quiver_basic_norm.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_spec.png",
+      "bytes": 17170,
+      "sha256": "4a1734bcf56479794994eaae236168a98248bddac61cc3bd4cbc6352e759875e",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/xion_quiver_spec.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic_b.png",
+      "bytes": 372206,
+      "sha256": "a67cd50c150d8f8684f8f59093811b47d34739f83261393110583eced4ce5d60",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/xion_quiver_basic_b.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_a.png",
+      "bytes": 530777,
+      "sha256": "e0e04c55d8c3b6fe45dd7c6345734636c88e978cf9454b20a0d70fbf134a3ff1",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/skeletal/xion_cloth_a.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_norm.png",
+      "bytes": 506876,
+      "sha256": "fb28e313f0b5957699e00c5391f81c5e4cf9149b0a1176702ecdf5f4b57e30e3",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/skeletal/xion_cloth_norm.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_spec.png",
+      "bytes": 1232,
+      "sha256": "f6d18dc2a4241da770a44e0758e3cfecefb845e34e65fc526ee21f8d5781d0cd",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/skeletal/xion_cloth_spec.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_b.png",
+      "bytes": 611203,
+      "sha256": "bd99a41a278ddebbc84922aeb4f7be86134aece9f9f136cd83e053f897fbd308",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/skeletal/xion_cloth_b.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_c.png",
+      "bytes": 532898,
+      "sha256": "c4701e3feee264224e281ea97ceba6ea68e7f0affe04fd37fff5dc236515017d",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/skeletal/xion_cloth_c.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_iron.png",
+      "bytes": 254526,
+      "sha256": "5414af27f58014d702fa0815e3ba495c160db35ecd8885d1226787dc14cdbf76",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/helmet/byzantine_archer_helmet_iron.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_norm.png",
+      "bytes": 394788,
+      "sha256": "edb7a5572e377894b35b7382a3851bfebd313268eb15f90fee2a39e8eaeaac7f",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/helmet/byzantine_archer_helmet_norm.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_spec.png",
+      "bytes": 159149,
+      "sha256": "c6559bb09b62b81e81f0cc1a510967ab8f6bcc4e26e9738ce8dfced3949cec5d",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/helmet/byzantine_archer_helmet_spec.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_norm.png",
+      "bytes": 468337,
+      "sha256": "1a929c714b2d6c4258900ef1e762cb0b41e90e23eb5f3b358ffaae2b42e0caf7",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/horse/cataphract_armor_norm.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_spec.png",
+      "bytes": 285278,
+      "sha256": "23c2ddbc818b591c210ea6b67a921576e671eddb5978bc9892dca20a19018dbc",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/horse/cataphract_armor_spec.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar.png",
+      "bytes": 387423,
+      "sha256": "9d493266f8da9293c9205eae670bc23d6c330666a9191461c4e96755d30b297a",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/horse/cataphract_armor_lamellar.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar2.png",
+      "bytes": 368962,
+      "sha256": "d36ba00dddd8c4ac6b2e5ffee2d5d86691bd0c77ead9415409cc5926c1e256cb",
+      "source_url": "https://raw.githubusercontent.com/0ADMods/millenniumad/91636b405ee8d0088ec3a34fba6074dbd5c9d0f3/art/textures/skins/props/horse/cataphract_armor_lamellar2.png",
+      "source_identical": true,
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development"
+    }
+  ],
+  "logs": [
+    {
+      "path": "evidence/headless-battle-full.log.gz",
+      "compressed_bytes": 442835,
+      "text_characters": 36629512,
+      "sha256": "453b41b385cbb560364dbc3ec74ea9dda691696c5c16d9c8cc886bf6f7927dee",
+      "type": "project-owned native simulation diagnostic text, gzip compressed",
+      "contains_private_key_token_signatures": false,
+      "first_line_prefix": "FILES| Main log written to '/workspace/scratch/a712cf7eed58/upstream/simtest/state/0ad/log/mainlog.html'"
+    },
+    {
+      "path": "evidence/v0.2/headless.log.gz",
+      "compressed_bytes": 235174,
+      "text_characters": 1787592,
+      "sha256": "6c431e2c44a86de0a714a969e95b392376f791fb60b5ddaff0849d7dc78c8eab",
+      "type": "project-owned native simulation diagnostic text, gzip compressed",
+      "contains_private_key_token_signatures": false,
+      "first_line_prefix": "FILES| Main log written to '/workspace/scratch/a712cf7eed58/upstream/native-v02/state/0ad/log/mainlog.html'"
+    }
+  ]
+}

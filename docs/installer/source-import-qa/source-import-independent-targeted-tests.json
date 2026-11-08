@@ -1,0 +1,10 @@
+{
+  "independent_tests": 10,
+  "passed": true,
+  "failures": [],
+  "errors": [],
+  "real_network_operations": false,
+  "real_github_push": false,
+  "source_files_edited": false,
+  "scope": "Real local Git and synthetic fixture content; remote tips and final push mocked. Parent workflow not executed."
+}

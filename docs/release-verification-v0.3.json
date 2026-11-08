@@ -1,0 +1,31 @@
+{
+  "delivery_version": "0.3.0",
+  "module_version": "0.2.0",
+  "save_schema_version": 2,
+  "production_files": 78,
+  "module_byte_for_byte_equal_to_verified_v02": true,
+  "native_windows_tested": false,
+  "node_tests": {
+    "passed": 76,
+    "failed": 0
+  },
+  "python_tests": {
+    "passed": 37,
+    "failed": 0
+  },
+  "validator_self_tests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "launcher_host_tests": "passed; see windows-launcher-build.json",
+  "powershell_parser": "zero syntax errors; Linux PowerShell7.4.13, not Windows execution",
+  "powershell_linux_helper_cases": {
+    "passed": 15,
+    "native_windows_execution": false
+  },
+  "powershell_linux_negative_preflight": {
+    "passed": true,
+    "expected_result": "preflight_failed",
+    "engine_execution": false
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "millenniumad": {
+    "actor_variant_xml_checked": 833,
+    "unresolved_direct_art_references": [],
+    "base_game_path_collisions": [
+      "art/actors/particle/smoke_curved.xml",
+      "art/actors/props/structures/decals/dirt_6x3.xml",
+      "art/actors/props/structures/decals/farmstead_mud_medium.xml",
+      "art/actors/props/structures/decals/gravel_4x5.xml",
+      "art/actors/props/units/heads/head_han_healer.xml",
+      "art/actors/props/units/helmets/han_hairbun.xml",
+      "art/actors/props/units/weapons/arrow_broken.xml",
+      "art/actors/props/units/weapons/norse_axe.xml",
+      "art/actors/props/wooden_cart_big.xml",
+      "art/particles/smoke_curved.xml",
+      "art/skeletons/bow.xml",
+      "art/skeletons/longboat.xml",
+      "art/skeletons/norse_sail.xml",
+      "art/skeletons/ship_row.xml",
+      "art/terrains/biome-baltic-nordic/terrains.xml",
+      "art/variants/biped/base_fisherman.xml",
+      "art/variants/biped/female_gather_ore.xml",
+      "art/variants/biped/female_gather_rock.xml",
+      "art/variants/biped/female_gather_ruins.xml",
+      "art/variants/clothes/han/minister_01.xml",
+      "art/variants/others/waypoints/base.xml",
+      "gui/pregame/backgrounds/background.js",
+      "gui/session/top_panel/BuildLabel.xml",
+      "simulation/data/auras/units/han_minister_building.json",
+      "simulation/data/auras/units/han_minister_gathering.json",
+      "simulation/data/civs/athen.json",
+      "simulation/data/civs/brit.json",
+      "simulation/data/civs/cart.json",
+      "simulation/data/civs/gaul.json",
+      "simulation/data/civs/han.json",
+      "simulation/data/civs/iber.json",
+      "simulation/data/civs/kush.json",
+      "simulation/data/civs/mace.json",
+      "simulation/data/civs/maur.json",
+      "simulation/data/civs/pers.json",
+      "simulation/data/civs/ptol.json",
+      "simulation/data/civs/rome.json",
+      "simulation/data/civs/sele.json",
+      "simulation/data/civs/spart.json",
+      "simulation/data/settings/player_defaults.json",
+      "simulation/data/technologies/art_of_war.json",
+      "simulation/data/technologies/cavalry_health.json",
+      "simulation/templates/structures/brit/sentry_tower.xml",
+      "simulation/templates/structures/gaul/sentry_tower.xml",
+      "simulation/templates/structures/gaul/stable.xml",
+      "simulation/templates/template_structure_civic.xml",
+      "simulation/templates/template_structure_defensive_wall.xml",
+      "simulation/templates/template_structure_military_stable.xml",
+      "simulation/templates/template_structure_special_library.xml",
+      "simulation/templates/template_unit_cavalry_melee.xml",
+      "simulation/templates/template_unit_fauna_herd.xml",
+      "simulation/templates/template_unit_infantry_melee.xml"
+    ]
+  },
+  "medievalad": {
+    "actor_variant_xml_checked": 146,
+    "unresolved_direct_art_references": [
+      {
+        "file": "art/actors/props/units/heads/archer_helmet_a.xml",
+        "reference": "art/materials/player_trans_spec.xml"
+      },
+      {
+        "file": "art/actors/props/units/heads/bascinet_helmet.xml",
+        "reference": "art/materials/player_trans_spec.xml"
+      },
+      {
+        "file": "art/actors/props/units/heads/knight_helmets.xml",
+        "reference": "art/materials/player_trans_spec.xml"
+      },
+      {
+        "file": "art/actors/props/units/heads/spear_helmet_a.xml",
+        "reference": "art/materials/player_trans_spec.xml"
+      },
+      {
+        "file": "art/actors/props/units/heads/teutonic_cav_helmet_a.xml",
+        "reference": "art/materials/basic_trans_spec.xml"
+      },
+      {
+        "file": "art/actors/props/units/heads/teutonic_helmet_a.xml",
+        "reference": "art/materials/player_trans_spec.xml"
+      },
+      {
+        "file": "art/actors/props/units/weapons/blades/knight_spear_blade.xml",
+        "reference": "art/materials/basic_spec.xml"
+      },
+      {
+        "file": "art/actors/props/units/weapons/daggers.xml",
+        "reference": "art/materials/basic_spec.xml"
+      },
+      {
+        "file": "art/actors/props/units/weapons/mace_a.xml",
+        "reference": "art/materials/basic_spec.xml"
+      },
+      {
+        "file": "art/actors/structures/decals/gravel_teuc_house_a.xml",
+        "reference": "art/materials/terrain_norm.xml"
+      },
+      {
+        "file": "art/actors/structures/polish/longhouse.xml",
+        "reference": "art/materials/player_trans_parallax.xml"
+      },
+      {
+        "file": "art/actors/structures/teutonics/longhouse.xml",
+        "reference": "art/materials/player_trans_parallax.xml"
+      },
+      {
+        "file": "art/actors/units/teutonics/infantry_swordsman.xml",
+        "reference": "art/materials/player_trans_spec.xml"
+      }
+    ],
+    "base_game_path_collisions": [
+      "art/actors/props/special/eyecandy/awning_wood_small.xml",
+      "art/actors/props/special/eyecandy/barrel_a.xml",
+      "art/actors/props/special/eyecandy/handcart_1.xml",
+      "art/textures/skins/structural/ao/stall_small_a.png.cached.dds",
+      "art/textures/skins/structural/ao/stall_small_b.png.cached.dds",
+      "simulation/data/settings/player_defaults.json"
+    ]
+  },
+  "release28_identity": {
+    "sha256": "a17493fed2d11efcedd18df5b0655820d29a8a00245dbf7c4e1365a79575bdce",
+    "RequiredTechnology_present": false,
+    "Requirements_present": true
+  }
+}

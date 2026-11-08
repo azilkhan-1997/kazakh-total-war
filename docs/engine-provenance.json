@@ -1,0 +1,24 @@
+{
+  "0ad-0.28.0-unix-build.tar.xz": {
+    "published": "27e217755ef76a922fe58dbf593d96e54b6ed2375d23f548c35619aa6bd5a42a  0ad-0.28.0-unix-build.tar.xz",
+    "actual": "27e217755ef76a922fe58dbf593d96e54b6ed2375d23f548c35619aa6bd5a42a",
+    "match": true
+  },
+  "0ad-0.28.0-unix-data.tar.xz": {
+    "published": "e844b30ae2102c47e0a4fff2f0e0ef05ba0cebb1890aa72276fa12457c39526f  0ad-0.28.0-unix-data.tar.xz",
+    "actual": "e844b30ae2102c47e0a4fff2f0e0ef05ba0cebb1890aa72276fa12457c39526f",
+    "match": true
+  },
+  "0ad-0.28.0-win64.exe": {
+    "url": "https://releases.wildfiregames.com/0ad-0.28.0-win64.exe",
+    "actual": "9b5e1a16d4e0df9c84e052f56fb75da69518d5634c88d2b38db69baee63c16a1",
+    "published": "9b5e1a16d4e0df9c84e052f56fb75da69518d5634c88d2b38db69baee63c16a1  0ad-0.28.0-win64.exe",
+    "match": true
+  },
+  "0ad_0.28.0_amd64.deb": {
+    "url": "https://ppa.launchpadcontent.net/wfg/0ad/ubuntu/pool/main/0/0ad/0ad_0.28.0-1ubuntu0.24.04~wfg2_amd64.deb",
+    "actual": "1e54adb8b61430fa123ba215eaea12a1e67038e3037ef8b4954c7a4247a01f4a",
+    "published": "1e54adb8b61430fa123ba215eaea12a1e67038e3037ef8b4954c7a4247a01f4a",
+    "match": true
+  }
+}

@@ -1,0 +1,101 @@
+PE checksum   : 011E084D
+
+
+Signature Index: 0  (Primary Signature)
+
+Message digest algorithm  : SHA256
+Current message digest    : E9A3BA3C1FE68F4D736EBCFEDD3307202F624F909D7FC90EF44021D7497067F2 
+Calculated message digest : E9A3BA3C1FE68F4D736EBCFEDD3307202F624F909D7FC90EF44021D7497067F2 
+
+Signer's certificate:
+	------------------
+	Signer #0:
+		Subject: /C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Corporation
+		Issuer : /C=US/O=Microsoft Corporation/CN=Microsoft Code Signing PCA 2024
+		Serial : 330000021CFACDC59BE82F7EC400000000021C
+		Certificate expiration date:
+			notBefore : Apr 16 18:59:41 2026 GMT
+			notAfter : Apr 15 18:59:41 2027 GMT
+
+Message digest algorithm: SHA256
+
+Authenticated attributes:
+	Microsoft Individual Code Signing purpose
+	Message digest: 7FE484CD26B12AFF331D8BCC84A87B52484428086934565A3F5C5B117235362B 
+	URL description: http://www.microsoft.com
+	Text description: Microsoft Visual C++ v14 Redistributable (x64) - 14.51.36247
+
+Countersignatures:
+	Timestamp time: May 27 05:56:14 2026 GMT
+
+CAfile: upstream/distribution-sources/Microsoft-Root-CA-2011.pem
+TSA's certificates file: /etc/ssl/certs/ca-certificates.crt
+
+Timestamp is not available
+
+Signing certificate chain verified using:
+	------------------
+	Signer #2:
+		Subject: /C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Root Certificate Authority 2011
+		Issuer : /C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Root Certificate Authority 2011
+		Serial : 3F8BC8B5FC9FB29643B569D66C42E144
+		Certificate expiration date:
+			notBefore : Mar 22 22:05:28 2011 GMT
+			notAfter : Mar 22 22:13:04 2036 GMT
+
+	------------------
+	Signer #1:
+		Subject: /C=US/O=Microsoft Corporation/CN=Microsoft Code Signing PCA 2024
+		Issuer : /C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Root Certificate Authority 2011
+		Serial : 33000000393BB63719BF061D67000000000039
+		Certificate expiration date:
+			notBefore : Aug  8 20:54:18 2024 GMT
+			notAfter : Mar 22 22:13:04 2036 GMT
+
+	------------------
+	Signer #0:
+		Subject: /C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Corporation
+		Issuer : /C=US/O=Microsoft Corporation/CN=Microsoft Code Signing PCA 2024
+		Serial : 330000021CFACDC59BE82F7EC400000000021C
+		Certificate expiration date:
+			notBefore : Apr 16 18:59:41 2026 GMT
+			notAfter : Apr 15 18:59:41 2027 GMT
+
+CRL distribution point: http://www.microsoft.com/pkiops/crl/Microsoft%20Code%20Signing%20PCA%202024.crl
+Using environmental HTTP proxy: http://127.0.0.1:41061
+Using environmental HTTPS proxy: http://127.0.0.1:41061
+Connecting to http://www.microsoft.com/pkiops/crl/Microsoft%20Code%20Signing%20PCA%202024.crl
+
+Certificate Revocation List verified using:
+	------------------
+	Signer #2:
+		Subject: /C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Root Certificate Authority 2011
+		Issuer : /C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Root Certificate Authority 2011
+		Serial : 3F8BC8B5FC9FB29643B569D66C42E144
+		Certificate expiration date:
+			notBefore : Mar 22 22:05:28 2011 GMT
+			notAfter : Mar 22 22:13:04 2036 GMT
+
+	------------------
+	Signer #1:
+		Subject: /C=US/O=Microsoft Corporation/CN=Microsoft Code Signing PCA 2024
+		Issuer : /C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Root Certificate Authority 2011
+		Serial : 33000000393BB63719BF061D67000000000039
+		Certificate expiration date:
+			notBefore : Aug  8 20:54:18 2024 GMT
+			notAfter : Mar 22 22:13:04 2036 GMT
+
+	------------------
+	Signer #0:
+		Subject: /C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Corporation
+		Issuer : /C=US/O=Microsoft Corporation/CN=Microsoft Code Signing PCA 2024
+		Serial : 330000021CFACDC59BE82F7EC400000000021C
+		Certificate expiration date:
+			notBefore : Apr 16 18:59:41 2026 GMT
+			notAfter : Apr 15 18:59:41 2027 GMT
+
+Signature CRL verification: ok
+Signature verification: ok
+
+Number of verified signatures: 1
+Succeeded

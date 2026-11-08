@@ -1,0 +1,12 @@
+{
+  "scope": "Independent portable transaction and payload tests on Linux. Windows install/UAC/gameplay NOT TESTED.",
+  "python": "3.12.14",
+  "source": "/workspace/scratch/a712cf7eed58/exe_release/game/installer/windows/setup_worker.py",
+  "source_sha256": "477a780da6980c6476250508a2a4ae98db5bf5e14c5dde419e2e4a176e0365e7",
+  "test_source": "/workspace/scratch/a712cf7eed58/exe_release/game/tests/installer/test_worker_contract.py",
+  "test_sha256": "145da2214aef756d03f8049c6dd2cacef3d18ccecfe0bb5e147d534e39a8616c",
+  "tests_run": 16,
+  "failures": 0,
+  "errors": 0,
+  "pass": true
+}

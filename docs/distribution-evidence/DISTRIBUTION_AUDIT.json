@@ -1,0 +1,56 @@
+{
+  "scope": "release audit, not complete source closure",
+  "engine_git_tag": "v0.28.0",
+  "engine_git_commit": "a2cae4d69f816e9e9d7eecb6bf88f762afc0c90d",
+  "windows_dependency_svn_revision": 28275,
+  "artifacts": [
+    {
+      "file": "openal-soft-1.24.3.tar.bz2",
+      "url": "https://openal-soft.org/openal-releases/openal-soft-1.24.3.tar.bz2",
+      "bytes": 1025568,
+      "sha256": "cb5e6197a1c0da0edcf2a81024953cc8fa8545c3b9474e48c852af709d587892",
+      "status": "Version matches PE resources and WFG SVN r28264. Exact WFG build configuration/patch correspondence not reproduced."
+    },
+    {
+      "file": "libiconv-1.17.tar.gz",
+      "url": "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.17.tar.gz",
+      "bytes": 5413283,
+      "sha256": "8f74213b56238c85a50a5329f77e06198771e70dd9a739779f4c02f65d971313",
+      "status": "Version matches immutable WFG iconv.h 0x0111. WFG CMake build integration/source revision not fully matched."
+    },
+    {
+      "file": "gloox-1.0.28.tar.bz2",
+      "url": "https://camaya.net/download/gloox-1.0.28.tar.bz2",
+      "bytes": 728337,
+      "sha256": "591bd12c249ede0b50a1ef6b99ac0de8ef9c1ba4fd2e186f97a740215cc5966c",
+      "status": "REFERENCE ONLY: NOT corresponding source for shipped 1.1-svn. Used for upstream license text, not runtime source fulfillment."
+    },
+    {
+      "file": "vc_redist.x64.exe",
+      "url": "https://aka.ms/vc14/vc_redist.x64.exe",
+      "bytes": 18731856,
+      "sha256": "843068991daaa1f73ad9f6239bce4d0f6a07a51f18c37ea2a867e9beca71295c",
+      "status": "Official signed prerequisite acquired; not executed. See vc_redist.x64.provenance.json."
+    },
+    {
+      "file": "VC-Redistributable-License.docx",
+      "url": "https://visualstudio.microsoft.com/wp-content/uploads/2025/10/Visual-C-V14-License-Redistributable_and_Runtime_ENU.docx",
+      "bytes": 39553,
+      "sha256": "08651651a7602fc7c0e2763de0fde1ff9f868df2780597cd1775ee9d6441c783",
+      "status": "Actual public end-user terms linked by signed installer UI; redistribution prohibited absent separate applicable developer redistribution grant."
+    }
+  ],
+  "blockers": [
+    "gloox binary source version is future1.1 trunk per r28266; exact upstream revision missing, official SVN HTTPS returned503; stable1.0.28 explicitly not corresponding.",
+    "Windows dependency source/build patch completeness remains unverified; headers/precompiled SVN tree is not source closure.",
+    "Public VC runtime end-user terms prohibit redistribution; separate licensed Visual Studio developer distribution grant not established for publisher. DebuggingTools REDIST mapping not established.",
+    "Clean Windows10/11 native install/gameplay/save acceptance pending."
+  ],
+  "acquired_licenses": [
+    "GPL-3.0.txt from GNU libiconv1.17 COPYing",
+    "LGPL-2.0.txt from OpenALSoft1.24.3 COPYING",
+    "LGPL-2.1.txt from GNU libiconv1.17 COPYING.LIB",
+    "gloox-stable-LICENSE includes upstream GPLv3 plus OpenSSL exception; trunk license matching pending"
+  ],
+  "recommended_distribution": "Original launcher/mod/source plus direct pinned upstream downloads on user machine; no claim of full bundled runtime clearance."
+}

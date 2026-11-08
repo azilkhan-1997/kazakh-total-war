@@ -1,0 +1,95 @@
+{
+  "source": "/workspace/scratch/a712cf7eed58/offline_game/installer/windows/OfflineBootstrap.ps1",
+  "source_sha256": "4bdfc71a5a4063f14780a54756c91cd645b19e702fd1b2522cadbf480f97297b",
+  "extracted_function_definitions": [
+    "Assert-ParentAlive",
+    "Assert-NoReparse",
+    "Assert-File",
+    "Get-EmbeddedComponent"
+  ],
+  "powershell_version": "7.4.22",
+  "host": "Ubuntu 24.04.3 LTS",
+  "pass": true,
+  "cases": [
+    {
+      "name": "good component returns exact local path",
+      "pass": true
+    },
+    {
+      "name": "missing component fails closed",
+      "pass": true,
+      "expected_rejection": "Offline component missing:.*No network fallback is permitted",
+      "actual_error": "Offline component missing: missing.bin. No network fallback is permitted."
+    },
+    {
+      "name": "wrong byte count fails closed",
+      "pass": true,
+      "expected_rejection": "Unexpected (downloaded|embedded) file size",
+      "actual_error": "Unexpected embedded file size: /tmp/ktw-offline-independent-qa/fixtures-6c2c4eae26154797a2692d08d4d2c89c/components/good.bin"
+    },
+    {
+      "name": "wrong SHA-256 fails closed",
+      "pass": true,
+      "expected_rejection": "SHA-256 verification failed",
+      "actual_error": "SHA-256 verification failed: /tmp/ktw-offline-independent-qa/fixtures-6c2c4eae26154797a2692d08d4d2c89c/components/good.bin"
+    },
+    {
+      "name": "directory is not a component",
+      "pass": true,
+      "expected_rejection": "Offline component missing",
+      "actual_error": "Offline component missing: directory.bin. No network fallback is permitted."
+    },
+    {
+      "name": "parent traversal refused",
+      "pass": true,
+      "expected_rejection": "Invalid embedded component name",
+      "actual_error": "Invalid embedded component name."
+    },
+    {
+      "name": "absolute path refused",
+      "pass": true,
+      "expected_rejection": "Invalid embedded component name",
+      "actual_error": "Invalid embedded component name."
+    },
+    {
+      "name": "Windows path separator refused",
+      "pass": true,
+      "expected_rejection": "Invalid embedded component name",
+      "actual_error": "Invalid embedded component name."
+    },
+    {
+      "name": "Windows alternate data stream refused",
+      "pass": true,
+      "expected_rejection": "Invalid embedded component name",
+      "actual_error": "Invalid embedded component name."
+    },
+    {
+      "name": "empty component name refused",
+      "pass": true,
+      "expected_rejection": "Invalid embedded component name",
+      "actual_error": "Invalid embedded component name."
+    },
+    {
+      "name": "symlink component refused",
+      "pass": true,
+      "expected_rejection": "physical folder without links or junctions",
+      "actual_error": "Choose a physical folder without links or junctions: /tmp/ktw-offline-independent-qa/fixtures-6c2c4eae26154797a2692d08d4d2c89c/components/link.bin"
+    },
+    {
+      "name": "symlink component ancestor refused",
+      "pass": true,
+      "expected_rejection": "physical folder without links or junctions",
+      "actual_error": "Choose a physical folder without links or junctions: /tmp/ktw-offline-independent-qa/fixtures-6c2c4eae26154797a2692d08d4d2c89c/linked-components"
+    },
+    {
+      "name": "closed installer cancels component access",
+      "pass": true,
+      "expected_rejection": "Setup was closed. Installation cancelled.",
+      "actual_error": "Setup was closed. Installation cancelled."
+    }
+  ],
+  "installation_executed": false,
+  "os_guard_bypassed": false,
+  "windows_native_execution": "NOT TESTED",
+  "scope": "Actual helper definitions executed on Linux fixtures. Windows-specific path semantics, junctions, UAC, registry, COM, prerequisite install and gameplay remain untested."
+}

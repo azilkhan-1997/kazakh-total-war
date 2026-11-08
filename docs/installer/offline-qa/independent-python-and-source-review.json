@@ -1,0 +1,74 @@
+{
+  "pass": true,
+  "cases": [
+    {
+      "name": "verified component accepted",
+      "pass": true
+    },
+    {
+      "name": "missing component rejected",
+      "pass": true,
+      "error": "Missing or linked offline component: missing"
+    },
+    {
+      "name": "wrong size rejected",
+      "pass": true,
+      "error": "Wrong component size: good"
+    },
+    {
+      "name": "wrong hash rejected",
+      "pass": true,
+      "error": "Wrong component SHA-256: good"
+    },
+    {
+      "name": "symlink rejected",
+      "pass": true,
+      "error": "Missing or linked offline component: linked"
+    },
+    {
+      "name": "binary package rejected from own source snapshot",
+      "pass": true,
+      "error": "Do not vendor binary packages into the source payload: installer/windows/vendor.exe"
+    },
+    {
+      "name": "offline bootstrap has no acquisition commands",
+      "pass": true
+    },
+    {
+      "name": "every pinned input checked before execution",
+      "pass": true
+    },
+    {
+      "name": "component inventory exact match enforced",
+      "pass": true
+    },
+    {
+      "name": "NSIS component directory separate from payload",
+      "pass": true
+    },
+    {
+      "name": "NSIS retains component compression disabled",
+      "pass": true
+    },
+    {
+      "name": "official component checks align with PowerShell pins",
+      "pass": true
+    },
+    {
+      "name": "builder has no networking imports",
+      "pass": true
+    },
+    {
+      "name": "five existing online files unchanged against base",
+      "pass": true
+    }
+  ],
+  "source_hashes": {
+    "OfflineBootstrap.ps1": "4bdfc71a5a4063f14780a54756c91cd645b19e702fd1b2522cadbf480f97297b",
+    "OfflineGameSetup.nsi": "892510c330d91895441030cce3f8bc6e17a54afd9065130a276020e325fdcceb",
+    "build_offline_qa.py": "b0c0d02244699e7b98ff3b15fc531b2f374e35e73cc7c75d73e80066fae69e0e"
+  },
+  "native_windows_execution": false,
+  "licensing_clearance": false,
+  "scope": "Independent Python helper execution and source assertions; not Windows installation, OS guard bypass or gameplay execution."
+}

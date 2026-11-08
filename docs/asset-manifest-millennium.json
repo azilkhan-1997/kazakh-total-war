@@ -1,0 +1,532 @@
+{
+  "source_repository": "https://github.com/0ADMods/millenniumad",
+  "commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+  "asset_license": "CC-BY-SA-3.0",
+  "license_source": "art/license.txt",
+  "license_sha256": "247ea9380781c56e71018bb3714faf557192f0c3ad6a3d7d231c6f20f325d0e4",
+  "status": "static subset admission; engine-render verification required",
+  "files": {
+    "art/meshes/ktw/millennium/skeletal/new/m_armor_nomad_a.dae": {
+      "source_path": "art/meshes/skeletal/new/m_armor_nomad_a.dae",
+      "source_sha256": "eed0ad75206dd1cffc96df21050abfd034681dfe09458568f71a98ccee1e4cea",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "eed0ad75206dd1cffc96df21050abfd034681dfe09458568f71a98ccee1e4cea"
+    },
+    "art/actors/ktw/millennium/props/units/heads/xion_head.xml": {
+      "source_path": "art/actors/props/units/heads/xion_head.xml",
+      "source_sha256": "17a9885dd4737eb1f69057fa6879cbaef740480ca72e688b5f34c181ca0f0f34",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [
+        "Resource references namespaced under ktw/millennium."
+      ],
+      "output_sha256": "05eb98806a2185ed48dbed49afc995c5e0d1ca89f3638bf4681793bab85609e6"
+    },
+    "art/textures/skins/ktw/millennium/props/head/chin_b.png": {
+      "source_path": "art/textures/skins/props/head/chin_b.png",
+      "source_sha256": "146bc14cbc1b671209c7f18bd6d7dcb4c6ba3e6810ca8d37b5b7c1276a280014",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "146bc14cbc1b671209c7f18bd6d7dcb4c6ba3e6810ca8d37b5b7c1276a280014"
+    },
+    "art/textures/skins/ktw/millennium/props/head/xion_b.png": {
+      "source_path": "art/textures/skins/props/head/xion_b.png",
+      "source_sha256": "bbb674371b41c7593ca9948e0400ef53bdf4f5bfcf85844338ae72e54d40aa63",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "bbb674371b41c7593ca9948e0400ef53bdf4f5bfcf85844338ae72e54d40aa63"
+    },
+    "art/actors/ktw/millennium/props/units/weapons/xion_bow.xml": {
+      "source_path": "art/actors/props/units/weapons/xion_bow.xml",
+      "source_sha256": "1df5c55a4526b485aeaddd181ce22c7de0bb8e2e1fa6f8275bbb7fe8a02ce968",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [
+        "Resource references namespaced under ktw/millennium."
+      ],
+      "output_sha256": "47ddc160e151b9c7668264f15170dc4e8344f92e3b1d946d844ae9983d8d2649"
+    },
+    "art/meshes/ktw/millennium/props/weap_xion_bow.dae": {
+      "source_path": "art/meshes/props/weap_xion_bow.dae",
+      "source_sha256": "c15502ce6154e10420c7630e6b070f7c525ce7b1f9c94021f88f6ebc75616440",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "c15502ce6154e10420c7630e6b070f7c525ce7b1f9c94021f88f6ebc75616440"
+    },
+    "art/textures/skins/ktw/millennium/structural/xion_structure.png": {
+      "source_path": "art/textures/skins/structural/xion_structure.png",
+      "source_sha256": "66993d3783940de65c857543794e596c8e560b020527d2d899f0876e00af8315",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "66993d3783940de65c857543794e596c8e560b020527d2d899f0876e00af8315"
+    },
+    "art/animation/ktw/millennium/mechanical/weap_xion_bow_attack.dae": {
+      "source_path": "art/animation/mechanical/weap_xion_bow_attack.dae",
+      "source_sha256": "158b80fa7cfbfe35e44c401d33cd581133d17a2caaaf87f4c5e5b8eb183dd5ce",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "158b80fa7cfbfe35e44c401d33cd581133d17a2caaaf87f4c5e5b8eb183dd5ce"
+    },
+    "art/actors/ktw/millennium/props/units/weapons/xion_quiver_cloth_cavalry_left.xml": {
+      "source_path": "art/actors/props/units/weapons/xion_quiver_cloth_cavalry_left.xml",
+      "source_sha256": "6bbede09a6aa69fd64872b437199abb9639e0224abe0043bc891f8a4f30daba1",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [
+        "Resource references namespaced under ktw/millennium."
+      ],
+      "output_sha256": "9c9cc7e2af8c8afd757fd5bcb9b683299b5a67a5009231cb55c2d390c7102893"
+    },
+    "art/meshes/ktw/millennium/props/weap_xion_quiver_cloth_cavalry_left.dae": {
+      "source_path": "art/meshes/props/weap_xion_quiver_cloth_cavalry_left.dae",
+      "source_sha256": "d5989eb2ab6c59dea15e0809d5a98af5518ae842d2a1ae7587e2fe31947ee6c1",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "d5989eb2ab6c59dea15e0809d5a98af5518ae842d2a1ae7587e2fe31947ee6c1"
+    },
+    "art/actors/ktw/millennium/props/units/weapons/xion_arrow_front.xml": {
+      "source_path": "art/actors/props/units/weapons/xion_arrow_front.xml",
+      "source_sha256": "557437e29abbbbca09e71785f2581e50ca3514b415e8ba9a16524a3d0fb88775",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [
+        "Resource references namespaced under ktw/millennium."
+      ],
+      "output_sha256": "de143cf5d0b09eff0b5b29361f74ce13032f4af3cfbc785a378f53459b06353e"
+    },
+    "art/meshes/ktw/millennium/props/weap_xion_arrow_front.dae": {
+      "source_path": "art/meshes/props/weap_xion_arrow_front.dae",
+      "source_sha256": "ab147fbbe046ae98c555ee853e428978057f25974e966b11e8abc92558e0c6d3",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "ab147fbbe046ae98c555ee853e428978057f25974e966b11e8abc92558e0c6d3"
+    },
+    "art/textures/skins/ktw/millennium/props/xion_quiver_basic.png": {
+      "source_path": "art/textures/skins/props/xion_quiver_basic.png",
+      "source_sha256": "a6a5bfd7af728291515074b89670a0de4a40fba22ca1927bda5b4ec676260b1d",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "a6a5bfd7af728291515074b89670a0de4a40fba22ca1927bda5b4ec676260b1d"
+    },
+    "art/textures/skins/ktw/millennium/props/xion_quiver_basic_norm.png": {
+      "source_path": "art/textures/skins/props/xion_quiver_basic_norm.png",
+      "source_sha256": "4ed6d682e4192541be68a2705258017e645dcf2fb7ba87662eeb35bbfb956c33",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "4ed6d682e4192541be68a2705258017e645dcf2fb7ba87662eeb35bbfb956c33"
+    },
+    "art/textures/skins/ktw/millennium/props/xion_quiver_spec.png": {
+      "source_path": "art/textures/skins/props/xion_quiver_spec.png",
+      "source_sha256": "4a1734bcf56479794994eaae236168a98248bddac61cc3bd4cbc6352e759875e",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "4a1734bcf56479794994eaae236168a98248bddac61cc3bd4cbc6352e759875e"
+    },
+    "art/textures/skins/ktw/millennium/props/xion_quiver_basic_b.png": {
+      "source_path": "art/textures/skins/props/xion_quiver_basic_b.png",
+      "source_sha256": "a67cd50c150d8f8684f8f59093811b47d34739f83261393110583eced4ce5d60",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "a67cd50c150d8f8684f8f59093811b47d34739f83261393110583eced4ce5d60"
+    },
+    "art/textures/skins/ktw/millennium/skeletal/xion_cloth_a.png": {
+      "source_path": "art/textures/skins/skeletal/xion_cloth_a.png",
+      "source_sha256": "e0e04c55d8c3b6fe45dd7c6345734636c88e978cf9454b20a0d70fbf134a3ff1",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "e0e04c55d8c3b6fe45dd7c6345734636c88e978cf9454b20a0d70fbf134a3ff1"
+    },
+    "art/textures/skins/ktw/millennium/skeletal/xion_cloth_norm.png": {
+      "source_path": "art/textures/skins/skeletal/xion_cloth_norm.png",
+      "source_sha256": "fb28e313f0b5957699e00c5391f81c5e4cf9149b0a1176702ecdf5f4b57e30e3",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "fb28e313f0b5957699e00c5391f81c5e4cf9149b0a1176702ecdf5f4b57e30e3"
+    },
+    "art/textures/skins/ktw/millennium/skeletal/xion_cloth_spec.png": {
+      "source_path": "art/textures/skins/skeletal/xion_cloth_spec.png",
+      "source_sha256": "f6d18dc2a4241da770a44e0758e3cfecefb845e34e65fc526ee21f8d5781d0cd",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "f6d18dc2a4241da770a44e0758e3cfecefb845e34e65fc526ee21f8d5781d0cd"
+    },
+    "art/textures/skins/ktw/millennium/skeletal/xion_cloth_b.png": {
+      "source_path": "art/textures/skins/skeletal/xion_cloth_b.png",
+      "source_sha256": "bd99a41a278ddebbc84922aeb4f7be86134aece9f9f136cd83e053f897fbd308",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "bd99a41a278ddebbc84922aeb4f7be86134aece9f9f136cd83e053f897fbd308"
+    },
+    "art/textures/skins/ktw/millennium/skeletal/xion_cloth_c.png": {
+      "source_path": "art/textures/skins/skeletal/xion_cloth_c.png",
+      "source_sha256": "c4701e3feee264224e281ea97ceba6ea68e7f0affe04fd37fff5dc236515017d",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "c4701e3feee264224e281ea97ceba6ea68e7f0affe04fd37fff5dc236515017d"
+    },
+    "art/actors/ktw/millennium/props/units/helmets/xion_cloth.xml": {
+      "source_path": "art/actors/props/units/helmets/xion_cloth.xml",
+      "source_sha256": "8e9cce87171fe08ad239a572ccc16743b658496e2fcf9f38d551284ef5cba933",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [
+        "Resource references namespaced under ktw/millennium."
+      ],
+      "output_sha256": "889f948bc8601f6b54496c16f11bbe347966bfbedcd3ce569ca59564eb3e7ada"
+    },
+    "art/meshes/ktw/millennium/props/helmet/xion_cloth.dae": {
+      "source_path": "art/meshes/props/helmet/xion_cloth.dae",
+      "source_sha256": "8ab5a5c305269b456766058c8047af3b63e0e26be2b562988b19df4398477c58",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "8ab5a5c305269b456766058c8047af3b63e0e26be2b562988b19df4398477c58"
+    },
+    "art/actors/ktw/millennium/props/units/helmets/xion_hide.xml": {
+      "source_path": "art/actors/props/units/helmets/xion_hide.xml",
+      "source_sha256": "cac9bb63c5817668451ee9f8ad961d19d4eec0538a48d766b5a4506f0df69971",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [
+        "Resource references namespaced under ktw/millennium."
+      ],
+      "output_sha256": "db077c46172e4f6f59a646bf7ba1bfdac0df3c7591db14ba148aab3890c83c28"
+    },
+    "art/meshes/ktw/millennium/props/helmet/xion_hide.dae": {
+      "source_path": "art/meshes/props/helmet/xion_hide.dae",
+      "source_sha256": "d6f392f1bea82b88e2cb720bac2dd76f6cf4db773270fcbc31e7cb8e5e3df830",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "d6f392f1bea82b88e2cb720bac2dd76f6cf4db773270fcbc31e7cb8e5e3df830"
+    },
+    "art/actors/ktw/units/mounted_archer_rider.xml": {
+      "source_paths": [
+        "art/actors/units/rus/cavalry_archer_b_r.xml"
+      ],
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "source_sha256s": {
+        "art/actors/units/rus/cavalry_archer_b_r.xml": "db82be39ff752ab7b1432790372e0801219326c8b562ad6c327e97bfb328fc85"
+      },
+      "output_sha256": "07eb3bc2125ac00dd9b6b6adf22915370adf8b1d5705f712467611260c6424ba",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development; adapted by SAYRAM PLANETA HOLDING",
+      "modifications": [
+        "Corrected normal/specular slots; removed final overriding flat texture group.",
+        "Nomad visual proxy, not authenticated 1465 costume."
+      ]
+    },
+    "art/actors/ktw/units/mounted_archer.xml": {
+      "source_paths": [
+        "art/actors/units/rus/cavalry_archer_b_m.xml"
+      ],
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "source_sha256s": {
+        "art/actors/units/rus/cavalry_archer_b_m.xml": "40efe6fd1f93c3c5ae96618109efc645e100d833a99edfb03c1948d46ec27fe0"
+      },
+      "output_sha256": "2dfa0e881f5ce74008fae9529c9ebbc22c2e07450198e252157ab5d46bd4032e",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development; adapted by SAYRAM PLANETA HOLDING",
+      "modifications": [
+        "Rider replaced by corrected namespaced mounted archer."
+      ]
+    },
+    "art/actors/ktw/units/light_cavalry_rider.xml": {
+      "source_paths": [
+        "art/actors/units/rus/cavalry_archer_b_r.xml"
+      ],
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "source_sha256s": {
+        "art/actors/units/rus/cavalry_archer_b_r.xml": "db82be39ff752ab7b1432790372e0801219326c8b562ad6c327e97bfb328fc85"
+      },
+      "output_sha256": "01b820d906e34b25c4bed00135662e388fcc47863aee0f90b293ff4e3f681aac",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development; adapted by SAYRAM PLANETA HOLDING",
+      "modifications": [
+        "Composite: nomad body, spear cavalry animation, cloth headgear.",
+        "Prototype, not final historical armor."
+      ]
+    },
+    "art/actors/ktw/units/light_cavalry.xml": {
+      "source_paths": [
+        "art/actors/units/rus/cavalry_archer_b_m.xml"
+      ],
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "source_sha256s": {
+        "art/actors/units/rus/cavalry_archer_b_m.xml": "40efe6fd1f93c3c5ae96618109efc645e100d833a99edfb03c1948d46ec27fe0"
+      },
+      "output_sha256": "4cf0d89b3edabafe1c95a1aef23a06b5f740fcc7c8e736d1d261b90b6d7b37e6",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development; adapted by SAYRAM PLANETA HOLDING",
+      "modifications": [
+        "Horse/rider composite with namespaced light_cavalry adapter."
+      ]
+    },
+    "art/actors/ktw/millennium/props/units/helmets/byza_archer_helmet_basic_iron.xml": {
+      "source_path": "art/actors/props/units/helmets/byza_archer_helmet_basic_iron.xml",
+      "source_sha256": "44a8fa1d146497c2dc0c19fe358bf50e8f933c4da02d91cc72ef585e98d50ce0",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [
+        "Resource references namespaced under ktw/millennium."
+      ],
+      "output_sha256": "0809c031960d902cc29d703c9fe2fe42a93a348ab76ce0a40900f56953c9e1a5"
+    },
+    "art/meshes/ktw/millennium/props/helmet/byza_archer_helmet_basic.dae": {
+      "source_path": "art/meshes/props/helmet/byza_archer_helmet_basic.dae",
+      "source_sha256": "847e6689c7242c435052d0befae7c861172851efae5e367c1050e78e250e2866",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "847e6689c7242c435052d0befae7c861172851efae5e367c1050e78e250e2866"
+    },
+    "art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_iron.png": {
+      "source_path": "art/textures/skins/props/helmet/byzantine_archer_helmet_iron.png",
+      "source_sha256": "5414af27f58014d702fa0815e3ba495c160db35ecd8885d1226787dc14cdbf76",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "5414af27f58014d702fa0815e3ba495c160db35ecd8885d1226787dc14cdbf76"
+    },
+    "art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_norm.png": {
+      "source_path": "art/textures/skins/props/helmet/byzantine_archer_helmet_norm.png",
+      "source_sha256": "edb7a5572e377894b35b7382a3851bfebd313268eb15f90fee2a39e8eaeaac7f",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "edb7a5572e377894b35b7382a3851bfebd313268eb15f90fee2a39e8eaeaac7f"
+    },
+    "art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_spec.png": {
+      "source_path": "art/textures/skins/props/helmet/byzantine_archer_helmet_spec.png",
+      "source_sha256": "c6559bb09b62b81e81f0cc1a510967ab8f6bcc4e26e9738ce8dfced3949cec5d",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "c6559bb09b62b81e81f0cc1a510967ab8f6bcc4e26e9738ce8dfced3949cec5d"
+    },
+    "art/actors/ktw/units/heavy_cavalry_rider.xml": {
+      "source_paths": [
+        "art/actors/units/rus/cavalry_archer_b_r.xml"
+      ],
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "source_sha256s": {
+        "art/actors/units/rus/cavalry_archer_b_r.xml": "db82be39ff752ab7b1432790372e0801219326c8b562ad6c327e97bfb328fc85"
+      },
+      "output_sha256": "f15eed402704a0e00db45a4b77dfb6aad843a73c99b0a6300da268e8e54f3eab",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development; adapted by SAYRAM PLANETA HOLDING",
+      "modifications": [
+        "Composite: nomad body, spear cavalry animation, iron helmet.",
+        "Prototype, not final historical armor."
+      ]
+    },
+    "art/actors/ktw/millennium/props/horse/cav_armor_umayyad_lamellar.xml": {
+      "source_path": "art/actors/props/horse/cav_armor_umayyad_lamellar.xml",
+      "source_sha256": "a84007c09cce53d7d3cbe619c925d3485e17f774e9a15a026aca41f31bb66aac",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [
+        "Resource references namespaced under ktw/millennium."
+      ],
+      "output_sha256": "656b5b841f42c99a0376a09af522455ec5c2139b909548501f1b31ab30ba2d6a"
+    },
+    "art/meshes/ktw/millennium/props/horse/cataphract_armor.dae": {
+      "source_path": "art/meshes/props/horse/cataphract_armor.dae",
+      "source_sha256": "3e9cdf2141d3fe429dd6f1cd8c6c103ce7d1793ee3c4b867de49ad43f1f8696d",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "3e9cdf2141d3fe429dd6f1cd8c6c103ce7d1793ee3c4b867de49ad43f1f8696d"
+    },
+    "art/textures/skins/ktw/millennium/props/horse/cataphract_armor_norm.png": {
+      "source_path": "art/textures/skins/props/horse/cataphract_armor_norm.png",
+      "source_sha256": "1a929c714b2d6c4258900ef1e762cb0b41e90e23eb5f3b358ffaae2b42e0caf7",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "1a929c714b2d6c4258900ef1e762cb0b41e90e23eb5f3b358ffaae2b42e0caf7"
+    },
+    "art/textures/skins/ktw/millennium/props/horse/cataphract_armor_spec.png": {
+      "source_path": "art/textures/skins/props/horse/cataphract_armor_spec.png",
+      "source_sha256": "23c2ddbc818b591c210ea6b67a921576e671eddb5978bc9892dca20a19018dbc",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "23c2ddbc818b591c210ea6b67a921576e671eddb5978bc9892dca20a19018dbc"
+    },
+    "art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar.png": {
+      "source_path": "art/textures/skins/props/horse/cataphract_armor_lamellar.png",
+      "source_sha256": "9d493266f8da9293c9205eae670bc23d6c330666a9191461c4e96755d30b297a",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "9d493266f8da9293c9205eae670bc23d6c330666a9191461c4e96755d30b297a"
+    },
+    "art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar2.png": {
+      "source_path": "art/textures/skins/props/horse/cataphract_armor_lamellar2.png",
+      "source_sha256": "d36ba00dddd8c4ac6b2e5ffee2d5d86691bd0c77ead9415409cc5926c1e256cb",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [],
+      "output_sha256": "d36ba00dddd8c4ac6b2e5ffee2d5d86691bd0c77ead9415409cc5926c1e256cb"
+    },
+    "art/actors/ktw/units/heavy_cavalry.xml": {
+      "source_paths": [
+        "art/actors/units/rus/cavalry_archer_b_m.xml"
+      ],
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "source_sha256s": {
+        "art/actors/units/rus/cavalry_archer_b_m.xml": "40efe6fd1f93c3c5ae96618109efc645e100d833a99edfb03c1948d46ec27fe0"
+      },
+      "output_sha256": "188011a3a17a99ef2c1b72f4c87b5b0b8cfa6dac000ae53457f8bac29eaae5ae",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development; adapted by SAYRAM PLANETA HOLDING",
+      "modifications": [
+        "Horse/rider composite with namespaced heavy_cavalry adapter."
+      ]
+    },
+    "art/actors/ktw/units/spearman.xml": {
+      "source_paths": [
+        "art/actors/units/rus/cavalry_archer_b_r.xml"
+      ],
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "source_sha256s": {
+        "art/actors/units/rus/cavalry_archer_b_r.xml": "db82be39ff752ab7b1432790372e0801219326c8b562ad6c327e97bfb328fc85"
+      },
+      "output_sha256": "9f14c5eaed34c6dbf5a8697e4003bf4317f49f40556bb58fbf4a51b2ae21dc45",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development; adapted by SAYRAM PLANETA HOLDING",
+      "modifications": [
+        "Composite: nomad body with base-game infantry animations and weapon props.",
+        "Prototype; authentic equipment reconstruction pending."
+      ]
+    },
+    "art/actors/ktw/units/infantry_archer.xml": {
+      "source_paths": [
+        "art/actors/units/rus/cavalry_archer_b_r.xml"
+      ],
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "source_sha256s": {
+        "art/actors/units/rus/cavalry_archer_b_r.xml": "db82be39ff752ab7b1432790372e0801219326c8b562ad6c327e97bfb328fc85"
+      },
+      "output_sha256": "230d62c9129d2f6f6b2ac1469d62f5b8dc62cf260931460d92862c8b1d39422c",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development; adapted by SAYRAM PLANETA HOLDING",
+      "modifications": [
+        "Composite: nomad body with base-game infantry animations and weapon props.",
+        "Prototype; authentic equipment reconstruction pending."
+      ]
+    },
+    "art/skeletons/ktw_millennium_bow.xml": {
+      "source_path": "art/skeletons/bow.xml",
+      "source_sha256": "ac4d47edca5998856d86c263589e4ce9af7e5c1aeffae1266291bc429f8a957d",
+      "source_commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "The Council of Modders, Fallen Empire Studio, Scion Development",
+      "modifications": [
+        "Resource references namespaced under ktw/millennium."
+      ],
+      "output_sha256": "d5cca7c728d5e6f5c55f24ecd23d7aab9dcac583bf914e1c0f54716335cd1d7c"
+    }
+  },
+  "external_base_game_references": [
+    "art/actors/props/horse/cav_blanket_leather_basic.xml",
+    "art/actors/props/horse/cav_rein_leather.xml",
+    "art/actors/props/units/weapons/arrow_back.xml",
+    "art/actors/props/units/weapons/spear.xml",
+    "art/actors/props/units/weapons/spear_lance_cavalry.xml",
+    "art/materials/basic_trans_parallax_spec.xml",
+    "art/materials/no_trans_norm_spec.xml",
+    "art/materials/no_trans_parallax_spec.xml",
+    "art/materials/objectcolor_norm_spec.xml",
+    "art/materials/player_trans_norm_spec.xml",
+    "art/materials/player_trans_parallax_spec.xml",
+    "art/meshes/props/new/dude_head.dae",
+    "art/meshes/skeletal/horse_celtic.dae",
+    "art/textures/skins/default_norm.png",
+    "art/textures/skins/null_black.dds",
+    "art/textures/skins/props/prop_weap.dds",
+    "art/variants/biped/attack_ranged_archer.xml",
+    "art/variants/biped/base_archer_relax.xml",
+    "art/variants/biped/base_spearman_shield_relax_celt.xml",
+    "art/variants/biped/death_infantry.xml",
+    "art/variants/biped/gather_meat.xml",
+    "art/variants/biped/rider/attack_slaughter_shield_hele.xml",
+    "art/variants/biped/rider/carry_meat.xml",
+    "art/variants/biped/rider/cavalry/attack_ranged_archer_hip.xml",
+    "art/variants/biped/rider/cavalry/base_archer_relax_hip.xml",
+    "art/variants/biped/rider/cavalry/base_spearman_relax_shield_01.xml",
+    "art/variants/biped/rider/death.xml",
+    "art/variants/biped/rider/death_ranged.xml",
+    "art/variants/biped/rider/promotion_shield.xml",
+    "art/variants/quadraped/base_horse_archer.xml",
+    "art/variants/quadraped/base_horse_archer_fast.xml",
+    "art/variants/quadraped/base_horse_chariot.xml",
+    "art/variants/quadraped/base_horse_death.xml",
+    "art/variants/quadraped/base_horse_gather_meat.xml",
+    "art/variants/quadraped/base_horse_javelin.xml",
+    "art/variants/quadraped/base_horse_javelin_fast.xml",
+    "art/variants/quadraped/base_horse_pace.xml",
+    "art/variants/quadraped/base_horse_run.xml",
+    "art/variants/quadraped/base_horse_trot.xml",
+    "art/variants/quadraped/base_horse_walk.xml",
+    "art/variants/quadraped/horse/beige.xml",
+    "art/variants/quadraped/horse/brown.xml",
+    "art/variants/quadraped/horse/cherrybay.xml",
+    "art/variants/quadraped/horse/tan.xml"
+  ]
+}

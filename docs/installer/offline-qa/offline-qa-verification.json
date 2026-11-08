@@ -1,0 +1,2014 @@
+{
+  "scope": "Full private NSIS data extraction, actual embedded bytes and offline source inspection; Linux host only.",
+  "native_windows_install_tested": false,
+  "native_windows_gameplay_tested": false,
+  "redistribution_cleared": false,
+  "public_upload_permitted": false,
+  "checks": [
+    {
+      "check": "Actual complete EXE matches build report",
+      "pass": true
+    },
+    {
+      "check": "Complete NSIS wrapper extracts successfully",
+      "pass": true
+    },
+    {
+      "check": "Actual embedded own-payload manifest matches build record",
+      "pass": true
+    },
+    {
+      "check": "Exact own-payload inventory",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: KazakhTotalWar.exe",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: LICENSE",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: LICENSE",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: LICENSES/0AD-LICENSE.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: LICENSES/0AD-LICENSE.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: LICENSES/Millennium-Art.txt",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: LICENSES/Millennium-Art.txt",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: LICENSES/NSIS-COPYRIGHT.txt",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: LICENSES/NSIS-COPYRIGHT.txt",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: README_RU.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: README_RU.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: THIRD_PARTY_NOTICES.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: THIRD_PARTY_NOTICES.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/ACCEPTANCE_RU.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/ACCEPTANCE_RU.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/ACCEPTANCE_V0.2_RU.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/ACCEPTANCE_V0.2_RU.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/ARCHITECTURE.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/ARCHITECTURE.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/ART_BIBLE.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/ART_BIBLE.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/ASTRA_PROJECT_STATE.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/ASTRA_PROJECT_STATE.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/AUDIO_PLAN.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/AUDIO_PLAN.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/GRAPHICS_CAPABILITY_MATRIX.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/GRAPHICS_CAPABILITY_MATRIX.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/GUI_IMPLEMENTATION.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/GUI_IMPLEMENTATION.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/INSTALL_EXE_RU.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/INSTALL_EXE_RU.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/README_WINDOWS_RU.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/README_WINDOWS_RU.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/SPEC_CONTINUATION.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/SPEC_CONTINUATION.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/WINDOWS_DISTRIBUTION_NOTICES.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/WINDOWS_DISTRIBUTION_NOTICES.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/WINE_TEST_ENV.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/WINE_TEST_ENV.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/art-closure-release28.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/art-closure-release28.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/asset-manifest-millennium.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/asset-manifest-millennium.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/check_art_closure.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/check_art_closure.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/distribution-evidence/DISTRIBUTION_AUDIT.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/distribution-evidence/DISTRIBUTION_AUDIT.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/distribution-evidence/R28-PE-AUDIT.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/distribution-evidence/R28-PE-AUDIT.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/distribution-evidence/get-windows-libs-r28.bat",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/distribution-evidence/get-windows-libs-r28.bat",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/distribution-evidence/ktw-helper-results.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/distribution-evidence/ktw-helper-results.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/distribution-evidence/ktw-linux-negative-execution.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/distribution-evidence/ktw-linux-negative-execution.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/distribution-evidence/ktw-linux-negative-report.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/distribution-evidence/ktw-linux-negative-report.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/distribution-evidence/vc_redist-authenticode-root.txt",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/distribution-evidence/vc_redist-authenticode-root.txt",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/distribution-evidence/vc_redist.x64.provenance.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/distribution-evidence/vc_redist.x64.provenance.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/engine-provenance.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/engine-provenance.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/engine-setup.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/engine-setup.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/fuzz-v0.2.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/fuzz-v0.2.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/CPYTHON_3_13_16_LICENSE.txt",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/CPYTHON_3_13_16_LICENSE.txt",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/LEGACY_WINDOWS_0.3.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/LEGACY_WINDOWS_0.3.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/ONE_EXE_DISTRIBUTION_AUDIT.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/ONE_EXE_DISTRIBUTION_AUDIT.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/nsis-toolchain-lock.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/nsis-toolchain-lock.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/qa/INDEPENDENT_INSTALLER_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/qa/INDEPENDENT_INSTALLER_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/qa/SINGLE_EXE_ACCEPTANCE.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/qa/SINGLE_EXE_ACCEPTANCE.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/qa/analyzer-probe-results.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/qa/analyzer-probe-results.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/qa/environment-capabilities.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/qa/environment-capabilities.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/qa/game-module-unchanged.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/qa/game-module-unchanged.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/qa/powershell-installer-compatibility.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/qa/powershell-installer-compatibility.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/qa/powershell-qa-tool-provenance.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/qa/powershell-qa-tool-provenance.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/qa/worker-contract-tests.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/qa/worker-contract-tests.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/qa/worker-contract-tests.log",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/qa/worker-contract-tests.log",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/qa/worker-runtime-integration.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/qa/worker-runtime-integration.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/runtime-licensing-verification.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/runtime-licensing-verification.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/installer/runtime-reverification.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/installer/runtime-reverification.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/mod-compatibility-release28.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/mod-compatibility-release28.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/mod-source-inventory.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/mod-source-inventory.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/native-qa-v0.2.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/native-qa-v0.2.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/native-qa.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/native-qa.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/native-simulation-test.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/native-simulation-test.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/native-simulation-test.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/native-simulation-test.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/release-verification-v0.3.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/release-verification-v0.3.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/save-import-verification.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/save-import-verification.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/source-audit-mods.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/source-audit-mods.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/static-validation-v0.2.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/static-validation-v0.2.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/static-validation-v0.3.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/static-validation-v0.3.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/static-validation.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/static-validation.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/test-results-v0.2.tap",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/test-results-v0.2.tap",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/validator-self-test.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/validator-self-test.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/validator-self-tests-v0.3.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/validator-self-tests-v0.3.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/vendor_millennium_art.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/vendor_millennium_art.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/windows-acceptance-checklist.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/windows-acceptance-checklist.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/windows-bootstrap-validation.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/windows-bootstrap-validation.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/windows-launcher-build.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/windows-launcher-build.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/windows-powershell-parser.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/windows-powershell-parser.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/windows-runtime-extraction.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/windows-runtime-extraction.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: docs/windows-runtime-manifest.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: docs/windows-runtime-manifest.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/README.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/README.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/headless-battle-full.log.gz",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/headless-battle-full.log.gz",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/native-qa-results.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/native-qa-results.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/state-after-load.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/state-after-load.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/state-after-process-restart.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/state-after-process-restart.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/state-before-load.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/state-before-load.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/state-midbattle-after.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/state-midbattle-after.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/state-midbattle-before.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/state-midbattle-before.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/state-midbattle-resumed.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/state-midbattle-resumed.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/state-postbattle.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/state-postbattle.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/headless-samples.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/headless-samples.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/headless.log.gz",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/headless.log.gz",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/midbattle-after.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/midbattle-after.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/midbattle-before.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/midbattle-before.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/native-fixture/autostart/autostart.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/native-fixture/autostart/autostart.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/native-fixture/mod.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/native-fixture/mod.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/native-fixture/simulation/components/ZKtwTest.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/native-fixture/simulation/components/ZKtwTest.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/native-qa-results.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/native-qa-results.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/new-state.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/new-state.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/postbattle-after-restart.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/postbattle-after-restart.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/postbattle-state.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/postbattle-state.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/production-final-hashes.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/production-final-hashes.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/production-hashes.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/production-hashes.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/v01-midbattle-migrated.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/v01-midbattle-migrated.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: evidence/v0.2/v01-postbattle-migrated.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: evidence/v0.2/v01-postbattle-migrated.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: installer/windows/Bootstrap.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: installer/windows/Bootstrap.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: installer/windows/GameSetup.nsi",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: installer/windows/GameSetup.nsi",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: installer/windows/OFFLINE_QA.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: installer/windows/OFFLINE_QA.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: installer/windows/OfflineBootstrap.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: installer/windows/OfflineBootstrap.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: installer/windows/OfflineGameSetup.nsi",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: installer/windows/OfflineGameSetup.nsi",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: installer/windows/README.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: installer/windows/README.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: installer/windows/Uninstall-KTW.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: installer/windows/Uninstall-KTW.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: installer/windows/build_installer.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: installer/windows/build_installer.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: installer/windows/build_offline_qa.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: installer/windows/build_offline_qa.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: installer/windows/setup_worker.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: installer/windows/setup_worker.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: installer/windows/test_offline_build.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: installer/windows/test_offline_build.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: installer/windows/verify_offline_qa.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: installer/windows/verify_offline_qa.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/BOOTSTRAP.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/BOOTSTRAP.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/LICENSES/GCC-RUNTIME-NOTICES.txt",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/LICENSES/GCC-RUNTIME-NOTICES.txt",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/LICENSES/GCC-Runtime-Library-Exception-3.1.txt",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/LICENSES/GCC-Runtime-Library-Exception-3.1.txt",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/LICENSES/GPL-3.0.txt",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/LICENSES/GPL-3.0.txt",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/LICENSES/MinGW-w64-COPYRIGHT.txt",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/LICENSES/MinGW-w64-COPYRIGHT.txt",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/LICENSES/libstdc++-STL-NOTICES.txt",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/LICENSES/libstdc++-STL-NOTICES.txt",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/README.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/README.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/THIRD_PARTY_NOTICES.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/THIRD_PARTY_NOTICES.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/Test-Launcher.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/Test-Launcher.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/launcher.manifest",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/launcher.manifest",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/launcher.rc",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/launcher.rc",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/launcher_core.hpp",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/launcher_core.hpp",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/launcher_core_tests.cpp",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/launcher_core_tests.cpp",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/main.cpp",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/main.cpp",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: launcher/windows/toolchain-lock.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: launcher/windows/toolchain-lock.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/millennium/props/horse/cav_armor_umayyad_lamellar.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/millennium/props/horse/cav_armor_umayyad_lamellar.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/heads/xion_head.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/heads/xion_head.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/helmets/byza_archer_helmet_basic_iron.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/helmets/byza_archer_helmet_basic_iron.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/helmets/xion_cloth.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/helmets/xion_cloth.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/helmets/xion_hide.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/helmets/xion_hide.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/weapons/xion_arrow_front.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/weapons/xion_arrow_front.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/weapons/xion_bow.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/weapons/xion_bow.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/weapons/xion_quiver_cloth_cavalry_left.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/millennium/props/units/weapons/xion_quiver_cloth_cavalry_left.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/units/heavy_cavalry.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/units/heavy_cavalry.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/units/heavy_cavalry_rider.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/units/heavy_cavalry_rider.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/units/infantry_archer.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/units/infantry_archer.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/units/light_cavalry.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/units/light_cavalry.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/units/light_cavalry_rider.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/units/light_cavalry_rider.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/units/mounted_archer.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/units/mounted_archer.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/units/mounted_archer_rider.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/units/mounted_archer_rider.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/actors/ktw/units/spearman.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/actors/ktw/units/spearman.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/animation/ktw/millennium/mechanical/weap_xion_bow_attack.dae",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/animation/ktw/millennium/mechanical/weap_xion_bow_attack.dae",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/ktw-MILLENNIUM-LICENSE.txt",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/ktw-MILLENNIUM-LICENSE.txt",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/meshes/ktw/millennium/props/helmet/byza_archer_helmet_basic.dae",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/meshes/ktw/millennium/props/helmet/byza_archer_helmet_basic.dae",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/meshes/ktw/millennium/props/helmet/xion_cloth.dae",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/meshes/ktw/millennium/props/helmet/xion_cloth.dae",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/meshes/ktw/millennium/props/helmet/xion_hide.dae",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/meshes/ktw/millennium/props/helmet/xion_hide.dae",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/meshes/ktw/millennium/props/horse/cataphract_armor.dae",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/meshes/ktw/millennium/props/horse/cataphract_armor.dae",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/meshes/ktw/millennium/props/weap_xion_arrow_front.dae",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/meshes/ktw/millennium/props/weap_xion_arrow_front.dae",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/meshes/ktw/millennium/props/weap_xion_bow.dae",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/meshes/ktw/millennium/props/weap_xion_bow.dae",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/meshes/ktw/millennium/props/weap_xion_quiver_cloth_cavalry_left.dae",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/meshes/ktw/millennium/props/weap_xion_quiver_cloth_cavalry_left.dae",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/meshes/ktw/millennium/skeletal/new/m_armor_nomad_a.dae",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/meshes/ktw/millennium/skeletal/new/m_armor_nomad_a.dae",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/skeletons/ktw_millennium_bow.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/skeletons/ktw_millennium_bow.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/head/chin_b.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/head/chin_b.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/head/xion_b.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/head/xion_b.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_iron.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_iron.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_norm.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_norm.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_spec.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_spec.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar2.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar2.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_norm.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_norm.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_spec.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_spec.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic_b.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic_b.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic_norm.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic_norm.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_spec.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_spec.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_a.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_a.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_b.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_b.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_c.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_c.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_norm.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_norm.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_spec.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_spec.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/art/textures/skins/ktw/millennium/structural/xion_structure.png",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/art/textures/skins/ktw/millennium/structural/xion_structure.png",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/config/kazakh_total_war.cfg",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/config/kazakh_total_war.cfg",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/gui/common/ktw.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/gui/common/ktw.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/gui/ktw/data.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/gui/ktw/data.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/gui/ktw/information.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/gui/ktw/information.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/gui/ktw/information.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/gui/ktw/information.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/gui/ktw/mainmenu.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/gui/ktw/mainmenu.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/gui/ktw/mainmenu.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/gui/ktw/mainmenu.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/gui/page_ktw_information.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/gui/page_ktw_information.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/gui/page_pregame.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/gui/page_pregame.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/gui/session/ktw.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/gui/session/ktw.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/gui/session/session_objects/ktw.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/gui/session/session_objects/ktw.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/maps/random/ktw_battle.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/maps/random/ktw_battle.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/maps/random/ktw_battle.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/maps/random/ktw_battle.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/maps/random/ktw_campaign.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/maps/random/ktw_campaign.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/maps/random/ktw_campaign.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/maps/random/ktw_campaign.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/maps/random/ktw_terrain/locations.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/maps/random/ktw_terrain/locations.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/maps/random/ktw_terrain/terrain.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/maps/random/ktw_terrain/terrain.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/mod.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/mod.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/components/KtwController.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/components/KtwController.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/components/interfaces/KtwController.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/components/interfaces/KtwController.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/helpers/KtwBattleBridge.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/helpers/KtwBattleBridge.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/helpers/KtwCampaign.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/helpers/KtwCampaign.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/helpers/KtwCommands.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/helpers/KtwCommands.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/helpers/KtwPolitics.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/helpers/KtwPolitics.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/helpers/KtwSaveSystem.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/helpers/KtwSaveSystem.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/templates/structures/ktw/settlement.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/templates/structures/ktw/settlement.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/templates/units/ktw/army_marker.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/templates/units/ktw/army_marker.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/templates/units/ktw/heavy_cavalry.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/templates/units/ktw/heavy_cavalry.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/templates/units/ktw/infantry_archer.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/templates/units/ktw/infantry_archer.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/templates/units/ktw/light_cavalry.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/templates/units/ktw/light_cavalry.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/templates/units/ktw/mounted_archer.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/templates/units/ktw/mounted_archer.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: mods/kazakh_total_war/simulation/templates/units/ktw/spearman.xml",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: mods/kazakh_total_war/simulation/templates/units/ktw/spearman.xml",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: research/CHARACTER_MODEL_NOTES.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: research/CHARACTER_MODEL_NOTES.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: research/HISTORY_NOTES.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: research/HISTORY_NOTES.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: research/build_research.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: research/build_research.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: research/campaign_1465.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: research/campaign_1465.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/bridge_save.test.cjs",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/bridge_save.test.cjs",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/campaign.test.cjs",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/campaign.test.cjs",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/controller.test.cjs",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/controller.test.cjs",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/fixtures/README.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/fixtures/README.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/fixtures/v1_completed.campaign.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/fixtures/v1_completed.campaign.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/fixtures/v1_pending.campaign.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/fixtures/v1_pending.campaign.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/gui.test.cjs",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/gui.test.cjs",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/installer/Check-InstallerPowerShell.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/installer/Check-InstallerPowerShell.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/installer/README.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/installer/README.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/installer/analyzer-probes/compatible.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/installer/analyzer-probes/compatible.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/installer/analyzer-probes/incompatible.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/installer/analyzer-probes/incompatible.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/installer/test_worker_contract.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/installer/test_worker_contract.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/installer/verify_setup_payload.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/installer/verify_setup_payload.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/native_fixture/README.md",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/native_fixture/README.md",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/native_fixture/fixture-integrity.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/native_fixture/fixture-integrity.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/native_fixture/ktw_test/autostart/autostart.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/native_fixture/ktw_test/autostart/autostart.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/native_fixture/ktw_test/mod.json",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/native_fixture/ktw_test/mod.json",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/native_fixture/ktw_test/simulation/components/ZKtwTest.js",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/native_fixture/ktw_test/simulation/components/ZKtwTest.js",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/politics.test.cjs",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/politics.test.cjs",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/test_nsisbi_extractor.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/test_nsisbi_extractor.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/test_save_import.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/test_save_import.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tests/test_windows_packaging.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tests/test_windows_packaging.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/Import-LegacySaves.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/Import-LegacySaves.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/Install-Windows.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/Install-Windows.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/Install-WindowsRuntime.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/Install-WindowsRuntime.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/Launch-Linux.sh",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/Launch-Linux.sh",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/Test-Windows.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/Test-Windows.ps1",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/build_windows_launcher.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/build_windows_launcher.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/extract_r28_nsisbi.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/extract_r28_nsisbi.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/fuzz_campaign.cjs",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/fuzz_campaign.cjs",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/import_legacy_saves.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/import_legacy_saves.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/package.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/package.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/package_exe_release.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/package_exe_release.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/package_windows.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/package_windows.py",
+      "pass": true
+    },
+    {
+      "check": "Own file hash: tools/validate_project.py",
+      "pass": true
+    },
+    {
+      "check": "Own source bytes: tools/validate_project.py",
+      "pass": true
+    },
+    {
+      "check": "Exactly three offline components are embedded outside own payload",
+      "pass": true
+    },
+    {
+      "check": "Entire component bytes: 0ad-0.28.0-win64.exe",
+      "pass": true
+    },
+    {
+      "check": "Entire component bytes: python-3.13.16-embed-amd64.zip",
+      "pass": true
+    },
+    {
+      "check": "Entire component bytes: VC_redist.x64.exe",
+      "pass": true
+    },
+    {
+      "check": "Offline entry point contains no acquisition primitive: WebClient",
+      "pass": true
+    },
+    {
+      "check": "Offline entry point contains no acquisition primitive: Invoke-WebRequest",
+      "pass": true
+    },
+    {
+      "check": "Offline entry point contains no acquisition primitive: DownloadFile",
+      "pass": true
+    },
+    {
+      "check": "Offline entry point contains no acquisition primitive: Invoke-RestMethod",
+      "pass": true
+    },
+    {
+      "check": "Offline entry point contains no acquisition primitive: Start-BitsTransfer",
+      "pass": true
+    },
+    {
+      "check": "Offline entry point contains no acquisition primitive: Get-VerifiedFile",
+      "pass": true
+    },
+    {
+      "check": "Offline entry point contains no acquisition primitive: $installerUrl",
+      "pass": true
+    },
+    {
+      "check": "Offline entry point contains no acquisition primitive: $pythonUrl",
+      "pass": true
+    },
+    {
+      "check": "Offline entry point contains no acquisition primitive: $vcUrl",
+      "pass": true
+    },
+    {
+      "check": "Offline component failure stops installation",
+      "pass": true
+    },
+    {
+      "check": "Actual embedded worker independently verifies its own payload without copying component packages",
+      "pass": true
+    }
+  ],
+  "installer_bytes": 1655605051,
+  "installer_sha256": "ce2a1ecb29086cd55b7a950efc60dee486b51eb57768350d9602498e175d2f56",
+  "payload_files_verified": 241,
+  "component_files_verified": 3,
+  "pass": true
+}

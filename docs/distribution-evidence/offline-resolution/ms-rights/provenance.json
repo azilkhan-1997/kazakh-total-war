@@ -1,0 +1,17 @@
+{
+  "community": {
+    "url": "https://visualstudio.microsoft.com/wp-content/uploads/2025/10/Visual_Studio_2026-License-Community_ENU.docx",
+    "bytes": 69066,
+    "sha256": "02ac07637f4a513a807cd3721c7620433fc483bc049d25784b0c10c54b05e1fb"
+  },
+  "buildtools": {
+    "url": "https://visualstudio.microsoft.com/wp-content/uploads/2025/10/Visual_Studio_2026-License-Diagnostic_and_Build_Tools_ENU.docx",
+    "bytes": 44201,
+    "sha256": "ff03a242ec131e8353643612cdf58ae3d6cc9b51d7dce929351d140ba24a8b83"
+  },
+  "redist": {
+    "url": "https://visualstudio.microsoft.com/wp-content/uploads/2025/10/Visual-C-V14-License-Redistributable_and_Runtime_ENU.docx",
+    "bytes": 39553,
+    "sha256": "08651651a7602fc7c0e2763de0fde1ff9f868df2780597cd1775ee9d6441c783"
+  }
+}

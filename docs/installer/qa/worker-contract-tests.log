@@ -1,0 +1,21 @@
+test_case_collision_manifest_rejected (workerqa.InstallTransactionContract.test_case_collision_manifest_rejected) ... ok
+test_cleanup_does_not_follow_child_symlink (workerqa.InstallTransactionContract.test_cleanup_does_not_follow_child_symlink) ... ok
+test_complete_stage_published_by_rename (workerqa.InstallTransactionContract.test_complete_stage_published_by_rename) ... ok
+test_destination_race_preserves_new_user_file (workerqa.InstallTransactionContract.test_destination_race_preserves_new_user_file) ... ok
+test_equal_size_payload_tampering_is_rejected (workerqa.InstallTransactionContract.test_equal_size_payload_tampering_is_rejected) ... ok
+test_existing_game_is_never_overwritten (workerqa.InstallTransactionContract.test_existing_game_is_never_overwritten) ... ok
+test_hashing_honors_interrupted_setup (workerqa.InstallTransactionContract.test_hashing_honors_interrupted_setup) ... ok
+test_linked_destination_ancestor_rejected (workerqa.InstallTransactionContract.test_linked_destination_ancestor_rejected) ... ok
+test_missing_tree_file_is_rejected (workerqa.InstallTransactionContract.test_missing_tree_file_is_rejected) ... ok
+test_owned_staging_cleanup_preserves_other_data (workerqa.InstallTransactionContract.test_owned_staging_cleanup_preserves_other_data) ... ok
+test_path_escape_and_windows_stream_syntax_rejected (workerqa.InstallTransactionContract.test_path_escape_and_windows_stream_syntax_rejected) ... ok
+test_rename_failure_restores_preexisting_empty_target (workerqa.InstallTransactionContract.test_rename_failure_restores_preexisting_empty_target) ... ok
+test_symlink_destination_rejected (workerqa.InstallTransactionContract.test_symlink_destination_rejected) ... ok
+test_symlink_in_payload_is_rejected (workerqa.InstallTransactionContract.test_symlink_in_payload_is_rejected) ... ok
+test_unexpected_tree_file_is_rejected (workerqa.InstallTransactionContract.test_unexpected_tree_file_is_rejected) ... ok
+test_unowned_staging_cleanup_rejected (workerqa.InstallTransactionContract.test_unowned_staging_cleanup_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.007s
+
+OK

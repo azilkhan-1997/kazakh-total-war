@@ -1,0 +1,708 @@
+{
+  "schemaVersion": 1,
+  "startedUtc": "2026-11-07T23:46:14.1233550Z",
+  "purpose": "File integrity and launcher preflight; does not execute Pyrogenesis or prove gameplay.",
+  "root": "/workspace/scratch/a712cf7eed58/upstream/windows-runtime/powershell-qa/ktw-windows-preflight-negative-t585fijf",
+  "environment": {
+    "platform": "Unix",
+    "osVersion": "Unix 6.18.57.0",
+    "is64BitOperatingSystem": true,
+    "is64BitProcess": true,
+    "powershellVersion": "7.4.13",
+    "processorArchitecture": null,
+    "windows": null,
+    "processors": [],
+    "graphicsAdapters": [],
+    "inventoryErrors": []
+  },
+  "release": {
+    "releaseVersion": "qa",
+    "moduleVersion": "0.2.0",
+    "engineVersion": "0.28.0",
+    "sourceRevision": "fixture-only",
+    "deliveryType": "bootstrap",
+    "buildManifestSha256": "f3df3259cd6d0413fc545d5ca933f6753c3ca6c58e5b2bca3ae8cab3c9972d64"
+  },
+  "checks": [
+    {
+      "id": "windows_x64_host",
+      "status": "fail",
+      "details": "Run this harness on AMD64 Windows 10/11. ARM64/emulation and Linux/Wine are not target native Windows acceptance."
+    },
+    {
+      "id": "bundle_manifest_files",
+      "status": "pass",
+      "details": {
+        "expected": 4,
+        "verified": 4,
+        "failures": []
+      }
+    },
+    {
+      "id": "official_runtime_files",
+      "status": "fail",
+      "details": {
+        "expected": 140,
+        "verified": 0,
+        "failures": [
+          {
+            "path": "license_dbghelp.txt",
+            "error": "File missing."
+          },
+          {
+            "path": "license_gpl-2.0.txt",
+            "error": "File missing."
+          },
+          {
+            "path": "license_lgpl-2.1.txt",
+            "error": "File missing."
+          },
+          {
+            "path": "license_mit.txt",
+            "error": "File missing."
+          },
+          {
+            "path": "OpenLogsFolder.bat",
+            "error": "File missing."
+          },
+          {
+            "path": "OpenLogsFolder.vbs",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/config/default.cfg",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/config/keys.txt",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/ca.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/cs.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/de.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/el.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/en_GB.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/engine.pot",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/es.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/eu.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/fi.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/fr.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/gl.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/hu.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/id.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/it.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/ja.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/ko.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/messages.json",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/nl.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/pl.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/pt_BR.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/pt_PT.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/ru.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/sk.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/sv.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/tr.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/uk.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/vi.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/zh.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/zh_TW.engine.po",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/l10n/.tx/config",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/help.json",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/lists.xml",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/buttons/next_s.bmp",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/buttons/pause_s.bmp",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/buttons/play_s.bmp",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/buttons/previous_s.bmp",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/buttons/record_s.bmp",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/buttons/stop_s.bmp",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/icons/ScenarioEditor.ico",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/alterelevation.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/alterelevation_s.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/cinematic.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/default.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/default_s.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/environment.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/flattenelevation.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/flattenelevation_s.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/map.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/mapsettings.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/moveobject.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/moveobject_s.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/movepath.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/object.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/objects.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/paintterrain.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/paintterrain_s.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/player.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/redo.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/smoothelevation.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/terrain.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/trigger.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/tools/atlas/toolbar/undo.png",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/AtlasUI.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/Collada.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/FCollada.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/OpenAL32.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/SDL2.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/concrt140.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/dbgcore.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/dbghelp.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/enet.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/freetype.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/gloox-1.0.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/icudt77.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/icuin77.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/icuio77.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/icutu77.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/icuuc77.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/libcurl.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/libiconv.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/libpng16.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/libsodium.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/libxml2.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/miniupnpc.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/mozjs128-release.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/msvcp140.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/nvcore.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/nvimage.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/nvmath.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/nvtt.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/ogg.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/vcruntime140.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/vorbis.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/vorbisenc.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/vorbisfile.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/zlib1.dll",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/ActorEditor.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/AtlasObject.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/AtlasUI.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/Collada.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/FCollada.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/atlas.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/dapinterface.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/engine.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/gladwrapper.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/gloox-1.0.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/graphics.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/gui.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/libcurl.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/libsodium.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/lobby.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/lowlevel.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/mocks_real.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/mongoose.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/mozjs128-release.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/network.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/nvtt.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/pyrogenesis.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/rlinterface.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/scriptinterface.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/simulation2.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/tinygettext.pdb",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/ActorEditor.exe",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/pyrogenesis.exe",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/Atlas.bat",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/Quickstart.bat",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/get-nightly-binaries.bat",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/system/readme.txt",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/logs/readme.txt",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/mods/mod/mod.zip",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/mods/public/mod.json",
+            "error": "File missing."
+          },
+          {
+            "path": "binaries/data/mods/public/public.zip",
+            "error": "File missing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "installed_ktw_module_files",
+      "status": "fail",
+      "details": {
+        "expected": 1,
+        "verified": 0,
+        "failures": [
+          {
+            "path": "mod.json",
+            "error": "File missing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "launcher_check",
+      "status": "skipped",
+      "details": "Requires native Windows and successful bundle integrity check."
+    }
+  ],
+  "interactiveAcceptance": [
+    {
+      "id": "menu_ru_kk",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "campaign_movement_recruitment_turn",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "campaign_to_tactical_battle",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "mounted_archery_and_unit_commands",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "natural_victory_defeat",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "battle_to_campaign_casualties",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "commander_death_and_succession",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "manual_save_restart_load",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "midbattle_save_restart_load",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "legacy_save_import",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "spaces_and_kazakh_path",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "offline_launch",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "audio",
+      "status": "not_tested",
+      "evidence": null
+    },
+    {
+      "id": "hardware_performance",
+      "status": "not_tested",
+      "evidence": null
+    }
+  ],
+  "gameplayTested": false,
+  "nativeEngineExecutionTested": false,
+  "steamAcceptance": "not_tested",
+  "result": "preflight_failed",
+  "finishedUtc": "2026-11-07T23:46:14.5413574Z"
+}

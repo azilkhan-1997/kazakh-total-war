@@ -1,0 +1,45 @@
+{
+  "powershellVersion": "7.4.13",
+  "platform": "Unix",
+  "operation": "Parser.ParseFile only; target scripts were not executed",
+  "nativeWindowsExecution": false,
+  "windowsPowerShell51Execution": false,
+  "files": [
+    {
+      "path": "tools/Install-WindowsRuntime.ps1",
+      "sha256": "474167cf71f82623bc2a280f152f59e1d41832444119f328955b53a69551893c",
+      "tokens": 1308,
+      "parseErrors": [],
+      "post51SyntaxAst": [],
+      "post51TokenKinds": [],
+      "nonAsciiBytes": 0
+    },
+    {
+      "path": "tools/Import-LegacySaves.ps1",
+      "sha256": "ab2ceae9429c8ffa8da6b13d02620029b08dc8b11cb12ea86de2d05e6be80a1e",
+      "tokens": 163,
+      "parseErrors": [],
+      "post51SyntaxAst": [],
+      "post51TokenKinds": [],
+      "nonAsciiBytes": 0
+    },
+    {
+      "path": "tools/Test-Windows.ps1",
+      "sha256": "4d869f960f6bc2c1298ef23e2cd21ff420641cf55e508af3d12d8f9f83783b80",
+      "tokens": 2376,
+      "parseErrors": [],
+      "post51SyntaxAst": [],
+      "post51TokenKinds": [],
+      "nonAsciiBytes": 0
+    },
+    {
+      "path": "launcher/windows/Test-Launcher.ps1",
+      "sha256": "e26b627243566f7cec62b3c4c0e3b1ec5bd32b698308867aa156f71c5aa77391",
+      "tokens": 547,
+      "parseErrors": [],
+      "post51SyntaxAst": [],
+      "post51TokenKinds": [],
+      "nonAsciiBytes": 0
+    }
+  ]
+}

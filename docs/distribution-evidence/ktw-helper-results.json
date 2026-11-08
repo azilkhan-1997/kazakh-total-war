@@ -1,0 +1,62 @@
+[
+  {
+    "test": "legal internal spaces",
+    "pass": true
+  },
+  {
+    "test": "reject ../escape",
+    "pass": true
+  },
+  {
+    "test": "reject /absolute",
+    "pass": true
+  },
+  {
+    "test": "reject C:/absolute",
+    "pass": true
+  },
+  {
+    "test": "reject sub//file",
+    "pass": true
+  },
+  {
+    "test": "reject sub/./file",
+    "pass": true
+  },
+  {
+    "test": "reject sub/../file",
+    "pass": true
+  },
+  {
+    "test": "reject bad:name",
+    "pass": true
+  },
+  {
+    "test": "reject bad?name",
+    "pass": true
+  },
+  {
+    "test": "reject CON.txt",
+    "pass": true
+  },
+  {
+    "test": "reject file.",
+    "pass": true
+  },
+  {
+    "test": "valid length and SHA256",
+    "pass": true
+  },
+  {
+    "test": "equal-size tamper detected",
+    "pass": true
+  },
+  {
+    "test": "duplicate path rejected",
+    "pass": true
+  },
+  {
+    "test": "report reparse ancestor rejected",
+    "pass": true
+  }
+]

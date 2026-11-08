@@ -1,0 +1,24 @@
+{
+  "host": "Ubuntu 24.04.3 LTS",
+  "powershell_version": "7.4.22",
+  "analyzer_version": "1.25.0",
+  "target_syntax": "5.1",
+  "target_api_profile": "win-48_x64_10.0.17763.0_5.1.17763.316_x64_4.0.30319.42000_framework",
+  "files": [
+    {
+      "path": "/workspace/scratch/a712cf7eed58/exe_release/game/installer/windows/Bootstrap.ps1",
+      "sha256": "7b0750fafdad6c0ae5f3e353a075931ac81d9252208d6651f93ec6709fabe8ca",
+      "parse_errors": [],
+      "compatibility_diagnostics": []
+    },
+    {
+      "path": "/workspace/scratch/a712cf7eed58/exe_release/game/installer/windows/Uninstall-KTW.ps1",
+      "sha256": "fd40d8bd2c85c4fccc9844d617ffb513fe5ab16f01637c96ffd2d87f61991030",
+      "parse_errors": [],
+      "compatibility_diagnostics": []
+    }
+  ],
+  "pass": true,
+  "native_windows_execution": "NOT TESTED",
+  "scope": "Parser and static compatibility analysis on Linux. No Windows commands, installation, UAC, GUI, or game were executed."
+}

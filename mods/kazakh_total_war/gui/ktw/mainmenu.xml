@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+ <script directory="gui/common/"/><script file="gui/ktw/mainmenu.js"/>
+ <object type="image" sprite="color:13 20 29 255"/>
+ <object type="image" size="0 0 100% 5" sprite="color:191 157 88 255"/>
+ <object type="image" size="62% 0 100% 100%" sprite="color:26 34 43 255"/>
+ <object type="image" size="62% 0 62%+1 100%" sprite="color:136 117 76 100"/>
+ <object type="text" size="6% 6% 90% 6%+28" font="sans-bold-14" textcolor="194 162 100">S A Y R A M   P L A N E T A   H O L D I N G</object>
+ <object type="text" size="6% 17% 95% 17%+74" font="sans-bold-24" textcolor="242 233 212">K A Z A K H   T O T A L   W A R</object>
+ <object type="text" size="6% 17%+63 90% 17%+100" font="sans-bold-20" textcolor="203 173 111">LEGACY OF THE STEPPE</object>
+ <object name="ktwMenuSlogan" type="text" size="6% 31% 58% 31%+70" font="sans-16" textcolor="201 205 195"/>
+ <object name="ktwContinue" type="button" size="6% 43% 42% 43%+46" style="StoneButton" font="sans-bold-16" textcolor="242 233 212"><action on="Press">ktwContinue();</action></object>
+ <object name="ktwNew" type="button" size="6% 43%+56 42% 43%+102" style="StoneButton" font="sans-bold-16" textcolor="242 233 212"><action on="Press">ktwNewCampaign();</action></object>
+ <object name="ktwLoad" type="button" size="6% 43%+112 42% 43%+158" style="StoneButton" font="sans-bold-16"><action on="Press">ktwLoadGame(false);</action></object>
+ <object name="ktwSettings" type="button" size="6% 43%+168 23.5% 43%+208" style="StoneButton" font="sans-bold-14"><action on="Press">ktwOpenOptions();</action></object>
+ <object name="ktwHotkeys" type="button" size="24.5% 43%+168 42% 43%+208" style="StoneButton" font="sans-bold-14"><action on="Press">ktwOpenHotkeys();</action></object>
+ <object name="ktwCredits" type="button" size="6% 43%+218 42% 43%+258" style="StoneButton" font="sans-bold-14"><action on="Press">ktwOpenCredits();</action></object>
+ <object name="ktwQuit" type="button" size="6% 43%+268 42% 43%+308" style="StoneButton" font="sans-bold-14"><action on="Press">Engine.Exit();</action></object>
+ <object type="text" size="68% 37% 94% 37%+60" font="sans-bold-24" textcolor="201 173 112">1465</object>
+ <object name="ktwMenuStats" type="text" size="68% 37%+70 94% 80%" font="sans-16" textcolor="214 216 203"/>
+ <object name="ktwMenuNotice" type="text" size="6% 89% 94% 99%" font="sans-12" textcolor="161 167 155"/>
+ <object name="ktwLangkk" type="button" size="100%-232 22 100%-164 56" style="StoneButton" font="sans-bold-14"><action on="Press">ktwSetLanguage('kk');</action></object>
+ <object name="ktwLangru" type="button" size="100%-156 22 100%-88 56" style="StoneButton" font="sans-bold-14"><action on="Press">ktwSetLanguage('ru');</action></object>
+ <object name="ktwLangen" type="button" size="100%-80 22 100%-12 56" style="StoneButton" font="sans-bold-14"><action on="Press">ktwSetLanguage('en');</action></object>
+ <object name="ktwMenuError" type="text" size="46% 80% 94% 87%" font="sans-12" textcolor="242 161 136"/>
+</objects>

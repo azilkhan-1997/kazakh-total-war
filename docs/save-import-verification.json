@@ -1,0 +1,30 @@
+{
+  "platform": "Linux x64",
+  "native_windows_api_tested": false,
+  "actual_native_save_archives": [
+    {
+      "source": "evidence/saves/ktw_midbattle_test.0adsave",
+      "sha256": "ea11c49b6bcbf4ddb1cea975ea670c9905387d3048479d52ad8683e7fb9a0019",
+      "first": "imported",
+      "repeat": "already_present"
+    },
+    {
+      "source": "evidence/saves/ktw_postbattle_test.0adsave",
+      "sha256": "92b17e60634cf20d6aa034c2de8e642157a5837f6b9e74d063c516d3989a13b3",
+      "first": "imported",
+      "repeat": "already_present"
+    },
+    {
+      "source": "evidence/v0.2/saves/ktw_v02_midbattle.0adsave",
+      "sha256": "1471d8b82012451a163a553e23c553a8dbf8a8dec24edd82bb552ac2d5870c3d",
+      "first": "imported",
+      "repeat": "already_present"
+    },
+    {
+      "source": "evidence/v0.2/saves/ktw_v02_postbattle.0adsave",
+      "sha256": "fed29c82a0111606e28a431d308e16ec193779de0d9afd93345d68cad1bbb599",
+      "first": "imported",
+      "repeat": "already_present"
+    }
+  ]
+}

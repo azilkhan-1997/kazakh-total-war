@@ -1,0 +1,43 @@
+{
+  "review": "Independent source texture importer QA",
+  "status": "PASS_WITH_EXECUTION_SCOPE_LIMITS",
+  "scope": "Exact 19 pinned Millennium PNG source assets only. No gzip logs, runtime packages, source archive, EXE/DLL, installer or website changes.",
+  "source_sha256": {
+    ".github/workflows/import-release-source.yml": "7fc355f07dd7b1f272b244a68d0432530b6e3ddaaa118c74d4d51f9ae115643c",
+    "build/source_import/import_source.py": "fa4bdab9294de8f913edf34035044836f63d9be225d80eae16ffb74881ff06cf",
+    "build/source_import/test_source_import.py": "ad0e7d922315d140f323e1c2969f92dac2372785848b60eee70e0249f744b302",
+    "build/source_import/README.md": "0544004dfa674ed7dc55d84b5d8fbd25d9038c7c1b242c57b09cba175cab6590"
+  },
+  "baseline_portable_tests": 17,
+  "independent_targeted_tests": 10,
+  "all_tests_pass": true,
+  "checks": [
+    "Exact fixed 19-path allowlist with byte/SHA and pinned source revision cross-checks against two provenance records",
+    "Original license SHA and module notices verified before input acquisition/write",
+    "All 20 downloads (license +19 PNG) verified in memory before any destination write",
+    "Existing file conflicts and symlink ancestors rejected; repeated import does not refetch or rewrite",
+    "Explicit staged PNG additions and exact Git blob hashes; extra files, modifications and changed staged bytes rejected",
+    "Remote tip checked before writes, before commit and before non-force push",
+    "Remote races independently tested after prefetch, after staging and after commit; no network push executed",
+    "Workflow restricted to fixed repository main branch, exact event SHA and pinned checkout action; narrow workflow push path prevents self-trigger",
+    "Git credential header exists only in final push environment, never source or command URL"
+  ],
+  "resolved_issue": {
+    "description": "Pinned checkout action uses HTTPS origin without .git, while initial importer only accepted .git form",
+    "status": "Fixed in reviewed source: accepts exactly the two canonical HTTPS origins; foreign repository/host/credential URL rejected by regression tests",
+    "upstream_source_checked": "https://raw.githubusercontent.com/actions/checkout/11bd71901bbe5b1630ceea73d27597364c9af683/src/url-helper.ts"
+  },
+  "real_network_publication": false,
+  "github_repository_writes": false,
+  "workflow_executed": false,
+  "own_source_edits": false,
+  "upstream_fetch_scope": "Only read pinned checkout source to verify origin format. Importer fetches mocked in this independent QA; parent separately verifies real pinned artwork downloads.",
+  "remaining_limitations": [
+    "This review does not assert the actual GitHub Actions run or authenticated push succeeded.",
+    "It does not clear full-runtime redistribution or test Windows game execution."
+  ],
+  "evidence": [
+    "/tmp/source-import-independent-targeted-tests.json",
+    "/tmp/source_import_independent_tests.py"
+  ]
+}

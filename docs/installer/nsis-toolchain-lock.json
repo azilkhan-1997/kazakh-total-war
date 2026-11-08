@@ -1,0 +1,18 @@
+{
+  "version": "3.09-4ubuntu1",
+  "source": "Ubuntu noble official packages; exact apt signed-index entries inspected locally",
+  "packages": [
+    {
+      "name": "nsis_3.09-4ubuntu1_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/n/nsis/nsis_3.09-4ubuntu1_amd64.deb",
+      "bytes": 319510,
+      "sha256": "9e061bef1a8b611aeb2ea76d9a3bd7722b960ca1a9dff8e38d2ab51e5a8f5e5b"
+    },
+    {
+      "name": "nsis-common_3.09-4ubuntu1_all.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/n/nsis/nsis-common_3.09-4ubuntu1_all.deb",
+      "bytes": 968106,
+      "sha256": "49471b9debdee4751ebb4caf6b705cc4c678eebfaecefbe56362258893f85859"
+    }
+  ]
+}

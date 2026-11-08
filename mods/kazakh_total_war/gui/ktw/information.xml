@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+ <script directory="gui/common/"/><script file="gui/ktw/information.js"/>
+ <object type="image" sprite="color:0 0 0 190"/>
+ <object type="image" size="50%-395 8% 50%+395 92%" sprite="color:16 24 34 255">
+  <object type="image" size="0 0 100% 3" sprite="color:187 152 86 255"/>
+  <object name="ktwInfoTitle" type="text" size="25 18 100%-25 64" font="sans-bold-20" textcolor="228 201 153"/>
+  <object name="ktwInfoBody" type="text" size="25 77 100%-25 100%-72" font="sans-16" textcolor="218 219 212" scrollbar="true" scrollbar_style="ModernScrollBar" buffer_zone="8"/>
+  <object name="ktwInfoClose" type="button" size="100%-198 100%-58 100%-25 100%-20" style="StoneButton" font="sans-bold-14" hotkey="cancel"></object>
+ </object>
+</objects>

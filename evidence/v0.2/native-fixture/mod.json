@@ -1,0 +1,1 @@
+{"name": "ktw_qa_v02", "version": "0.2", "label": "KTW v0.2 isolated native acceptance fixture", "dependencies": ["0ad=0.28.0", "kazakh_total_war"]}

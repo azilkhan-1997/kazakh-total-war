@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: GPL-2.0-or-later; original gameplay template. Art attribution in THIRD_PARTY_NOTICES. -->
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Identity><Civ>pers</Civ><Lang>persian</Lang><GenericName>Steppe Spearman</GenericName><SelectionGroupName>units/ktw/spearman</SelectionGroupName><Icon>units/pers/infantry_spearman.png</Icon></Identity>
+  <Health><Max>105</Max></Health>
+  <Resistance><Entity><Damage><Hack>4</Hack><Pierce>3</Pierce><Crush>5</Crush></Damage></Entity></Resistance>
+  <UnitMotion><WalkSpeed>8</WalkSpeed></UnitMotion>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <ResourceDropsite disable=""/>
+  <Builder disable=""/>
+  <VisualActor><Actor>ktw/units/spearman.xml</Actor></VisualActor>
+</Entity>

@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-11-08T02:52:44.472413+00:00",
+  "host": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "tools_on_path": {
+    "makensis": null,
+    "7z": null,
+    "wine": null,
+    "wine64": null,
+    "wineserver": null,
+    "x86_64-w64-mingw32-g++": null,
+    "x86_64-w64-mingw32-gcc": null,
+    "clang": null,
+    "clang-cl": null,
+    "g++": "/usr/bin/g++",
+    "dotnet": null,
+    "qemu-system-x86_64": null,
+    "Xvfb": null,
+    "xvfb-run": null,
+    "pwsh": null,
+    "powershell": null,
+    "git": "/usr/local/bin/git",
+    "cmake": null,
+    "ninja": null,
+    "osslsigncode": null
+  },
+  "native_windows_execution_available": false,
+  "native_windows_acceptance": "NOT TESTED",
+  "wine_prior_result": "Prior archived test: wineserver AF_UNIX socket creation denied before Windows command execution. Restriction not bypassed or reattempted.",
+  "wine_evidence": "docs/WINE_TEST_ENV.md in original source release",
+  "available_verification": [
+    "Host C++ portable logic tests",
+    "Python pure-logic/extraction/transaction tests",
+    "Static PE/import/header inspection with restored pinned tools",
+    "Installer compilation with locally extracted official NSIS packages if obtained",
+    "Payload path,license,hash,CRC and archive-closure checks"
+  ],
+  "unavailable_observed": [
+    "NativeWindows10/11GUI session",
+    "NativePowerShell5.1",
+    "Existing identified Windows CIrunner for this project",
+    "Working permittedWine session",
+    "GPU/hardwareperformance profiling"
+  ],
+  "remote_tools_scope": "Discovered GitHub Actions existing-job/run read/retry tools; no accessible Windows execution target was identified. No runner was provisioned, no remote execution requested, and no charges incurred.",
+  "additional_qa_tools": {
+    "powershell": "7.4.22 official Linux portable runtime, executed successfully",
+    "PSScriptAnalyzer": "1.25.0 official release module, loaded successfully",
+    "provenance": "powershell-qa-tool-provenance.json",
+    "scope": "Build/QA only; not in the game installer; not native Windows"
+  }
+}

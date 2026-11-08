@@ -1,0 +1,10 @@
+{
+  "sourceLogSha256": "0b6e995713c89362de454b085d9f9cfe151b419b89dfd60d1fb0db7bb547e6cf",
+  "sourceLogBytes": 36629512,
+  "excerptBytes": 18820,
+  "fixture": {
+    "autostart/autostart.js": "2f3a05b256aedec083a433731b352af0e0a3dedfdf88aa5aeb415548de225ce4",
+    "mod.json": "da8a10f55ddd66d77ff9cac773d859673f7cc22d319141cda22198bf3abb470a",
+    "simulation/components/ZKtwTest.js": "9c582fea4c8fde2e75dfc63edd5c27c4f8e6571e1f270f4d7b90e97314af78a4"
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "source_revision": "50b0105103b36d31ccff4115408c21852938e4b0",
+  "module": "mods/kazakh_total_war",
+  "tracked_files": 78,
+  "actual_files": 78,
+  "all_bytes_unchanged": true,
+  "unexpected_files": [],
+  "missing_files": [],
+  "pass": true,
+  "files": [
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/horse/cav_armor_umayyad_lamellar.xml",
+      "bytes": 1612,
+      "source_git_blob": "e6a4f968ebc73a60670df49408f89ab23e10ed0f",
+      "actual_git_blob": "e6a4f968ebc73a60670df49408f89ab23e10ed0f",
+      "sha256": "656b5b841f42c99a0376a09af522455ec5c2139b909548501f1b31ab30ba2d6a",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/heads/xion_head.xml",
+      "bytes": 1424,
+      "source_git_blob": "4f11d69e9c52fb812c4f938d58f6ce29e5b20e66",
+      "actual_git_blob": "4f11d69e9c52fb812c4f938d58f6ce29e5b20e66",
+      "sha256": "05eb98806a2185ed48dbed49afc995c5e0d1ca89f3638bf4681793bab85609e6",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/helmets/byza_archer_helmet_basic_iron.xml",
+      "bytes": 718,
+      "source_git_blob": "b65bd0a79aa58d58396358991611cc576ad3fcee",
+      "actual_git_blob": "b65bd0a79aa58d58396358991611cc576ad3fcee",
+      "sha256": "0809c031960d902cc29d703c9fe2fe42a93a348ab76ce0a40900f56953c9e1a5",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/helmets/xion_cloth.xml",
+      "bytes": 1841,
+      "source_git_blob": "5cb2c73b9e8d670b3ac0d93dac3fa07302954788",
+      "actual_git_blob": "5cb2c73b9e8d670b3ac0d93dac3fa07302954788",
+      "sha256": "889f948bc8601f6b54496c16f11bbe347966bfbedcd3ce569ca59564eb3e7ada",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/helmets/xion_hide.xml",
+      "bytes": 1550,
+      "source_git_blob": "693fb2523695a7fc611dcf5d241f5d240281a3be",
+      "actual_git_blob": "693fb2523695a7fc611dcf5d241f5d240281a3be",
+      "sha256": "db077c46172e4f6f59a646bf7ba1bfdac0df3c7591db14ba148aab3890c83c28",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/weapons/xion_arrow_front.xml",
+      "bytes": 488,
+      "source_git_blob": "3b3aa8f62a065ca2af7f207b1f1116c591c7bde9",
+      "actual_git_blob": "3b3aa8f62a065ca2af7f207b1f1116c591c7bde9",
+      "sha256": "de143cf5d0b09eff0b5b29361f74ce13032f4af3cfbc785a378f53459b06353e",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/weapons/xion_bow.xml",
+      "bytes": 692,
+      "source_git_blob": "b9fac85dc6895a585e82a88bcdd1896b0ab88afa",
+      "actual_git_blob": "b9fac85dc6895a585e82a88bcdd1896b0ab88afa",
+      "sha256": "47ddc160e151b9c7668264f15170dc4e8344f92e3b1d946d844ae9983d8d2649",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/weapons/xion_quiver_cloth_cavalry_left.xml",
+      "bytes": 2086,
+      "source_git_blob": "9973187977686f2122f38fa578b65407dd9d6107",
+      "actual_git_blob": "9973187977686f2122f38fa578b65407dd9d6107",
+      "sha256": "9c9cc7e2af8c8afd757fd5bcb9b683299b5a67a5009231cb55c2d390c7102893",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/heavy_cavalry.xml",
+      "bytes": 1352,
+      "source_git_blob": "860fdbbab973558646c3ed11fd47e564b92e9b6e",
+      "actual_git_blob": "860fdbbab973558646c3ed11fd47e564b92e9b6e",
+      "sha256": "188011a3a17a99ef2c1b72f4c87b5b0b8cfa6dac000ae53457f8bac29eaae5ae",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/heavy_cavalry_rider.xml",
+      "bytes": 2186,
+      "source_git_blob": "6d1dfa0e3d4ad9368568344181f3e03e06cb9c25",
+      "actual_git_blob": "6d1dfa0e3d4ad9368568344181f3e03e06cb9c25",
+      "sha256": "f15eed402704a0e00db45a4b77dfb6aad843a73c99b0a6300da268e8e54f3eab",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/infantry_archer.xml",
+      "bytes": 2385,
+      "source_git_blob": "5b41f59d0f575c66aa48a7a6cae8ffa31e9b5554",
+      "actual_git_blob": "5b41f59d0f575c66aa48a7a6cae8ffa31e9b5554",
+      "sha256": "230d62c9129d2f6f6b2ac1469d62f5b8dc62cf260931460d92862c8b1d39422c",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/light_cavalry.xml",
+      "bytes": 1250,
+      "source_git_blob": "8c512d20a5d3fdb032cd06a4a39f86f630ec886b",
+      "actual_git_blob": "8c512d20a5d3fdb032cd06a4a39f86f630ec886b",
+      "sha256": "4cf0d89b3edabafe1c95a1aef23a06b5f740fcc7c8e736d1d261b90b6d7b37e6",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/light_cavalry_rider.xml",
+      "bytes": 2147,
+      "source_git_blob": "cf6c462fbec685e5a85daa71282862bb6a037be0",
+      "actual_git_blob": "cf6c462fbec685e5a85daa71282862bb6a037be0",
+      "sha256": "01b820d906e34b25c4bed00135662e388fcc47863aee0f90b293ff4e3f681aac",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/mounted_archer.xml",
+      "bytes": 1255,
+      "source_git_blob": "976746b8eec4bdb9b647199d81ea2c8006a759ab",
+      "actual_git_blob": "976746b8eec4bdb9b647199d81ea2c8006a759ab",
+      "sha256": "2dfa0e881f5ce74008fae9529c9ebbc22c2e07450198e252157ab5d46bd4032e",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/mounted_archer_rider.xml",
+      "bytes": 2585,
+      "source_git_blob": "39667bdaae4dbd4c998cd035d1d66b49a894bb65",
+      "actual_git_blob": "39667bdaae4dbd4c998cd035d1d66b49a894bb65",
+      "sha256": "07eb3bc2125ac00dd9b6b6adf22915370adf8b1d5705f712467611260c6424ba",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/spearman.xml",
+      "bytes": 2124,
+      "source_git_blob": "17b620e301078818d8771566b0ada2dbc5f4c21e",
+      "actual_git_blob": "17b620e301078818d8771566b0ada2dbc5f4c21e",
+      "sha256": "9f14c5eaed34c6dbf5a8697e4003bf4317f49f40556bb58fbf4a51b2ae21dc45",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/animation/ktw/millennium/mechanical/weap_xion_bow_attack.dae",
+      "bytes": 68656,
+      "source_git_blob": "67d1c05ff28edec76c5f66499245693eed285376",
+      "actual_git_blob": "67d1c05ff28edec76c5f66499245693eed285376",
+      "sha256": "158b80fa7cfbfe35e44c401d33cd581133d17a2caaaf87f4c5e5b8eb183dd5ce",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/ktw-MILLENNIUM-LICENSE.txt",
+      "bytes": 1739,
+      "source_git_blob": "d0f7dde964a12a14025ab0503ab259ae921934ab",
+      "actual_git_blob": "d0f7dde964a12a14025ab0503ab259ae921934ab",
+      "sha256": "e025ade262b23791e55e527c3979e4574f0eb9ee57450e34a18b0964a733ad66",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/helmet/byza_archer_helmet_basic.dae",
+      "bytes": 19256,
+      "source_git_blob": "9068f4ee3a6693f8adbdc23eb201c1c0497a994a",
+      "actual_git_blob": "9068f4ee3a6693f8adbdc23eb201c1c0497a994a",
+      "sha256": "847e6689c7242c435052d0befae7c861172851efae5e367c1050e78e250e2866",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/helmet/xion_cloth.dae",
+      "bytes": 16775,
+      "source_git_blob": "66265806c5700fcd8d531d73d2afa1190036f18f",
+      "actual_git_blob": "66265806c5700fcd8d531d73d2afa1190036f18f",
+      "sha256": "8ab5a5c305269b456766058c8047af3b63e0e26be2b562988b19df4398477c58",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/helmet/xion_hide.dae",
+      "bytes": 23778,
+      "source_git_blob": "52983e3b5350a279daee140da48ebd1e9d698e0f",
+      "actual_git_blob": "52983e3b5350a279daee140da48ebd1e9d698e0f",
+      "sha256": "d6f392f1bea82b88e2cb720bac2dd76f6cf4db773270fcbc31e7cb8e5e3df830",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/horse/cataphract_armor.dae",
+      "bytes": 187370,
+      "source_git_blob": "025229a5cc036f27cb82d0ac81b5e7f471dc2e6b",
+      "actual_git_blob": "025229a5cc036f27cb82d0ac81b5e7f471dc2e6b",
+      "sha256": "3e9cdf2141d3fe429dd6f1cd8c6c103ce7d1793ee3c4b867de49ad43f1f8696d",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/weap_xion_arrow_front.dae",
+      "bytes": 7686,
+      "source_git_blob": "7f6ee52cda802984164f02ab00f77a3a7ec5faa4",
+      "actual_git_blob": "7f6ee52cda802984164f02ab00f77a3a7ec5faa4",
+      "sha256": "ab147fbbe046ae98c555ee853e428978057f25974e966b11e8abc92558e0c6d3",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/weap_xion_bow.dae",
+      "bytes": 49877,
+      "source_git_blob": "1acf1b2ff36fe09bbdb5f4d23dbc539153565c51",
+      "actual_git_blob": "1acf1b2ff36fe09bbdb5f4d23dbc539153565c51",
+      "sha256": "c15502ce6154e10420c7630e6b070f7c525ce7b1f9c94021f88f6ebc75616440",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/weap_xion_quiver_cloth_cavalry_left.dae",
+      "bytes": 27769,
+      "source_git_blob": "ca8995419a65552c553db365a3a17bbe3a89485e",
+      "actual_git_blob": "ca8995419a65552c553db365a3a17bbe3a89485e",
+      "sha256": "d5989eb2ab6c59dea15e0809d5a98af5518ae842d2a1ae7587e2fe31947ee6c1",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/skeletal/new/m_armor_nomad_a.dae",
+      "bytes": 173932,
+      "source_git_blob": "65cb162a6346a720eab8fa9a46327ac59186f9ca",
+      "actual_git_blob": "65cb162a6346a720eab8fa9a46327ac59186f9ca",
+      "sha256": "eed0ad75206dd1cffc96df21050abfd034681dfe09458568f71a98ccee1e4cea",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/skeletons/ktw_millennium_bow.xml",
+      "bytes": 673,
+      "source_git_blob": "36a11713ad6c3fae7ab7e96687f6858f444b9fee",
+      "actual_git_blob": "36a11713ad6c3fae7ab7e96687f6858f444b9fee",
+      "sha256": "d5cca7c728d5e6f5c55f24ecd23d7aab9dcac583bf914e1c0f54716335cd1d7c",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/head/chin_b.png",
+      "bytes": 25442,
+      "source_git_blob": "d5b5e65970c6b6666873da8fa0b2192409170eb3",
+      "actual_git_blob": "d5b5e65970c6b6666873da8fa0b2192409170eb3",
+      "sha256": "146bc14cbc1b671209c7f18bd6d7dcb4c6ba3e6810ca8d37b5b7c1276a280014",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/head/xion_b.png",
+      "bytes": 19094,
+      "source_git_blob": "722454339da162bc1269d1d8f9d4f150f1dbe1c1",
+      "actual_git_blob": "722454339da162bc1269d1d8f9d4f150f1dbe1c1",
+      "sha256": "bbb674371b41c7593ca9948e0400ef53bdf4f5bfcf85844338ae72e54d40aa63",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_iron.png",
+      "bytes": 254526,
+      "source_git_blob": "07c75442278eadd28be7156c59d14d51946990f1",
+      "actual_git_blob": "07c75442278eadd28be7156c59d14d51946990f1",
+      "sha256": "5414af27f58014d702fa0815e3ba495c160db35ecd8885d1226787dc14cdbf76",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_norm.png",
+      "bytes": 394788,
+      "source_git_blob": "9ef3e13456756ac5c9c085ff6d5454aa7a4ba08a",
+      "actual_git_blob": "9ef3e13456756ac5c9c085ff6d5454aa7a4ba08a",
+      "sha256": "edb7a5572e377894b35b7382a3851bfebd313268eb15f90fee2a39e8eaeaac7f",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_spec.png",
+      "bytes": 159149,
+      "source_git_blob": "3b0a6086b8e369352a444d3fb29e2f0e6fc5fd39",
+      "actual_git_blob": "3b0a6086b8e369352a444d3fb29e2f0e6fc5fd39",
+      "sha256": "c6559bb09b62b81e81f0cc1a510967ab8f6bcc4e26e9738ce8dfced3949cec5d",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar.png",
+      "bytes": 387423,
+      "source_git_blob": "08c2eb235cbba60400ec7ed47c7b2533bfec960d",
+      "actual_git_blob": "08c2eb235cbba60400ec7ed47c7b2533bfec960d",
+      "sha256": "9d493266f8da9293c9205eae670bc23d6c330666a9191461c4e96755d30b297a",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar2.png",
+      "bytes": 368962,
+      "source_git_blob": "35eba96cfbc629670a1633038e259b4592c9dae2",
+      "actual_git_blob": "35eba96cfbc629670a1633038e259b4592c9dae2",
+      "sha256": "d36ba00dddd8c4ac6b2e5ffee2d5d86691bd0c77ead9415409cc5926c1e256cb",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_norm.png",
+      "bytes": 468337,
+      "source_git_blob": "9634305e88669c958cfea39836283c3a20ed5908",
+      "actual_git_blob": "9634305e88669c958cfea39836283c3a20ed5908",
+      "sha256": "1a929c714b2d6c4258900ef1e762cb0b41e90e23eb5f3b358ffaae2b42e0caf7",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_spec.png",
+      "bytes": 285278,
+      "source_git_blob": "8ac5685ae2a7fa0b6b2a1e560c2af71e8ec3a307",
+      "actual_git_blob": "8ac5685ae2a7fa0b6b2a1e560c2af71e8ec3a307",
+      "sha256": "23c2ddbc818b591c210ea6b67a921576e671eddb5978bc9892dca20a19018dbc",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic.png",
+      "bytes": 376939,
+      "source_git_blob": "8f0bf61292a639a3577a9d0caebbc7519a2cc653",
+      "actual_git_blob": "8f0bf61292a639a3577a9d0caebbc7519a2cc653",
+      "sha256": "a6a5bfd7af728291515074b89670a0de4a40fba22ca1927bda5b4ec676260b1d",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic_b.png",
+      "bytes": 372206,
+      "source_git_blob": "2a451e81afb1724510f45a2fd8b05b83f11f71e6",
+      "actual_git_blob": "2a451e81afb1724510f45a2fd8b05b83f11f71e6",
+      "sha256": "a67cd50c150d8f8684f8f59093811b47d34739f83261393110583eced4ce5d60",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic_norm.png",
+      "bytes": 422821,
+      "source_git_blob": "5b20be65e9f2989a90dc16c96f99d8f2ffb59f00",
+      "actual_git_blob": "5b20be65e9f2989a90dc16c96f99d8f2ffb59f00",
+      "sha256": "4ed6d682e4192541be68a2705258017e645dcf2fb7ba87662eeb35bbfb956c33",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_spec.png",
+      "bytes": 17170,
+      "source_git_blob": "18b189e5c889abb4f6f20e68ee48946e1da27731",
+      "actual_git_blob": "18b189e5c889abb4f6f20e68ee48946e1da27731",
+      "sha256": "4a1734bcf56479794994eaae236168a98248bddac61cc3bd4cbc6352e759875e",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_a.png",
+      "bytes": 530777,
+      "source_git_blob": "c0a30c8cb175c2eb3a298e8c4248582cdf9c8501",
+      "actual_git_blob": "c0a30c8cb175c2eb3a298e8c4248582cdf9c8501",
+      "sha256": "e0e04c55d8c3b6fe45dd7c6345734636c88e978cf9454b20a0d70fbf134a3ff1",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_b.png",
+      "bytes": 611203,
+      "source_git_blob": "545e5da0aa4f63bedf785dd50d8010ba0d2f8eaa",
+      "actual_git_blob": "545e5da0aa4f63bedf785dd50d8010ba0d2f8eaa",
+      "sha256": "bd99a41a278ddebbc84922aeb4f7be86134aece9f9f136cd83e053f897fbd308",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_c.png",
+      "bytes": 532898,
+      "source_git_blob": "51954569583194829eebfd8f7d7b9a5210ce21e6",
+      "actual_git_blob": "51954569583194829eebfd8f7d7b9a5210ce21e6",
+      "sha256": "c4701e3feee264224e281ea97ceba6ea68e7f0affe04fd37fff5dc236515017d",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_norm.png",
+      "bytes": 506876,
+      "source_git_blob": "93de5e9cc311d3c9eab3d46e226526ce1a2795c1",
+      "actual_git_blob": "93de5e9cc311d3c9eab3d46e226526ce1a2795c1",
+      "sha256": "fb28e313f0b5957699e00c5391f81c5e4cf9149b0a1176702ecdf5f4b57e30e3",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_spec.png",
+      "bytes": 1232,
+      "source_git_blob": "41d859c5c5b05f14300599ec0ce6c1e9a1649f8e",
+      "actual_git_blob": "41d859c5c5b05f14300599ec0ce6c1e9a1649f8e",
+      "sha256": "f6d18dc2a4241da770a44e0758e3cfecefb845e34e65fc526ee21f8d5781d0cd",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/structural/xion_structure.png",
+      "bytes": 1741352,
+      "source_git_blob": "4d1fc934d501165c1c36407bb674e3386319976a",
+      "actual_git_blob": "4d1fc934d501165c1c36407bb674e3386319976a",
+      "sha256": "66993d3783940de65c857543794e596c8e560b020527d2d899f0876e00af8315",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/config/kazakh_total_war.cfg",
+      "bytes": 190,
+      "source_git_blob": "8bcf8d1abc6cc7a2f1477907331fa9f778e3d0d2",
+      "actual_git_blob": "8bcf8d1abc6cc7a2f1477907331fa9f778e3d0d2",
+      "sha256": "5179d9414f3d2fdab18354b1f81accb1bb2e1fc899019afa1f8fdc69e0f8f427",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/common/ktw.js",
+      "bytes": 44585,
+      "source_git_blob": "1ad717c02b99b1a2d6d7dcf03594ccd581e251b6",
+      "actual_git_blob": "1ad717c02b99b1a2d6d7dcf03594ccd581e251b6",
+      "sha256": "d9a4f834bd6eff4b6037ad9bba1c084b4d682529a14262f6170f858e047e0edf",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/ktw/data.json",
+      "bytes": 3735,
+      "source_git_blob": "a364d6f4d20336485859885b14c60a59380f7a8d",
+      "actual_git_blob": "a364d6f4d20336485859885b14c60a59380f7a8d",
+      "sha256": "2ea417a02e1183c2fa3d908f286b21a1e45cab12ac7fa2f35ef852c4587f87d3",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/ktw/information.js",
+      "bytes": 398,
+      "source_git_blob": "d31f463c578702c06bf4ff19ca859ac950e18cd8",
+      "actual_git_blob": "d31f463c578702c06bf4ff19ca859ac950e18cd8",
+      "sha256": "21844754e7bc6a0d333ec1c54045237bf7dea5d546a1212d1276f878ed64a98c",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/ktw/information.xml",
+      "bytes": 788,
+      "source_git_blob": "aaa2e9a53e1c9ea6b774ed962d67837f60dcbe0c",
+      "actual_git_blob": "aaa2e9a53e1c9ea6b774ed962d67837f60dcbe0c",
+      "sha256": "a53739829c213841fca766c463d7dd6be357dfdfa5776a29bfb61941c3d8d3cb",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/ktw/mainmenu.js",
+      "bytes": 1412,
+      "source_git_blob": "5a041e8d9b59a8f07bf2cec3704b4ee2c2904191",
+      "actual_git_blob": "5a041e8d9b59a8f07bf2cec3704b4ee2c2904191",
+      "sha256": "1e68b7834f3b9e7b55f842984db31ca80e1d0e78a281f9e026008acbb7c9080e",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/ktw/mainmenu.xml",
+      "bytes": 3039,
+      "source_git_blob": "ade6f1e95fee5b222edc7bf0d1ba58a09571ba80",
+      "actual_git_blob": "ade6f1e95fee5b222edc7bf0d1ba58a09571ba80",
+      "sha256": "f86d8932a1604d0039c7f9d5d2e3058e473085ef8af40644be887a50aaaa14ea",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/page_ktw_information.xml",
+      "bytes": 371,
+      "source_git_blob": "9bcf56bb7c3012d077f575694e54a96e424686b9",
+      "actual_git_blob": "9bcf56bb7c3012d077f575694e54a96e424686b9",
+      "sha256": "e568e31e94fc0e74de648e01bb4608fc35a0b23c98700bee3a5fc536be6d0fd0",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/page_pregame.xml",
+      "bytes": 368,
+      "source_git_blob": "b88e57a5e69ad05665e0da9048c6c86c2e9da0cb",
+      "actual_git_blob": "b88e57a5e69ad05665e0da9048c6c86c2e9da0cb",
+      "sha256": "063623b29951822a0c9b47632ed50dbd13b6c5aeb15835c5879ce273a8769cdf",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/session/ktw.js",
+      "bytes": 15898,
+      "source_git_blob": "c86534932558621e9d0d2fcfe7eae00062a075bc",
+      "actual_git_blob": "c86534932558621e9d0d2fcfe7eae00062a075bc",
+      "sha256": "94fad5b14ff8ba3d553b7eedfaded07da57efc5e38f3ed923b32dc0eb1c7537e",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/session/session_objects/ktw.xml",
+      "bytes": 9708,
+      "source_git_blob": "8709e68b3f62cf4475632595217489973ba10f94",
+      "actual_git_blob": "8709e68b3f62cf4475632595217489973ba10f94",
+      "sha256": "7a58790b852f65fb4b25032e4cdb8af2ce3ff79d5e10e7730eea03771880127b",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/maps/random/ktw_battle.js",
+      "bytes": 249,
+      "source_git_blob": "e85dacc2a1ebaf0081c5693bea7008b2b1ac6d65",
+      "actual_git_blob": "e85dacc2a1ebaf0081c5693bea7008b2b1ac6d65",
+      "sha256": "9648c6552aab0334d0d1b70d283bdd9af15dfc6187622760f6e87414229202ff",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/maps/random/ktw_battle.json",
+      "bytes": 261,
+      "source_git_blob": "7c3dbec4fb2c153c4fd55cd5757214f5ae567516",
+      "actual_git_blob": "7c3dbec4fb2c153c4fd55cd5757214f5ae567516",
+      "sha256": "de1bb613a79110deb428950c8f3aec7b96eb594cb64958644155e94c1dfe081b",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/maps/random/ktw_campaign.js",
+      "bytes": 250,
+      "source_git_blob": "926eea9080c67d6c209b169d8c77e247fe61de54",
+      "actual_git_blob": "926eea9080c67d6c209b169d8c77e247fe61de54",
+      "sha256": "7d9ff3bc9a04c3f99320c34739f9ec332a1864275f722b7ba4c2efab3f2b7d9e",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/maps/random/ktw_campaign.json",
+      "bytes": 261,
+      "source_git_blob": "150878767555bbf6b53ec5dfcf634fe93b947745",
+      "actual_git_blob": "150878767555bbf6b53ec5dfcf634fe93b947745",
+      "sha256": "4842f4f7d9e83e6be5f71a826a0cc44722935a22b0a32408231914046e0a3481",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/maps/random/ktw_terrain/locations.js",
+      "bytes": 736,
+      "source_git_blob": "c40b17adc79826a269fb3f7dfd1203bcd8c0d888",
+      "actual_git_blob": "c40b17adc79826a269fb3f7dfd1203bcd8c0d888",
+      "sha256": "2264564463d7386bc193f1dc83c5b4467591a9b869b794e34950589c75843391",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/maps/random/ktw_terrain/terrain.js",
+      "bytes": 4518,
+      "source_git_blob": "eea9587414d93b2a372940f5f83aa1223e33d371",
+      "actual_git_blob": "eea9587414d93b2a372940f5f83aa1223e33d371",
+      "sha256": "032f455d0574dd001398c561a606b75ca3730ccc5ec8eb4fc536be8fd4a94c64",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/mod.json",
+      "bytes": 293,
+      "source_git_blob": "98e05281ea206a294f6f3300d5d4f0270b8e5d9a",
+      "actual_git_blob": "98e05281ea206a294f6f3300d5d4f0270b8e5d9a",
+      "sha256": "f2e2d504973eae357d876003049c42e404fb83d17ac47a784748bc641df0110c",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/components/KtwController.js",
+      "bytes": 14300,
+      "source_git_blob": "7afbd276e5241c1e1499a40993f8c959f7bf4ca1",
+      "actual_git_blob": "7afbd276e5241c1e1499a40993f8c959f7bf4ca1",
+      "sha256": "7529fc20c21dc044a0a959d75a220d199d0cf174a043cd0c58a486fa195d5578",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/components/interfaces/KtwController.js",
+      "bytes": 88,
+      "source_git_blob": "5c42b8e12b90632fb66c68d57333c673aac428e5",
+      "actual_git_blob": "5c42b8e12b90632fb66c68d57333c673aac428e5",
+      "sha256": "7994e95b18970b62e0cce8bb41223dcc0a6abf6190254cb6613d1da9fba9fd13",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/helpers/KtwBattleBridge.js",
+      "bytes": 6136,
+      "source_git_blob": "b2658745906a5f28ddcf42d18ad56841418dabfd",
+      "actual_git_blob": "b2658745906a5f28ddcf42d18ad56841418dabfd",
+      "sha256": "d889a986694559419dc2d8628f69a00590dba3a2382b47377c755a8573cca3be",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/helpers/KtwCampaign.js",
+      "bytes": 32359,
+      "source_git_blob": "47b616cba8de1aab0e88ebf836a9fba44313cab0",
+      "actual_git_blob": "47b616cba8de1aab0e88ebf836a9fba44313cab0",
+      "sha256": "3dd344ebf5cea27416ba829a9ed1cc5063015479e0796001f01445ea84baaec3",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/helpers/KtwCommands.js",
+      "bytes": 303,
+      "source_git_blob": "b714d8f2a82c3f87f6406a264e10070347161b70",
+      "actual_git_blob": "b714d8f2a82c3f87f6406a264e10070347161b70",
+      "sha256": "46e5b9f03ed9244d3a700928a5ee020e414955360b6de84bfa521f84bf06713f",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/helpers/KtwPolitics.js",
+      "bytes": 15788,
+      "source_git_blob": "2b3e86a6f4814ac368e5d3e0b7012e5fc2059904",
+      "actual_git_blob": "2b3e86a6f4814ac368e5d3e0b7012e5fc2059904",
+      "sha256": "c6c6a54a8675eee0bb11eb8f4dc56394c7f71d6c74719a808ca0fb05d94b6bab",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/helpers/KtwSaveSystem.js",
+      "bytes": 1957,
+      "source_git_blob": "bca0b404564c1f764bf06dc1bf70314009523d4c",
+      "actual_git_blob": "bca0b404564c1f764bf06dc1bf70314009523d4c",
+      "sha256": "b1123c50aa1d20c9336874717122ad5b3a14f460494b44babb20c012c4df8503",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/structures/ktw/settlement.xml",
+      "bytes": 949,
+      "source_git_blob": "84db73462f4de7d678739a69b13309f8f5a22ce6",
+      "actual_git_blob": "84db73462f4de7d678739a69b13309f8f5a22ce6",
+      "sha256": "16c7312bdf2e9ca1238e5095163c25f8d8c9ab0be4186cd24d0aac5277a45b73",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/units/ktw/army_marker.xml",
+      "bytes": 944,
+      "source_git_blob": "d53ffb7c87d8595cf732f725ee848fd2e7ba1ec6",
+      "actual_git_blob": "d53ffb7c87d8595cf732f725ee848fd2e7ba1ec6",
+      "sha256": "15d4bd88b8faf711725f75f29272939661064671d527d5b4fb8550c235c0a9e9",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/units/ktw/heavy_cavalry.xml",
+      "bytes": 816,
+      "source_git_blob": "ed6fcf329ed88246e1be5f4f46e28cab7c8fe9a1",
+      "actual_git_blob": "ed6fcf329ed88246e1be5f4f46e28cab7c8fe9a1",
+      "sha256": "a1c1b7dd86461cd10d1856b10271c1194a46d8bd98b20a54f553aa66914ee09c",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/units/ktw/infantry_archer.xml",
+      "bytes": 817,
+      "source_git_blob": "b0d45361be163d0dadb27e7b1fd01640ab032799",
+      "actual_git_blob": "b0d45361be163d0dadb27e7b1fd01640ab032799",
+      "sha256": "0db1b991a41da869080d922979b5efc47bd073ed5877f20fef73a2f3d97c1195",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/units/ktw/light_cavalry.xml",
+      "bytes": 824,
+      "source_git_blob": "87fb78b048058a2aebb6bada054521c6c657b541",
+      "actual_git_blob": "87fb78b048058a2aebb6bada054521c6c657b541",
+      "sha256": "57746935380cfa7acb34e970620a915f8d3a04c204349655153553affd0dda02",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/units/ktw/mounted_archer.xml",
+      "bytes": 816,
+      "source_git_blob": "c65bf4c2abea3f7d3374f9a8e790f60bb7fe469e",
+      "actual_git_blob": "c65bf4c2abea3f7d3374f9a8e790f60bb7fe469e",
+      "sha256": "5c8477974386ec661ff8d916f76f576f2fb6a25b73832679af970f67d5209cce",
+      "unchanged": true
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/units/ktw/spearman.xml",
+      "bytes": 809,
+      "source_git_blob": "60054c3ca5536199d09d93c87f1cf575d54f43de",
+      "actual_git_blob": "60054c3ca5536199d09d93c87f1cf575d54f43de",
+      "sha256": "57ba42cbd2e706e9cd8c75851eab0e89947dba72136f8c41e072a2415210b706",
+      "unchanged": true
+    }
+  ]
+}

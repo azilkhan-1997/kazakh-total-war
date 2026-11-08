@@ -1,0 +1,38 @@
+{
+  "scope": "Prepare source-only 19-PNG import workflow; no GitHub writes executed",
+  "portable_tests": 17,
+  "portable_tests_pass": true,
+  "workflow_yaml_parse": true,
+  "trigger_push_paths": [
+    ".github/workflows/import-release-source.yml"
+  ],
+  "upstream_download_validation": {
+    "pass": true,
+    "actual_png_downloads": 19,
+    "actual_original_license_downloads": 1,
+    "all_fixed_sizes_and_sha256_match": true,
+    "working_tree_writes": 0,
+    "github_pushes": 0
+  },
+  "workflow_executed": false,
+  "github_push_executed": false,
+  "source_files": [
+    {
+      "path": ".github/workflows/import-release-source.yml",
+      "sha256": "7fc355f07dd7b1f272b244a68d0432530b6e3ddaaa118c74d4d51f9ae115643c"
+    },
+    {
+      "path": "build/source_import/import_source.py",
+      "sha256": "fa4bdab9294de8f913edf34035044836f63d9be225d80eae16ffb74881ff06cf"
+    },
+    {
+      "path": "build/source_import/test_source_import.py",
+      "sha256": "ad0e7d922315d140f323e1c2969f92dac2372785848b60eee70e0249f744b302"
+    },
+    {
+      "path": "build/source_import/README.md",
+      "sha256": "0544004dfa674ed7dc55d84b5d8fbd25d9038c7c1b242c57b09cba175cab6590"
+    }
+  ],
+  "completed_at_utc": "2026-11-08T10:29:00.850679+00:00"
+}

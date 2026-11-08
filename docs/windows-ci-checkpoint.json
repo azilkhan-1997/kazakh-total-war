@@ -1,0 +1,20 @@
+{
+  "observed_at_utc": "2026-11-08T10:24:15Z",
+  "repository": "azilkhan-1997/kazakh-total-war",
+  "head_sha": "27dc4f3b74bf2a6ff6b13574ef7f1884f59eb2ba",
+  "run_id": 42469776403,
+  "job_id": 128697602420,
+  "run_url": "https://github.com/azilkhan-1997/kazakh-total-war/actions/runs/42469776403",
+  "job_started_at_utc": "2026-11-08T10:03:30Z",
+  "status": "in_progress",
+  "conclusion": null,
+  "setup": "success",
+  "checkout": "success",
+  "engine_build_step": "in_progress",
+  "evidence_upload_step": "pending",
+  "job_log_access": "HTTP404 BlobNotFound at 2026-11-08T10:24:15Z; full job log not available yet",
+  "native_windows_compile_confirmed": false,
+  "native_windows_gameplay_tested": false,
+  "runtime_binary_upload_enabled": false,
+  "redistribution_cleared": false
+}

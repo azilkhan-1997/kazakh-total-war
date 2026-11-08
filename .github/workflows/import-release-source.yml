@@ -1,0 +1,42 @@
+name: Import reviewed source textures once
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-release-source.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: reviewed-source-texture-import-main
+  cancel-in-progress: false
+
+jobs:
+  import:
+    if: github.repository == 'azilkhan-1997/kazakh-total-war' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the exact triggering revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Check importer contracts without network or publication
+        run: python3 build/source_import/test_source_import.py
+      - name: Verify pinned artwork and publish only missing PNG additions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXPECTED_MAIN_SHA: ${{ github.sha }}
+        run: python3 build/source_import/import_source.py --publish --expected-head "$EXPECTED_MAIN_SHA"
+
+# Exact 19-PNG allowlist; no runtime, executable, source ZIP or gzip log import.
+# Original notices and both provenance manifests must pass before any write.
+# A changed main tip aborts. No force, rebase, branch reset or automatic retry.
+# The resulting texture-only commit does not match this workflow's push path.

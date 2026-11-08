@@ -1,0 +1,23 @@
+{
+  "scope": "Pure JavaScript campaign state invariants; not native engine, graphical, Windows or performance validation",
+  "seedRange": {
+    "first": 1,
+    "last": 1000
+  },
+  "seeds": 1000,
+  "maxSteps": 100,
+  "operations": 27685,
+  "saveLoads": 6642,
+  "battles": 3626,
+  "replays": 1179,
+  "corruptRecoveries": 1622,
+  "rejections": 5794,
+  "failures": [],
+  "passed": true,
+  "sourceHashes": {
+    "KtwCampaign.js": "3dd344ebf5cea27416ba829a9ed1cc5063015479e0796001f01445ea84baaec3",
+    "KtwBattleBridge.js": "d889a986694559419dc2d8628f69a00590dba3a2382b47377c755a8573cca3be",
+    "KtwPolitics.js": "c6c6a54a8675eee0bb11eb8f4dc56394c7f71d6c74719a808ca0fb05d94b6bab",
+    "KtwSaveSystem.js": "b1123c50aa1d20c9336874717122ad5b3a14f460494b44babb20c012c4df8503"
+  }
+}

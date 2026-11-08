@@ -1,0 +1,37 @@
+{
+  "host": "Ubuntu 24.04.3 LTS",
+  "powershell_version": "7.4.22",
+  "analyzer_version": "1.25.0",
+  "target_syntax": "5.1",
+  "target_api_profile": "win-48_x64_10.0.17763.0_5.1.17763.316_x64_4.0.30319.42000_framework",
+  "files": [
+    {
+      "path": "/workspace/scratch/a712cf7eed58/exe_release/qa/analyzer-probes/compatible.ps1",
+      "sha256": "d64e5e56ecd3a51f5a0bc06714cf3707069b098c9e5885993a3627a5c2c0a170",
+      "parse_errors": [],
+      "compatibility_diagnostics": []
+    },
+    {
+      "path": "/workspace/scratch/a712cf7eed58/exe_release/qa/analyzer-probes/incompatible.ps1",
+      "sha256": "ffc8cf590948dbdb0d398a694c4b23ebb950d4ca6cd5ffafeb354387489d7c52",
+      "parse_errors": [],
+      "compatibility_diagnostics": [
+        {
+          "rule": "PSUseCompatibleSyntax",
+          "message": "The null-coalescing operator syntax '$x ?? $y' is not available by default in PowerShell versions 3,4,5,6",
+          "severity": "Error",
+          "line": 1
+        },
+        {
+          "rule": "PSUseCompatibleTypes",
+          "message": "The method 'GetRelativePath' is not available on type 'System.IO.Path' by default in PowerShell version '5.1.17763.316' on platform 'Microsoft Windows 10 Pro'",
+          "severity": "Warning",
+          "line": 2
+        }
+      ]
+    }
+  ],
+  "pass": false,
+  "native_windows_execution": "NOT TESTED",
+  "scope": "Parser and static compatibility analysis on Linux. No Windows commands, installation, UAC, GUI, or game were executed."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "kazakh_total_war",
+  "version": "0.2.0",
+  "label": "KAZAKH TOTAL WAR — Legacy of the Steppe",
+  "description": "SAYRAM PLANETA HOLDING. Experimental 1465 campaign and separate tactical battles. Requires 0 A.D. Release 28.",
+  "dependencies": ["0ad=0.28.0"],
+  "type": "game"
+}

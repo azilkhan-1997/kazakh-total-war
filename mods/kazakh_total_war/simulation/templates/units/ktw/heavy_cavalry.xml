@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: GPL-2.0-or-later; original gameplay template. Art attribution in THIRD_PARTY_NOTICES. -->
+<Entity parent="template_unit_cavalry_melee_spearman">
+  <Identity><Civ>pers</Civ><Lang>persian</Lang><GenericName>Heavy Cavalry</GenericName><SelectionGroupName>units/ktw/heavy_cavalry</SelectionGroupName><Icon>units/pers/cavalry_spearman.png</Icon></Identity>
+  <Health><Max>230</Max></Health>
+  <Resistance><Entity><Damage><Hack>8</Hack><Pierce>7</Pierce><Crush>5</Crush></Damage></Entity></Resistance>
+  <UnitMotion><WalkSpeed>12</WalkSpeed></UnitMotion>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <ResourceDropsite disable=""/>
+  <Builder disable=""/>
+  <VisualActor><Actor>ktw/units/heavy_cavalry.xml</Actor></VisualActor>
+</Entity>

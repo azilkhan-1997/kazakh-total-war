@@ -1,0 +1,5 @@
+{
+  "exitCode": 1,
+  "stdout": "Hashing all 140 official runtime files, including large asset archives...\npreflight_failed: /workspace/scratch/a712cf7eed58/upstream/windows-runtime/powershell-qa/ktw-linux-negative-report.json\nNo game was launched. Complete docs/windows-acceptance-checklist.md on this Windows PC.\n",
+  "stderr": ""
+}

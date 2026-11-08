@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+dist/
+runtime/
+*.log
+.DS_Store
+evidence/*.png
+evidence/*.mp4
+evidence/*.html
+evidence/saves/
+evidence/**/*.png
+evidence/**/*.mp4
+evidence/**/*.html
+evidence/**/saves/

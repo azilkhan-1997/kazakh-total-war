@@ -1,0 +1,16 @@
+[
+  {
+    "file": "/tmp/ktw-offline-independent-qa/powershell-7.4.22-linux-x64.tar.gz",
+    "verified": true,
+    "sha256": "9de443bef974f219c98a33b0f4096aace7f30b42188f37a1b14c5da7e82c8a6a",
+    "bytes": 72547195,
+    "official_asset_api": "https://api.github.com/repos/PowerShell/PowerShell/releases/assets/675628736"
+  },
+  {
+    "file": "/tmp/ktw-offline-independent-qa/PSScriptAnalyzer.1.25.0.nupkg",
+    "verified": true,
+    "sha256": "14e634c828eb98efb9f40b2918ba90f139ed5eccdf663a2a747736d996995d60",
+    "bytes": 14658674,
+    "official_asset_api": "https://api.github.com/repos/PowerShell/PSScriptAnalyzer/releases/assets/378129172"
+  }
+]

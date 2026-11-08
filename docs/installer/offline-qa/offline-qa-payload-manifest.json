@@ -1,0 +1,1217 @@
+{
+  "schema": 1,
+  "product": "SAYRAM_PLANETA_KAZAKH_TOTAL_WAR",
+  "delivery_version": "0.4.0",
+  "module_version": "0.2.0",
+  "mode": "private_offline_qa",
+  "redistribution_cleared": false,
+  "source_revision": "d87603fe71a7f390862bcfb0c0be1aafaf520774",
+  "source_dirty": true,
+  "files": [
+    {
+      "path": "KazakhTotalWar.exe",
+      "bytes": 2400523,
+      "sha256": "3c1906f7b2c384d2470c4ddcdf35b1da01697f61260fdb3033e44d9c3e12f969"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 17987,
+      "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6"
+    },
+    {
+      "path": "LICENSES/0AD-LICENSE.md",
+      "bytes": 3081,
+      "sha256": "956637a06a3cbddb79b0ea87b987cf9938c533412a71cfd74f261a399eb153eb"
+    },
+    {
+      "path": "LICENSES/Millennium-Art.txt",
+      "bytes": 1552,
+      "sha256": "247ea9380781c56e71018bb3714faf557192f0c3ad6a3d7d231c6f20f325d0e4"
+    },
+    {
+      "path": "LICENSES/NSIS-COPYRIGHT.txt",
+      "bytes": 20591,
+      "sha256": "d2b03d11801736ff4fda2a1e215a13c324dca7fd76eb948ae7d835000fe339d3"
+    },
+    {
+      "path": "README_RU.md",
+      "bytes": 13862,
+      "sha256": "5a8d26af55d6943883a8600612f56617077039ec0c718438ee7299d342a86163"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 4733,
+      "sha256": "9b339a404521af1b279c6d4594f8f40ea66a32a4a23410a10ab0316d92970711"
+    },
+    {
+      "path": "docs/ACCEPTANCE_RU.md",
+      "bytes": 9582,
+      "sha256": "06ac17c829a4df5891706f6212b530855d7492023b2dfca4a81376f4adc2fe87"
+    },
+    {
+      "path": "docs/ACCEPTANCE_V0.2_RU.md",
+      "bytes": 8982,
+      "sha256": "7a1872e144fb8d7041911b4ac4dd6603330c74502f2176c900563f2bff9fbe45"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 8399,
+      "sha256": "b3c547ca2bddde8b58539897988b8fe48b63fb3de48e8ae862c1982d1327f169"
+    },
+    {
+      "path": "docs/ART_BIBLE.md",
+      "bytes": 12963,
+      "sha256": "91a1ada9ac764b3d6e432d546c2be422f76ea6af098f94e2327f0e716441f956"
+    },
+    {
+      "path": "docs/ASTRA_PROJECT_STATE.md",
+      "bytes": 20660,
+      "sha256": "d3f3f9d83ac23fa02f3908f20e36a18237c5329280988e2996e9f233e099e7e6"
+    },
+    {
+      "path": "docs/AUDIO_PLAN.md",
+      "bytes": 8975,
+      "sha256": "bd88f72b710e409f534f01c452877ba5d604ab32a01bd70412c5a58a4ae67360"
+    },
+    {
+      "path": "docs/GRAPHICS_CAPABILITY_MATRIX.md",
+      "bytes": 10849,
+      "sha256": "454ba53d17d40f5a3e48735c257b7accf2f794b8b93792c1320f970324f07817"
+    },
+    {
+      "path": "docs/GUI_IMPLEMENTATION.md",
+      "bytes": 9966,
+      "sha256": "5b0d0c22baeeb995d9f62ba6b2729c1d2e7b1474ce78b1645de02e0b464cd834"
+    },
+    {
+      "path": "docs/INSTALL_EXE_RU.md",
+      "bytes": 6909,
+      "sha256": "0b29a6cb3c34ee7292c17339fe1709f33c5986049d45a641498e0ceba83c1fa6"
+    },
+    {
+      "path": "docs/README_WINDOWS_RU.md",
+      "bytes": 1363,
+      "sha256": "bf8e03fcb606f7f7ad7959445edbde50e833177600fd75b8b8ab02778d27a2ad"
+    },
+    {
+      "path": "docs/SPEC_CONTINUATION.md",
+      "bytes": 4150,
+      "sha256": "431dee007c519219fbe052d15aba60579116503285983ec23f10184bf4e40fb0"
+    },
+    {
+      "path": "docs/WINDOWS_DISTRIBUTION_NOTICES.md",
+      "bytes": 17017,
+      "sha256": "ba971549208e6f006bc35ad0687bcfa0a19f7d8492732a8544d35e69af2d00de"
+    },
+    {
+      "path": "docs/WINE_TEST_ENV.md",
+      "bytes": 4928,
+      "sha256": "91c6caff311365c365a7de8acb40e0caec1f8d1a858322136afe19ef5683158f"
+    },
+    {
+      "path": "docs/art-closure-release28.json",
+      "bytes": 62237,
+      "sha256": "d2b302266ff214ba28495799e98188a7aa0c71e69ebb8739bd34b6ac0d2226e8"
+    },
+    {
+      "path": "docs/asset-manifest-millennium.json",
+      "bytes": 29743,
+      "sha256": "f74422d3b0e9afd17cca1c5b0560ca8fa2d78eb121bffd7a8c7f7630e5db9e4e"
+    },
+    {
+      "path": "docs/check_art_closure.py",
+      "bytes": 2649,
+      "sha256": "ca34abf721c23b33a4157f8da9180b1208c52171acb31aed53308a8b0bd41b76"
+    },
+    {
+      "path": "docs/distribution-evidence/DISTRIBUTION_AUDIT.json",
+      "bytes": 3169,
+      "sha256": "1f914cc73636b4e9cbf6fe05d2e799884a85374c55810ddc16d4422f8dab1d9f"
+    },
+    {
+      "path": "docs/distribution-evidence/R28-PE-AUDIT.json",
+      "bytes": 27518,
+      "sha256": "c6d83f17b511a3e72fa9553b4737c2760314b00b7147b039e076859574c6d22b"
+    },
+    {
+      "path": "docs/distribution-evidence/get-windows-libs-r28.bat",
+      "bytes": 1279,
+      "sha256": "fa0ada5f2d1363ffd18dadedd355d5b89f3b04dcd5cb08fee49c71686bb4e508"
+    },
+    {
+      "path": "docs/distribution-evidence/ktw-helper-results.json",
+      "bytes": 915,
+      "sha256": "75fc3bd6dbc492c20d1e619f8b22ddb9323dbe41cb1da89acf9046696e116050"
+    },
+    {
+      "path": "docs/distribution-evidence/ktw-linux-negative-execution.json",
+      "bytes": 336,
+      "sha256": "ba12bcd2e0f0178efa3270658ec9f0b8369edc156b2f60766c26ab1a40b7a5e3"
+    },
+    {
+      "path": "docs/distribution-evidence/ktw-linux-negative-report.json",
+      "bytes": 20197,
+      "sha256": "034320318be96c48868f22a1847c18fb00cebbaeae75791834c368ffeef9379d"
+    },
+    {
+      "path": "docs/distribution-evidence/vc_redist-authenticode-root.txt",
+      "bytes": 3987,
+      "sha256": "23655fbf09ccfb076d7e6f134e29b4ff08d751dc2b07385b478d478c0b906f80"
+    },
+    {
+      "path": "docs/distribution-evidence/vc_redist.x64.provenance.json",
+      "bytes": 758,
+      "sha256": "9ae054fea5f428ce1f4245c5bca1ad05b99d7f99eca872f41c40c0562eec204f"
+    },
+    {
+      "path": "docs/engine-provenance.json",
+      "bytes": 1160,
+      "sha256": "e1ac267d664060d56d50a5e2d35e5acd8089dd8fbaae3d828180b30770791d86"
+    },
+    {
+      "path": "docs/engine-setup.md",
+      "bytes": 8094,
+      "sha256": "4ed049dbbd66b40a46660360ce2a81fbe26486803e4357d12825e9b04143cb8f"
+    },
+    {
+      "path": "docs/fuzz-v0.2.json",
+      "bytes": 774,
+      "sha256": "b46ade29d44ca9e001a95cb6cd676c93733746cf694e7c48dc62e9df3cd378d1"
+    },
+    {
+      "path": "docs/installer/CPYTHON_3_13_16_LICENSE.txt",
+      "bytes": 33861,
+      "sha256": "62bec384df47b0328307db41455ff6ea2559e5546b394ac69148561b21703120"
+    },
+    {
+      "path": "docs/installer/LEGACY_WINDOWS_0.3.md",
+      "bytes": 9576,
+      "sha256": "cc1f94391225bd6680debd7aedb158a027ff7a519e059d4842ebdc7ae9772447"
+    },
+    {
+      "path": "docs/installer/ONE_EXE_DISTRIBUTION_AUDIT.md",
+      "bytes": 5722,
+      "sha256": "d92992cea838ad03d4c22257706d21b4e9caed709543a677b940db565ad770a5"
+    },
+    {
+      "path": "docs/installer/nsis-toolchain-lock.json",
+      "bytes": 689,
+      "sha256": "3c2e43d98a315cbb5e78d619e6c0a87ee256f29732ea253267dafcff5d01db7c"
+    },
+    {
+      "path": "docs/installer/qa/INDEPENDENT_INSTALLER_REVIEW.md",
+      "bytes": 5390,
+      "sha256": "aa7be3cce07e4d204c45fe6421655cf067210f9f6c1dd160b73663e6406c259b"
+    },
+    {
+      "path": "docs/installer/qa/SINGLE_EXE_ACCEPTANCE.md",
+      "bytes": 6568,
+      "sha256": "bae59602c919111d2d9e5391eb58aa138b9515cea0f3ab4e88eace8514ab25a9"
+    },
+    {
+      "path": "docs/installer/qa/analyzer-probe-results.json",
+      "bytes": 1497,
+      "sha256": "8b63f2112a49d7097d9d40e3b3384d10e8ac48102fbf855923fd200bc9dd03f4"
+    },
+    {
+      "path": "docs/installer/qa/environment-capabilities.json",
+      "bytes": 2086,
+      "sha256": "8052ca560c35e4175a1e93448d73a73c6e5561998f76d07f34ae2685876bad8b"
+    },
+    {
+      "path": "docs/installer/qa/game-module-unchanged.json",
+      "bytes": 28968,
+      "sha256": "9ef393187c8f34efb54c7b4c010cee732217dbce1ec765507353a2beb0711927"
+    },
+    {
+      "path": "docs/installer/qa/powershell-installer-compatibility.json",
+      "bytes": 954,
+      "sha256": "4cba1d45e448397d085c71ad8d1a0788426802ec3d467706fbdef4f2e161753c"
+    },
+    {
+      "path": "docs/installer/qa/powershell-qa-tool-provenance.json",
+      "bytes": 865,
+      "sha256": "db90b51679486fe5455d614b7624e96d588576a9ad9cb69f4f5d2177c424eb47"
+    },
+    {
+      "path": "docs/installer/qa/worker-contract-tests.json",
+      "bytes": 588,
+      "sha256": "30212bf7c31f61cc6bd1fbe3d3be36197e7d2cabb53b73b2813cc58c65f0b41a"
+    },
+    {
+      "path": "docs/installer/qa/worker-contract-tests.log",
+      "bytes": 2155,
+      "sha256": "6643670c17bb3ecaa2779650572e2bb4c88d0f557d3dbae3112e399c1e401084"
+    },
+    {
+      "path": "docs/installer/qa/worker-runtime-integration.json",
+      "bytes": 556,
+      "sha256": "ea4c67baed61a0f2e1bc870d0c4e29a060b25aa4caf63cd5ab7abdd16e19ca77"
+    },
+    {
+      "path": "docs/installer/runtime-licensing-verification.json",
+      "bytes": 7606,
+      "sha256": "27049cf9d47ae49153edca4a8bcc702dbb90b8519727d83d88b58065d13e6988"
+    },
+    {
+      "path": "docs/installer/runtime-reverification.json",
+      "bytes": 654,
+      "sha256": "a6c5a3ef935e9b67a05a820dad37cfb90dc82c694f14b0d09b6266fce4331f8b"
+    },
+    {
+      "path": "docs/mod-compatibility-release28.json",
+      "bytes": 5334,
+      "sha256": "bb45e759926ab91e9efec54a0b38470ffe3cc714abaab72f47f7f308b9813e1e"
+    },
+    {
+      "path": "docs/mod-source-inventory.json",
+      "bytes": 1610,
+      "sha256": "b4bde59ff1a613f3de5dbcbb6f81d01f5d8e10217c52eb20d66c4426f59213bb"
+    },
+    {
+      "path": "docs/native-qa-v0.2.md",
+      "bytes": 11779,
+      "sha256": "f704f479287549b764bba80ffd7e226d255e5cf982c7d88336dbd8a5683736d0"
+    },
+    {
+      "path": "docs/native-qa.md",
+      "bytes": 9170,
+      "sha256": "a63b5824857d2535514e8abcf23bb7aa6fa932dba1f9964d10d2711f7090f202"
+    },
+    {
+      "path": "docs/native-simulation-test.json",
+      "bytes": 44251,
+      "sha256": "817c55366a41f130910bc19680022921a3602d9e7bbded3e973492823f6b9d4a"
+    },
+    {
+      "path": "docs/native-simulation-test.md",
+      "bytes": 3055,
+      "sha256": "7efbf21e9065fd956fc0ec1b20e209a85f78bc88c88b3e969ec6f7531eee88f7"
+    },
+    {
+      "path": "docs/release-verification-v0.3.json",
+      "bytes": 786,
+      "sha256": "9963b28b17d8166ecb413aec74c70a286664d7104c015178f15b4f6d5b316c9f"
+    },
+    {
+      "path": "docs/save-import-verification.json",
+      "bytes": 993,
+      "sha256": "b187a748698a92b20f9e4d9da107ebeaaf6e80125f6e2027f2ea3c8f5f1b7fb8"
+    },
+    {
+      "path": "docs/source-audit-mods.md",
+      "bytes": 10724,
+      "sha256": "ac24c7ff7e10c4991ea4b2577b2b82af5cf822d7a9709f6bf9fd3ce024dbf45e"
+    },
+    {
+      "path": "docs/static-validation-v0.2.json",
+      "bytes": 7468,
+      "sha256": "ec681048c5522ea0c0d7c6a1337fec45597e75dca7eddb89d5837ac5cade8f28"
+    },
+    {
+      "path": "docs/static-validation-v0.3.json",
+      "bytes": 7337,
+      "sha256": "41cc9070b917ed1969eb9f33a7d37e4597f9bab31ae34df3e07b9d2f0130b3ca"
+    },
+    {
+      "path": "docs/static-validation.json",
+      "bytes": 7149,
+      "sha256": "8a0d8606074a2bcdc7708f139dbd62fdda401b0956fa96ef1ab33c70439b6d14"
+    },
+    {
+      "path": "docs/test-results-v0.2.tap",
+      "bytes": 17444,
+      "sha256": "b9e2fa7727b2d9a235c4f03505635c55d8291d90a5eb40b12657c94fe41fef9f"
+    },
+    {
+      "path": "docs/validator-self-test.json",
+      "bytes": 32,
+      "sha256": "54e0db62e2e9eb77407355798a27ebcc26cfbc4ee539f48f2e1d4a1298afe0d7"
+    },
+    {
+      "path": "docs/validator-self-tests-v0.3.json",
+      "bytes": 32,
+      "sha256": "54e0db62e2e9eb77407355798a27ebcc26cfbc4ee539f48f2e1d4a1298afe0d7"
+    },
+    {
+      "path": "docs/vendor_millennium_art.py",
+      "bytes": 7688,
+      "sha256": "53fc0042e33e3e29da608727a084afa5f73a5632312d6ddb12adcfa0e221c40a"
+    },
+    {
+      "path": "docs/windows-acceptance-checklist.md",
+      "bytes": 8521,
+      "sha256": "a397a4a82f9bbd50372eb71322c0e22b5e60ea7b02d8b5d6309a72dc2fc33ea0"
+    },
+    {
+      "path": "docs/windows-bootstrap-validation.json",
+      "bytes": 2019,
+      "sha256": "8a0b6bbc5648392711b9b3de0570df3baa0cfbe8340f21ee92e1820cec3c5df5"
+    },
+    {
+      "path": "docs/windows-launcher-build.json",
+      "bytes": 1764,
+      "sha256": "4c48e857dc6bc86882ca589825a9725087ad7f7f3b7c9351fe37b354658b9887"
+    },
+    {
+      "path": "docs/windows-powershell-parser.json",
+      "bytes": 1323,
+      "sha256": "973a1f694010145bd01f3b255a4d0fdd267b08173ac50ecee17faddd42af049b"
+    },
+    {
+      "path": "docs/windows-runtime-extraction.md",
+      "bytes": 11404,
+      "sha256": "bcdf274d4e4e365930d680f7302a3bea1431d7142c1b2c4ad1d071e3ca01c77c"
+    },
+    {
+      "path": "docs/windows-runtime-manifest.json",
+      "bytes": 38925,
+      "sha256": "6acc32df690bb3a0547a0c64818f91a2951aa24c8c1bd216b84a9d40cb1aad7d"
+    },
+    {
+      "path": "evidence/README.md",
+      "bytes": 1441,
+      "sha256": "b8b1da45e052926f1bab0b8d42e947e9ba3327657074b3c369bebcc0e31d1b97"
+    },
+    {
+      "path": "evidence/headless-battle-full.log.gz",
+      "bytes": 442835,
+      "sha256": "453b41b385cbb560364dbc3ec74ea9dda691696c5c16d9c8cc886bf6f7927dee"
+    },
+    {
+      "path": "evidence/native-qa-results.json",
+      "bytes": 931,
+      "sha256": "5065f723e90723463488b2a167f69e2e1735619ccd7798689d4a2ace165f2b13"
+    },
+    {
+      "path": "evidence/state-after-load.json",
+      "bytes": 12614,
+      "sha256": "3bd5a190eeaf3a79f0a73c5cb2463ae6f5afe7af84533b02b44bcb7bd7fe1d62"
+    },
+    {
+      "path": "evidence/state-after-process-restart.json",
+      "bytes": 13870,
+      "sha256": "d6826add13084df61bb3d8dff45562f1a80e0a1814df6576613ea12c59704e96"
+    },
+    {
+      "path": "evidence/state-before-load.json",
+      "bytes": 12614,
+      "sha256": "3bd5a190eeaf3a79f0a73c5cb2463ae6f5afe7af84533b02b44bcb7bd7fe1d62"
+    },
+    {
+      "path": "evidence/state-midbattle-after.json",
+      "bytes": 519012,
+      "sha256": "7b5c138ab52c963487cfc760dff9bab9a396b55126332d0666489e1982a7c804"
+    },
+    {
+      "path": "evidence/state-midbattle-before.json",
+      "bytes": 519012,
+      "sha256": "7b5c138ab52c963487cfc760dff9bab9a396b55126332d0666489e1982a7c804"
+    },
+    {
+      "path": "evidence/state-midbattle-resumed.json",
+      "bytes": 299746,
+      "sha256": "4a5546246c7b8c404571b5220b6317b5c52b3c47af3e1a9475f291271c83505f"
+    },
+    {
+      "path": "evidence/state-postbattle.json",
+      "bytes": 13870,
+      "sha256": "d6826add13084df61bb3d8dff45562f1a80e0a1814df6576613ea12c59704e96"
+    },
+    {
+      "path": "evidence/v0.2/headless-samples.json",
+      "bytes": 71936,
+      "sha256": "ac33dad0de03e087ce4052899ecb0c3c3dd704cb5df0fab407df867009ac16d2"
+    },
+    {
+      "path": "evidence/v0.2/headless.log.gz",
+      "bytes": 235174,
+      "sha256": "6c431e2c44a86de0a714a969e95b392376f791fb60b5ddaff0849d7dc78c8eab"
+    },
+    {
+      "path": "evidence/v0.2/midbattle-after.json",
+      "bytes": 534126,
+      "sha256": "c533e61c25f95fe963bbd817710de1f05e58c522094a103b0ffa83af0f9c7f49"
+    },
+    {
+      "path": "evidence/v0.2/midbattle-before.json",
+      "bytes": 534125,
+      "sha256": "d95f5d0a5faf0b9d6faad00159e305e2253e1e00aadb2fece0a51745d7aa8ddd"
+    },
+    {
+      "path": "evidence/v0.2/native-fixture/autostart/autostart.js",
+      "bytes": 7595,
+      "sha256": "5d7a160af4556a9532f6d2dd4c6c9a7099339994a53932b8899ec785a6031ce5"
+    },
+    {
+      "path": "evidence/v0.2/native-fixture/mod.json",
+      "bytes": 148,
+      "sha256": "ace8be178d940fe4b1f2302e63b6a8bddec13cb14770a0f91404ae0ee564294e"
+    },
+    {
+      "path": "evidence/v0.2/native-fixture/simulation/components/ZKtwTest.js",
+      "bytes": 582,
+      "sha256": "c159d4bbb439cc1c1e2638776d5fe4a14ebc7428cb2d6fb04205adbe4dc97b6c"
+    },
+    {
+      "path": "evidence/v0.2/native-qa-results.json",
+      "bytes": 3248,
+      "sha256": "180f238c4e8b2cce9ac4566c97650c820749c1c92aec0aaaea56d28651fdadcd"
+    },
+    {
+      "path": "evidence/v0.2/new-state.json",
+      "bytes": 22004,
+      "sha256": "8b489a9148142116fbd38a56baf84c2b63a00f62f5b5c4a7c77c79c14fb86a19"
+    },
+    {
+      "path": "evidence/v0.2/postbattle-after-restart.json",
+      "bytes": 30863,
+      "sha256": "86d10b8a3b753d6c1bf51bdb7ddbd09856f8169007210f1735ea55f7462e68b1"
+    },
+    {
+      "path": "evidence/v0.2/postbattle-state.json",
+      "bytes": 30863,
+      "sha256": "86d10b8a3b753d6c1bf51bdb7ddbd09856f8169007210f1735ea55f7462e68b1"
+    },
+    {
+      "path": "evidence/v0.2/production-final-hashes.json",
+      "bytes": 9871,
+      "sha256": "ab563a8d60812ba8fa68cb0f57a5fbdcbbd6f4813a456ad633be6568ac794b33"
+    },
+    {
+      "path": "evidence/v0.2/production-hashes.json",
+      "bytes": 9496,
+      "sha256": "5a19dba90c1dafce92624ddca0f371b1ae6dff2e1ea602fbce41b98badc3e17c"
+    },
+    {
+      "path": "evidence/v0.2/v01-midbattle-migrated.json",
+      "bytes": 502197,
+      "sha256": "9c14d4eb21d2db9d0907fb8d8a89a7baf6ab73de80383f85c1874b270f8cbcd5"
+    },
+    {
+      "path": "evidence/v0.2/v01-postbattle-migrated.json",
+      "bytes": 23527,
+      "sha256": "030306d5b76a2b96f4f66b7edee86b0417c67fa43ea45ba1671ee8c17d30dbc2"
+    },
+    {
+      "path": "installer/windows/Bootstrap.ps1",
+      "bytes": 15065,
+      "sha256": "ffb5ae9de6b10cca66849a359d5d5ba1bba672ab22a1eca87b1ee8db82287aad"
+    },
+    {
+      "path": "installer/windows/GameSetup.nsi",
+      "bytes": 5429,
+      "sha256": "83010e1cb10f1e0aa179cbf5b01d5066ed7a32717966ebbd061a63ebab3339d7"
+    },
+    {
+      "path": "installer/windows/OFFLINE_QA.md",
+      "bytes": 5949,
+      "sha256": "15d5d459f37e0e09708acd6196dd2ba6da593677fb50163fcd57d9ded466abcc"
+    },
+    {
+      "path": "installer/windows/OfflineBootstrap.ps1",
+      "bytes": 13058,
+      "sha256": "052cca49ce0efe79579575efd7753bd3d0b218a787711a0d6abd6abfcb0cf6c9"
+    },
+    {
+      "path": "installer/windows/OfflineGameSetup.nsi",
+      "bytes": 6125,
+      "sha256": "892510c330d91895441030cce3f8bc6e17a54afd9065130a276020e325fdcceb"
+    },
+    {
+      "path": "installer/windows/README.md",
+      "bytes": 9210,
+      "sha256": "fabca4b5ac02d9b8d06892d091271a2849c28946ed5d0facc97d2ed1751f5458"
+    },
+    {
+      "path": "installer/windows/Uninstall-KTW.ps1",
+      "bytes": 4740,
+      "sha256": "1340e43b5cb2bc8ccb4967351956970fc73f2720693d914be25689e864eeb487"
+    },
+    {
+      "path": "installer/windows/build_installer.py",
+      "bytes": 5824,
+      "sha256": "b7eca2cb2ee5eb48b6edee8bbb216a5c71d37755196aa8a8cb939c9c012d3f7d"
+    },
+    {
+      "path": "installer/windows/build_offline_qa.py",
+      "bytes": 8629,
+      "sha256": "b0c0d02244699e7b98ff3b15fc531b2f374e35e73cc7c75d73e80066fae69e0e"
+    },
+    {
+      "path": "installer/windows/setup_worker.py",
+      "bytes": 13246,
+      "sha256": "477a780da6980c6476250508a2a4ae98db5bf5e14c5dde419e2e4a176e0365e7"
+    },
+    {
+      "path": "installer/windows/test_offline_build.py",
+      "bytes": 2456,
+      "sha256": "74b90ac3f19c5c48d20e5ef13646d629bf83981a9548c694d87adc15075a940a"
+    },
+    {
+      "path": "installer/windows/verify_offline_qa.py",
+      "bytes": 5373,
+      "sha256": "f7c532de8ef2a4f8ea5f3a66665ac19483f991c085cf7ab01c8c03c0bd65d4ff"
+    },
+    {
+      "path": "launcher/windows/BOOTSTRAP.md",
+      "bytes": 5180,
+      "sha256": "2010f88398109307c9ec9ff83408ddce152c0feffa0c02d54da09b1b3f5fca56"
+    },
+    {
+      "path": "launcher/windows/LICENSES/GCC-RUNTIME-NOTICES.txt",
+      "bytes": 2934,
+      "sha256": "bec5b50f9f06f4df644fc56664620d96dcc0075be3f2566c9cadb69ece40a6d7"
+    },
+    {
+      "path": "launcher/windows/LICENSES/GCC-Runtime-Library-Exception-3.1.txt",
+      "bytes": 3323,
+      "sha256": "28e85c5aa4af9b4f1dfe6b4817aa3eefb3eaaee7fd735045016f29ccf50276a1"
+    },
+    {
+      "path": "launcher/windows/LICENSES/GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "launcher/windows/LICENSES/MinGW-w64-COPYRIGHT.txt",
+      "bytes": 37808,
+      "sha256": "af23297b7d17e8e31817a5d58088de6fdafe34705bb5a7d1d330f08711b31314"
+    },
+    {
+      "path": "launcher/windows/LICENSES/libstdc++-STL-NOTICES.txt",
+      "bytes": 1104,
+      "sha256": "9460181b42171169ccffaa91c8dceafb9ff8ec448d7beb137069731358a9cb82"
+    },
+    {
+      "path": "launcher/windows/README.md",
+      "bytes": 7670,
+      "sha256": "78406fce6948d5670bc3c6644e72556ea13908ec6273a00732b21142e370dc55"
+    },
+    {
+      "path": "launcher/windows/THIRD_PARTY_NOTICES.md",
+      "bytes": 3183,
+      "sha256": "55525e269c7bfd3813943b704ac424cf6e4654fba6345a2e832761c311bb1dc2"
+    },
+    {
+      "path": "launcher/windows/Test-Launcher.ps1",
+      "bytes": 4162,
+      "sha256": "e26b627243566f7cec62b3c4c0e3b1ec5bd32b698308867aa156f71c5aa77391"
+    },
+    {
+      "path": "launcher/windows/launcher.manifest",
+      "bytes": 921,
+      "sha256": "2b7455e97b35ec6ab51bd7e87f22fd60f48602b65213c399e0d94a54ff4338be"
+    },
+    {
+      "path": "launcher/windows/launcher.rc",
+      "bytes": 843,
+      "sha256": "2ff82c2de42bfbfdc760de1a9c572cdc3163f8f9298b6d30d11c71daab4b4195"
+    },
+    {
+      "path": "launcher/windows/launcher_core.hpp",
+      "bytes": 7222,
+      "sha256": "e7d5e7a93766d6305fff329cd214962303f09b3075db00abdac0305fea36c98b"
+    },
+    {
+      "path": "launcher/windows/launcher_core_tests.cpp",
+      "bytes": 2354,
+      "sha256": "5c1dfa020e29bfeeae19cff24c8e06c19c3ff7c420a7de876d4cbba1ede66790"
+    },
+    {
+      "path": "launcher/windows/main.cpp",
+      "bytes": 13550,
+      "sha256": "0269f591438506a79b5435bb1a13797247d3001385dcdd1057d932b20b6066f7"
+    },
+    {
+      "path": "launcher/windows/toolchain-lock.json",
+      "bytes": 2304,
+      "sha256": "2ef17959c22c2a154d4ad2ba8530f8d887f0cf0d0fc8afdb1e60dd9c3091232d"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/horse/cav_armor_umayyad_lamellar.xml",
+      "bytes": 1612,
+      "sha256": "656b5b841f42c99a0376a09af522455ec5c2139b909548501f1b31ab30ba2d6a"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/heads/xion_head.xml",
+      "bytes": 1424,
+      "sha256": "05eb98806a2185ed48dbed49afc995c5e0d1ca89f3638bf4681793bab85609e6"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/helmets/byza_archer_helmet_basic_iron.xml",
+      "bytes": 718,
+      "sha256": "0809c031960d902cc29d703c9fe2fe42a93a348ab76ce0a40900f56953c9e1a5"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/helmets/xion_cloth.xml",
+      "bytes": 1841,
+      "sha256": "889f948bc8601f6b54496c16f11bbe347966bfbedcd3ce569ca59564eb3e7ada"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/helmets/xion_hide.xml",
+      "bytes": 1550,
+      "sha256": "db077c46172e4f6f59a646bf7ba1bfdac0df3c7591db14ba148aab3890c83c28"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/weapons/xion_arrow_front.xml",
+      "bytes": 488,
+      "sha256": "de143cf5d0b09eff0b5b29361f74ce13032f4af3cfbc785a378f53459b06353e"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/weapons/xion_bow.xml",
+      "bytes": 692,
+      "sha256": "47ddc160e151b9c7668264f15170dc4e8344f92e3b1d946d844ae9983d8d2649"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/millennium/props/units/weapons/xion_quiver_cloth_cavalry_left.xml",
+      "bytes": 2086,
+      "sha256": "9c9cc7e2af8c8afd757fd5bcb9b683299b5a67a5009231cb55c2d390c7102893"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/heavy_cavalry.xml",
+      "bytes": 1352,
+      "sha256": "188011a3a17a99ef2c1b72f4c87b5b0b8cfa6dac000ae53457f8bac29eaae5ae"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/heavy_cavalry_rider.xml",
+      "bytes": 2186,
+      "sha256": "f15eed402704a0e00db45a4b77dfb6aad843a73c99b0a6300da268e8e54f3eab"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/infantry_archer.xml",
+      "bytes": 2385,
+      "sha256": "230d62c9129d2f6f6b2ac1469d62f5b8dc62cf260931460d92862c8b1d39422c"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/light_cavalry.xml",
+      "bytes": 1250,
+      "sha256": "4cf0d89b3edabafe1c95a1aef23a06b5f740fcc7c8e736d1d261b90b6d7b37e6"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/light_cavalry_rider.xml",
+      "bytes": 2147,
+      "sha256": "01b820d906e34b25c4bed00135662e388fcc47863aee0f90b293ff4e3f681aac"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/mounted_archer.xml",
+      "bytes": 1255,
+      "sha256": "2dfa0e881f5ce74008fae9529c9ebbc22c2e07450198e252157ab5d46bd4032e"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/mounted_archer_rider.xml",
+      "bytes": 2585,
+      "sha256": "07eb3bc2125ac00dd9b6b6adf22915370adf8b1d5705f712467611260c6424ba"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/actors/ktw/units/spearman.xml",
+      "bytes": 2124,
+      "sha256": "9f14c5eaed34c6dbf5a8697e4003bf4317f49f40556bb58fbf4a51b2ae21dc45"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/animation/ktw/millennium/mechanical/weap_xion_bow_attack.dae",
+      "bytes": 68656,
+      "sha256": "158b80fa7cfbfe35e44c401d33cd581133d17a2caaaf87f4c5e5b8eb183dd5ce"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/ktw-MILLENNIUM-LICENSE.txt",
+      "bytes": 1739,
+      "sha256": "e025ade262b23791e55e527c3979e4574f0eb9ee57450e34a18b0964a733ad66"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/helmet/byza_archer_helmet_basic.dae",
+      "bytes": 19256,
+      "sha256": "847e6689c7242c435052d0befae7c861172851efae5e367c1050e78e250e2866"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/helmet/xion_cloth.dae",
+      "bytes": 16775,
+      "sha256": "8ab5a5c305269b456766058c8047af3b63e0e26be2b562988b19df4398477c58"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/helmet/xion_hide.dae",
+      "bytes": 23778,
+      "sha256": "d6f392f1bea82b88e2cb720bac2dd76f6cf4db773270fcbc31e7cb8e5e3df830"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/horse/cataphract_armor.dae",
+      "bytes": 187370,
+      "sha256": "3e9cdf2141d3fe429dd6f1cd8c6c103ce7d1793ee3c4b867de49ad43f1f8696d"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/weap_xion_arrow_front.dae",
+      "bytes": 7686,
+      "sha256": "ab147fbbe046ae98c555ee853e428978057f25974e966b11e8abc92558e0c6d3"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/weap_xion_bow.dae",
+      "bytes": 49877,
+      "sha256": "c15502ce6154e10420c7630e6b070f7c525ce7b1f9c94021f88f6ebc75616440"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/props/weap_xion_quiver_cloth_cavalry_left.dae",
+      "bytes": 27769,
+      "sha256": "d5989eb2ab6c59dea15e0809d5a98af5518ae842d2a1ae7587e2fe31947ee6c1"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/meshes/ktw/millennium/skeletal/new/m_armor_nomad_a.dae",
+      "bytes": 173932,
+      "sha256": "eed0ad75206dd1cffc96df21050abfd034681dfe09458568f71a98ccee1e4cea"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/skeletons/ktw_millennium_bow.xml",
+      "bytes": 673,
+      "sha256": "d5cca7c728d5e6f5c55f24ecd23d7aab9dcac583bf914e1c0f54716335cd1d7c"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/head/chin_b.png",
+      "bytes": 25442,
+      "sha256": "146bc14cbc1b671209c7f18bd6d7dcb4c6ba3e6810ca8d37b5b7c1276a280014"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/head/xion_b.png",
+      "bytes": 19094,
+      "sha256": "bbb674371b41c7593ca9948e0400ef53bdf4f5bfcf85844338ae72e54d40aa63"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_iron.png",
+      "bytes": 254526,
+      "sha256": "5414af27f58014d702fa0815e3ba495c160db35ecd8885d1226787dc14cdbf76"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_norm.png",
+      "bytes": 394788,
+      "sha256": "edb7a5572e377894b35b7382a3851bfebd313268eb15f90fee2a39e8eaeaac7f"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_spec.png",
+      "bytes": 159149,
+      "sha256": "c6559bb09b62b81e81f0cc1a510967ab8f6bcc4e26e9738ce8dfced3949cec5d"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar.png",
+      "bytes": 387423,
+      "sha256": "9d493266f8da9293c9205eae670bc23d6c330666a9191461c4e96755d30b297a"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar2.png",
+      "bytes": 368962,
+      "sha256": "d36ba00dddd8c4ac6b2e5ffee2d5d86691bd0c77ead9415409cc5926c1e256cb"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_norm.png",
+      "bytes": 468337,
+      "sha256": "1a929c714b2d6c4258900ef1e762cb0b41e90e23eb5f3b358ffaae2b42e0caf7"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/horse/cataphract_armor_spec.png",
+      "bytes": 285278,
+      "sha256": "23c2ddbc818b591c210ea6b67a921576e671eddb5978bc9892dca20a19018dbc"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic.png",
+      "bytes": 376939,
+      "sha256": "a6a5bfd7af728291515074b89670a0de4a40fba22ca1927bda5b4ec676260b1d"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic_b.png",
+      "bytes": 372206,
+      "sha256": "a67cd50c150d8f8684f8f59093811b47d34739f83261393110583eced4ce5d60"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_basic_norm.png",
+      "bytes": 422821,
+      "sha256": "4ed6d682e4192541be68a2705258017e645dcf2fb7ba87662eeb35bbfb956c33"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/props/xion_quiver_spec.png",
+      "bytes": 17170,
+      "sha256": "4a1734bcf56479794994eaae236168a98248bddac61cc3bd4cbc6352e759875e"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_a.png",
+      "bytes": 530777,
+      "sha256": "e0e04c55d8c3b6fe45dd7c6345734636c88e978cf9454b20a0d70fbf134a3ff1"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_b.png",
+      "bytes": 611203,
+      "sha256": "bd99a41a278ddebbc84922aeb4f7be86134aece9f9f136cd83e053f897fbd308"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_c.png",
+      "bytes": 532898,
+      "sha256": "c4701e3feee264224e281ea97ceba6ea68e7f0affe04fd37fff5dc236515017d"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_norm.png",
+      "bytes": 506876,
+      "sha256": "fb28e313f0b5957699e00c5391f81c5e4cf9149b0a1176702ecdf5f4b57e30e3"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/skeletal/xion_cloth_spec.png",
+      "bytes": 1232,
+      "sha256": "f6d18dc2a4241da770a44e0758e3cfecefb845e34e65fc526ee21f8d5781d0cd"
+    },
+    {
+      "path": "mods/kazakh_total_war/art/textures/skins/ktw/millennium/structural/xion_structure.png",
+      "bytes": 1741352,
+      "sha256": "66993d3783940de65c857543794e596c8e560b020527d2d899f0876e00af8315"
+    },
+    {
+      "path": "mods/kazakh_total_war/config/kazakh_total_war.cfg",
+      "bytes": 190,
+      "sha256": "5179d9414f3d2fdab18354b1f81accb1bb2e1fc899019afa1f8fdc69e0f8f427"
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/common/ktw.js",
+      "bytes": 44585,
+      "sha256": "d9a4f834bd6eff4b6037ad9bba1c084b4d682529a14262f6170f858e047e0edf"
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/ktw/data.json",
+      "bytes": 3735,
+      "sha256": "2ea417a02e1183c2fa3d908f286b21a1e45cab12ac7fa2f35ef852c4587f87d3"
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/ktw/information.js",
+      "bytes": 398,
+      "sha256": "21844754e7bc6a0d333ec1c54045237bf7dea5d546a1212d1276f878ed64a98c"
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/ktw/information.xml",
+      "bytes": 788,
+      "sha256": "a53739829c213841fca766c463d7dd6be357dfdfa5776a29bfb61941c3d8d3cb"
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/ktw/mainmenu.js",
+      "bytes": 1412,
+      "sha256": "1e68b7834f3b9e7b55f842984db31ca80e1d0e78a281f9e026008acbb7c9080e"
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/ktw/mainmenu.xml",
+      "bytes": 3039,
+      "sha256": "f86d8932a1604d0039c7f9d5d2e3058e473085ef8af40644be887a50aaaa14ea"
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/page_ktw_information.xml",
+      "bytes": 371,
+      "sha256": "e568e31e94fc0e74de648e01bb4608fc35a0b23c98700bee3a5fc536be6d0fd0"
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/page_pregame.xml",
+      "bytes": 368,
+      "sha256": "063623b29951822a0c9b47632ed50dbd13b6c5aeb15835c5879ce273a8769cdf"
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/session/ktw.js",
+      "bytes": 15898,
+      "sha256": "94fad5b14ff8ba3d553b7eedfaded07da57efc5e38f3ed923b32dc0eb1c7537e"
+    },
+    {
+      "path": "mods/kazakh_total_war/gui/session/session_objects/ktw.xml",
+      "bytes": 9708,
+      "sha256": "7a58790b852f65fb4b25032e4cdb8af2ce3ff79d5e10e7730eea03771880127b"
+    },
+    {
+      "path": "mods/kazakh_total_war/maps/random/ktw_battle.js",
+      "bytes": 249,
+      "sha256": "9648c6552aab0334d0d1b70d283bdd9af15dfc6187622760f6e87414229202ff"
+    },
+    {
+      "path": "mods/kazakh_total_war/maps/random/ktw_battle.json",
+      "bytes": 261,
+      "sha256": "de1bb613a79110deb428950c8f3aec7b96eb594cb64958644155e94c1dfe081b"
+    },
+    {
+      "path": "mods/kazakh_total_war/maps/random/ktw_campaign.js",
+      "bytes": 250,
+      "sha256": "7d9ff3bc9a04c3f99320c34739f9ec332a1864275f722b7ba4c2efab3f2b7d9e"
+    },
+    {
+      "path": "mods/kazakh_total_war/maps/random/ktw_campaign.json",
+      "bytes": 261,
+      "sha256": "4842f4f7d9e83e6be5f71a826a0cc44722935a22b0a32408231914046e0a3481"
+    },
+    {
+      "path": "mods/kazakh_total_war/maps/random/ktw_terrain/locations.js",
+      "bytes": 736,
+      "sha256": "2264564463d7386bc193f1dc83c5b4467591a9b869b794e34950589c75843391"
+    },
+    {
+      "path": "mods/kazakh_total_war/maps/random/ktw_terrain/terrain.js",
+      "bytes": 4518,
+      "sha256": "032f455d0574dd001398c561a606b75ca3730ccc5ec8eb4fc536be8fd4a94c64"
+    },
+    {
+      "path": "mods/kazakh_total_war/mod.json",
+      "bytes": 293,
+      "sha256": "f2e2d504973eae357d876003049c42e404fb83d17ac47a784748bc641df0110c"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/components/KtwController.js",
+      "bytes": 14300,
+      "sha256": "7529fc20c21dc044a0a959d75a220d199d0cf174a043cd0c58a486fa195d5578"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/components/interfaces/KtwController.js",
+      "bytes": 88,
+      "sha256": "7994e95b18970b62e0cce8bb41223dcc0a6abf6190254cb6613d1da9fba9fd13"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/helpers/KtwBattleBridge.js",
+      "bytes": 6136,
+      "sha256": "d889a986694559419dc2d8628f69a00590dba3a2382b47377c755a8573cca3be"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/helpers/KtwCampaign.js",
+      "bytes": 32359,
+      "sha256": "3dd344ebf5cea27416ba829a9ed1cc5063015479e0796001f01445ea84baaec3"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/helpers/KtwCommands.js",
+      "bytes": 303,
+      "sha256": "46e5b9f03ed9244d3a700928a5ee020e414955360b6de84bfa521f84bf06713f"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/helpers/KtwPolitics.js",
+      "bytes": 15788,
+      "sha256": "c6c6a54a8675eee0bb11eb8f4dc56394c7f71d6c74719a808ca0fb05d94b6bab"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/helpers/KtwSaveSystem.js",
+      "bytes": 1957,
+      "sha256": "b1123c50aa1d20c9336874717122ad5b3a14f460494b44babb20c012c4df8503"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/structures/ktw/settlement.xml",
+      "bytes": 949,
+      "sha256": "16c7312bdf2e9ca1238e5095163c25f8d8c9ab0be4186cd24d0aac5277a45b73"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/units/ktw/army_marker.xml",
+      "bytes": 944,
+      "sha256": "15d4bd88b8faf711725f75f29272939661064671d527d5b4fb8550c235c0a9e9"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/units/ktw/heavy_cavalry.xml",
+      "bytes": 816,
+      "sha256": "a1c1b7dd86461cd10d1856b10271c1194a46d8bd98b20a54f553aa66914ee09c"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/units/ktw/infantry_archer.xml",
+      "bytes": 817,
+      "sha256": "0db1b991a41da869080d922979b5efc47bd073ed5877f20fef73a2f3d97c1195"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/units/ktw/light_cavalry.xml",
+      "bytes": 824,
+      "sha256": "57746935380cfa7acb34e970620a915f8d3a04c204349655153553affd0dda02"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/units/ktw/mounted_archer.xml",
+      "bytes": 816,
+      "sha256": "5c8477974386ec661ff8d916f76f576f2fb6a25b73832679af970f67d5209cce"
+    },
+    {
+      "path": "mods/kazakh_total_war/simulation/templates/units/ktw/spearman.xml",
+      "bytes": 809,
+      "sha256": "57ba42cbd2e706e9cd8c75851eab0e89947dba72136f8c41e072a2415210b706"
+    },
+    {
+      "path": "research/CHARACTER_MODEL_NOTES.md",
+      "bytes": 9811,
+      "sha256": "0ef8d011f5905588c84514c01a896d93879b5d1f011851861a2048ed542486a3"
+    },
+    {
+      "path": "research/HISTORY_NOTES.md",
+      "bytes": 8112,
+      "sha256": "3a457e9c53d2e0a4427e3b61d025bd4c844452dfaa2ae599cbae12263dca7a4d"
+    },
+    {
+      "path": "research/build_research.py",
+      "bytes": 10853,
+      "sha256": "3037ea165c935af73237ecb9d2c924850c9c90653fe331880710436c988d48a1"
+    },
+    {
+      "path": "research/campaign_1465.json",
+      "bytes": 22582,
+      "sha256": "f5978988da49e9e5c8a5b20a9f3c89fcde70fff4eec78b7de9844f1ae58e261a"
+    },
+    {
+      "path": "tests/bridge_save.test.cjs",
+      "bytes": 13371,
+      "sha256": "12b1ef13b2d4191d8fa19794efd0bb33e4fea8752f30936fb83be50526a4ee4b"
+    },
+    {
+      "path": "tests/campaign.test.cjs",
+      "bytes": 8853,
+      "sha256": "ede45c489e9f6dd733337431e0432c6d2dfd9524c9801750811e47ac2b821f27"
+    },
+    {
+      "path": "tests/controller.test.cjs",
+      "bytes": 10971,
+      "sha256": "fa1740d32843aa390f1703ffbb791eb6018d0495bd1135db1e422092a539b40c"
+    },
+    {
+      "path": "tests/fixtures/README.md",
+      "bytes": 379,
+      "sha256": "1b56270b9633b2fc74faa634c091a7fd932b3c4422b0bf398d0065bec9a54c43"
+    },
+    {
+      "path": "tests/fixtures/v1_completed.campaign.json",
+      "bytes": 7197,
+      "sha256": "f1f8b421b488b5ab6e0dd610167cdb60f5021ddcfdc4c7cc5dd86e1722c2540d"
+    },
+    {
+      "path": "tests/fixtures/v1_pending.campaign.json",
+      "bytes": 8270,
+      "sha256": "588a6ce969cdd6f57132839e2ab56a88f88e1d1bc4de1b1e6b4405ab53c27761"
+    },
+    {
+      "path": "tests/gui.test.cjs",
+      "bytes": 4887,
+      "sha256": "c01b9bff2050f16b84979237bd36fa01ce86d732d50fbb5f8d277c6297b43c59"
+    },
+    {
+      "path": "tests/installer/Check-InstallerPowerShell.ps1",
+      "bytes": 2327,
+      "sha256": "c6cb42bc9e3b09f2df38b4d77d67b8c9eeb1939ade808638bf051f59a2632132"
+    },
+    {
+      "path": "tests/installer/README.md",
+      "bytes": 2446,
+      "sha256": "9eeb4bbed5a108ac54959d5df1b54a944a4fa5c41b5dc017653df7b2dc964a8d"
+    },
+    {
+      "path": "tests/installer/analyzer-probes/compatible.ps1",
+      "bytes": 91,
+      "sha256": "d64e5e56ecd3a51f5a0bc06714cf3707069b098c9e5885993a3627a5c2c0a170"
+    },
+    {
+      "path": "tests/installer/analyzer-probes/incompatible.ps1",
+      "bytes": 80,
+      "sha256": "ffc8cf590948dbdb0d398a694c4b23ebb950d4ca6cd5ffafeb354387489d7c52"
+    },
+    {
+      "path": "tests/installer/test_worker_contract.py",
+      "bytes": 5864,
+      "sha256": "145da2214aef756d03f8049c6dd2cacef3d18ccecfe0bb5e147d534e39a8616c"
+    },
+    {
+      "path": "tests/installer/verify_setup_payload.py",
+      "bytes": 7054,
+      "sha256": "3eb09bc3a8502ba5e90eed08f640d44ef3945e4299f54b49d76c0b8eb0e75c84"
+    },
+    {
+      "path": "tests/native_fixture/README.md",
+      "bytes": 3951,
+      "sha256": "5f7e787f339f76b2d707f488381ccd53956826b99180bdf2bd1a13a764edd65a"
+    },
+    {
+      "path": "tests/native_fixture/fixture-integrity.json",
+      "bytes": 456,
+      "sha256": "3436a202da1de8924a7ceeb08e9d878a4be4b61f519f5cc17b4365070e13f48a"
+    },
+    {
+      "path": "tests/native_fixture/ktw_test/autostart/autostart.js",
+      "bytes": 7568,
+      "sha256": "2f3a05b256aedec083a433731b352af0e0a3dedfdf88aa5aeb415548de225ce4"
+    },
+    {
+      "path": "tests/native_fixture/ktw_test/mod.json",
+      "bytes": 115,
+      "sha256": "da8a10f55ddd66d77ff9cac773d859673f7cc22d319141cda22198bf3abb470a"
+    },
+    {
+      "path": "tests/native_fixture/ktw_test/simulation/components/ZKtwTest.js",
+      "bytes": 322,
+      "sha256": "9c582fea4c8fde2e75dfc63edd5c27c4f8e6571e1f270f4d7b90e97314af78a4"
+    },
+    {
+      "path": "tests/politics.test.cjs",
+      "bytes": 8494,
+      "sha256": "920b76b1c369bab1d5856fb4c561900ee78ba224e51ce53e74260edd9e7b350d"
+    },
+    {
+      "path": "tests/test_nsisbi_extractor.py",
+      "bytes": 4080,
+      "sha256": "6d09c412984654146f690bc855a07586cbfd46cd59f515ddd90a47ce5e1c6ccf"
+    },
+    {
+      "path": "tests/test_save_import.py",
+      "bytes": 4129,
+      "sha256": "3304d67f1a7971c62a786b7b4a22e8e442af2ed3d0713b36273a8706e328c364"
+    },
+    {
+      "path": "tests/test_windows_packaging.py",
+      "bytes": 8459,
+      "sha256": "d496a96e3c6ff185f2981696b723199d9c8373bb3604fb05da0a8770505180bb"
+    },
+    {
+      "path": "tools/Import-LegacySaves.ps1",
+      "bytes": 1165,
+      "sha256": "ab2ceae9429c8ffa8da6b13d02620029b08dc8b11cb12ea86de2d05e6be80a1e"
+    },
+    {
+      "path": "tools/Install-Windows.ps1",
+      "bytes": 4176,
+      "sha256": "9da31e1c7a691558c135159412b9fa4ea8ec7e1080a07fb2b67f61290a095f0b"
+    },
+    {
+      "path": "tools/Install-WindowsRuntime.ps1",
+      "bytes": 16696,
+      "sha256": "474167cf71f82623bc2a280f152f59e1d41832444119f328955b53a69551893c"
+    },
+    {
+      "path": "tools/Launch-Linux.sh",
+      "bytes": 607,
+      "sha256": "42b8164cd19249e674424c05981bb93b219bdd1af73bd8471ab6afbe53e8d280"
+    },
+    {
+      "path": "tools/Test-Windows.ps1",
+      "bytes": 14733,
+      "sha256": "4d869f960f6bc2c1298ef23e2cd21ff420641cf55e508af3d12d8f9f83783b80"
+    },
+    {
+      "path": "tools/build_windows_launcher.py",
+      "bytes": 8677,
+      "sha256": "6632f3b40a92939893e56eafa5e00a55cd3bcbaae143e3add1e817125993f059"
+    },
+    {
+      "path": "tools/extract_r28_nsisbi.py",
+      "bytes": 9362,
+      "sha256": "c9c109967d74128e6d61c0cb285e397518a89e79d6899e87bb211c67018b3570"
+    },
+    {
+      "path": "tools/fuzz_campaign.cjs",
+      "bytes": 4503,
+      "sha256": "e3a7e036419a31ff8436507cb6bc3856a8ed75c3b82fd09b0eb3b9957515e830"
+    },
+    {
+      "path": "tools/import_legacy_saves.py",
+      "bytes": 5399,
+      "sha256": "df2554894a037af87d09b6c03ad8ecaf7a8917027217d36e6e5e06036a8d15e7"
+    },
+    {
+      "path": "tools/package.py",
+      "bytes": 4312,
+      "sha256": "6a1028518fd67c4e04ebfd4b5440abb52c1e41f11a7049564afa9d5289673379"
+    },
+    {
+      "path": "tools/package_exe_release.py",
+      "bytes": 22109,
+      "sha256": "f48429258b27343af2634466d2f1532fc14d3b286912d711ce1918ac4940b8be"
+    },
+    {
+      "path": "tools/package_windows.py",
+      "bytes": 9999,
+      "sha256": "d93ef9ce0a2f4ad8267d71046709715b4d11c61fce56c857394cffc83f9949b9"
+    },
+    {
+      "path": "tools/validate_project.py",
+      "bytes": 19227,
+      "sha256": "85db00dff11bd8464fd4cc2dfebd1011ebcd5c764a54581a686042fde60f2a30"
+    }
+  ]
+}

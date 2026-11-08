@@ -1,0 +1,1181 @@
+{
+  "scope": "Recursive actor/prop/variant/material/mesh/texture/animation resource paths; accepts official cached PMD/PSA/DDS/XMB. Does not validate GPU, COLLADA rig equivalence or material shader execution.",
+  "roots": [
+    "art/actors/ktw/units/mounted_archer.xml",
+    "art/actors/ktw/units/light_cavalry.xml",
+    "art/actors/ktw/units/heavy_cavalry.xml",
+    "art/actors/ktw/units/spearman.xml",
+    "art/actors/ktw/units/infantry_archer.xml",
+    "art/skeletons/ktw_millennium_bow.xml"
+  ],
+  "resources": {
+    "art/actors/ktw/units/mounted_archer.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/units/mounted_archer.xml",
+      "sha256": "2dfa0e881f5ce74008fae9529c9ebbc22c2e07450198e252157ab5d46bd4032e"
+    },
+    "art/meshes/skeletal/horse_celtic.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/skeletal/horse_celtic.dae.cached.pmd",
+      "sha256": "97df09e26d1dd0879a4db6c343a83a5b3edd8db3732e870591bfd3ca795e5752"
+    },
+    "art/actors/ktw/units/mounted_archer_rider.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/units/mounted_archer_rider.xml",
+      "sha256": "07eb3bc2125ac00dd9b6b6adf22915370adf8b1d5705f712467611260c6424ba"
+    },
+    "art/meshes/ktw/millennium/skeletal/new/m_armor_nomad_a.dae": {
+      "provider": "module",
+      "physical_path": "art/meshes/ktw/millennium/skeletal/new/m_armor_nomad_a.dae",
+      "sha256": "eed0ad75206dd1cffc96df21050abfd034681dfe09458568f71a98ccee1e4cea"
+    },
+    "art/actors/ktw/millennium/props/units/heads/xion_head.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/millennium/props/units/heads/xion_head.xml",
+      "sha256": "05eb98806a2185ed48dbed49afc995c5e0d1ca89f3638bf4681793bab85609e6"
+    },
+    "art/meshes/props/new/dude_head.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/new/dude_head.dae.cached.pmd",
+      "sha256": "a50da2bb9da0da367ea256f79589a02a6f864b3f8cf3b631feecb667d6c40fa3"
+    },
+    "art/textures/skins/ktw/millennium/props/head/chin_b.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/head/chin_b.png",
+      "sha256": "146bc14cbc1b671209c7f18bd6d7dcb4c6ba3e6810ca8d37b5b7c1276a280014"
+    },
+    "art/textures/skins/ktw/millennium/props/head/xion_b.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/head/xion_b.png",
+      "sha256": "bbb674371b41c7593ca9948e0400ef53bdf4f5bfcf85844338ae72e54d40aa63"
+    },
+    "art/textures/skins/default_norm.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/default_norm.png.cached.dds",
+      "sha256": "a868e1cef2309d7fe175839a0045781c93fbcd52103efeda34609a3c186c7b67"
+    },
+    "art/textures/skins/null_black.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/null_black.dds.cached.dds",
+      "sha256": "ba305cf55809887e5a3fd66ef1cc7f8ca7e7ffe69d779e8fa79b6c95dcc7725d"
+    },
+    "art/materials/objectcolor_norm_spec.xml": {
+      "provider": "release28",
+      "physical_path": "art/materials/objectcolor_norm_spec.xml",
+      "sha256": "9e01afad6d50270fd871d46acef9fbbd09678dca4784cd6a5d34c73bd143aeda"
+    },
+    "art/actors/ktw/millennium/props/units/weapons/xion_bow.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/millennium/props/units/weapons/xion_bow.xml",
+      "sha256": "47ddc160e151b9c7668264f15170dc4e8344f92e3b1d946d844ae9983d8d2649"
+    },
+    "art/meshes/ktw/millennium/props/weap_xion_bow.dae": {
+      "provider": "module",
+      "physical_path": "art/meshes/ktw/millennium/props/weap_xion_bow.dae",
+      "sha256": "c15502ce6154e10420c7630e6b070f7c525ce7b1f9c94021f88f6ebc75616440"
+    },
+    "art/textures/skins/ktw/millennium/structural/xion_structure.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/structural/xion_structure.png",
+      "sha256": "66993d3783940de65c857543794e596c8e560b020527d2d899f0876e00af8315"
+    },
+    "art/animation/ktw/millennium/mechanical/weap_xion_bow_attack.dae": {
+      "provider": "module",
+      "physical_path": "art/animation/ktw/millennium/mechanical/weap_xion_bow_attack.dae",
+      "sha256": "158b80fa7cfbfe35e44c401d33cd581133d17a2caaaf87f4c5e5b8eb183dd5ce"
+    },
+    "art/materials/player_trans_norm_spec.xml": {
+      "provider": "release28",
+      "physical_path": "art/materials/player_trans_norm_spec.xml",
+      "sha256": "48a6730a21ba962045c589dbcf2e8098a5e574e9afeb65df861cc8b2ec1aa545"
+    },
+    "art/actors/ktw/millennium/props/units/weapons/xion_quiver_cloth_cavalry_left.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/millennium/props/units/weapons/xion_quiver_cloth_cavalry_left.xml",
+      "sha256": "9c9cc7e2af8c8afd757fd5bcb9b683299b5a67a5009231cb55c2d390c7102893"
+    },
+    "art/meshes/ktw/millennium/props/weap_xion_quiver_cloth_cavalry_left.dae": {
+      "provider": "module",
+      "physical_path": "art/meshes/ktw/millennium/props/weap_xion_quiver_cloth_cavalry_left.dae",
+      "sha256": "d5989eb2ab6c59dea15e0809d5a98af5518ae842d2a1ae7587e2fe31947ee6c1"
+    },
+    "art/actors/ktw/millennium/props/units/weapons/xion_arrow_front.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/millennium/props/units/weapons/xion_arrow_front.xml",
+      "sha256": "de143cf5d0b09eff0b5b29361f74ce13032f4af3cfbc785a378f53459b06353e"
+    },
+    "art/meshes/ktw/millennium/props/weap_xion_arrow_front.dae": {
+      "provider": "module",
+      "physical_path": "art/meshes/ktw/millennium/props/weap_xion_arrow_front.dae",
+      "sha256": "ab147fbbe046ae98c555ee853e428978057f25974e966b11e8abc92558e0c6d3"
+    },
+    "art/textures/skins/props/prop_weap.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/prop_weap.dds.cached.dds",
+      "sha256": "6b4a486a230223af41be79e300c43fff7dedb6a499981acc45c6effeaa22fd69"
+    },
+    "art/materials/no_trans_norm_spec.xml": {
+      "provider": "release28",
+      "physical_path": "art/materials/no_trans_norm_spec.xml",
+      "sha256": "14161f0846354a5529a5e8ac558cb5c974928d084f5e7e4f605d60387a4f13b1"
+    },
+    "art/textures/skins/ktw/millennium/props/xion_quiver_basic.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/xion_quiver_basic.png",
+      "sha256": "a6a5bfd7af728291515074b89670a0de4a40fba22ca1927bda5b4ec676260b1d"
+    },
+    "art/textures/skins/ktw/millennium/props/xion_quiver_basic_norm.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/xion_quiver_basic_norm.png",
+      "sha256": "4ed6d682e4192541be68a2705258017e645dcf2fb7ba87662eeb35bbfb956c33"
+    },
+    "art/textures/skins/ktw/millennium/props/xion_quiver_spec.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/xion_quiver_spec.png",
+      "sha256": "4a1734bcf56479794994eaae236168a98248bddac61cc3bd4cbc6352e759875e"
+    },
+    "art/textures/skins/ktw/millennium/props/xion_quiver_basic_b.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/xion_quiver_basic_b.png",
+      "sha256": "a67cd50c150d8f8684f8f59093811b47d34739f83261393110583eced4ce5d60"
+    },
+    "art/materials/player_trans_parallax_spec.xml": {
+      "provider": "release28",
+      "physical_path": "art/materials/player_trans_parallax_spec.xml",
+      "sha256": "a1db042bdbfc6c3376bbee474f5710a2fcfc74edbda31c4d9bebdc4de5112acf"
+    },
+    "art/textures/skins/ktw/millennium/skeletal/xion_cloth_a.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/skeletal/xion_cloth_a.png",
+      "sha256": "e0e04c55d8c3b6fe45dd7c6345734636c88e978cf9454b20a0d70fbf134a3ff1"
+    },
+    "art/textures/skins/ktw/millennium/skeletal/xion_cloth_norm.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/skeletal/xion_cloth_norm.png",
+      "sha256": "fb28e313f0b5957699e00c5391f81c5e4cf9149b0a1176702ecdf5f4b57e30e3"
+    },
+    "art/textures/skins/ktw/millennium/skeletal/xion_cloth_spec.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/skeletal/xion_cloth_spec.png",
+      "sha256": "f6d18dc2a4241da770a44e0758e3cfecefb845e34e65fc526ee21f8d5781d0cd"
+    },
+    "art/textures/skins/ktw/millennium/skeletal/xion_cloth_b.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/skeletal/xion_cloth_b.png",
+      "sha256": "bd99a41a278ddebbc84922aeb4f7be86134aece9f9f136cd83e053f897fbd308"
+    },
+    "art/textures/skins/ktw/millennium/skeletal/xion_cloth_c.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/skeletal/xion_cloth_c.png",
+      "sha256": "c4701e3feee264224e281ea97ceba6ea68e7f0affe04fd37fff5dc236515017d"
+    },
+    "art/actors/ktw/millennium/props/units/helmets/xion_cloth.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/millennium/props/units/helmets/xion_cloth.xml",
+      "sha256": "889f948bc8601f6b54496c16f11bbe347966bfbedcd3ce569ca59564eb3e7ada"
+    },
+    "art/meshes/ktw/millennium/props/helmet/xion_cloth.dae": {
+      "provider": "module",
+      "physical_path": "art/meshes/ktw/millennium/props/helmet/xion_cloth.dae",
+      "sha256": "8ab5a5c305269b456766058c8047af3b63e0e26be2b562988b19df4398477c58"
+    },
+    "art/actors/ktw/millennium/props/units/helmets/xion_hide.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/millennium/props/units/helmets/xion_hide.xml",
+      "sha256": "db077c46172e4f6f59a646bf7ba1bfdac0df3c7591db14ba148aab3890c83c28"
+    },
+    "art/meshes/ktw/millennium/props/helmet/xion_hide.dae": {
+      "provider": "module",
+      "physical_path": "art/meshes/ktw/millennium/props/helmet/xion_hide.dae",
+      "sha256": "d6f392f1bea82b88e2cb720bac2dd76f6cf4db773270fcbc31e7cb8e5e3df830"
+    },
+    "art/variants/biped/rider/cavalry/base_archer_relax_hip.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/rider/cavalry/base_archer_relax_hip.xml",
+      "sha256": "4ba678e8dc0100b3e6fe65842063406ed52fc243ff05661250db6d7cd3e0dbde"
+    },
+    "art/animation/biped/rider/cavalry/archer/attack_ranged_hip.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/archer/attack_ranged_hip.dae.cached.psa",
+      "sha256": "4ee0714b316fb66ed94f207c6ce713c11fe94ad0dbd91586d4e055497bba8932"
+    },
+    "art/animation/biped/rider/cavalry/generic/attack_melee_shield_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/attack_melee_shield_01.dae.cached.psa",
+      "sha256": "2bd7934eb7d57a713f91ce7a6ae1162d5a465540e0c3c79d4df7b624b23847b9"
+    },
+    "art/animation/biped/rider/cavalry/generic/attack_melee_shield_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/attack_melee_shield_02.dae.cached.psa",
+      "sha256": "616f7180abb4db1a67ba68a0208ce8d956f962c59018d78370c99191ee5f052d"
+    },
+    "art/animation/biped/rider/cavalry/javelin/idle_relax_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/javelin/idle_relax_01.dae.cached.psa",
+      "sha256": "d17495b0596ac8b0a2391c78ef002dc4c63f139ad73f96c4f0b1803ace69e615"
+    },
+    "art/animation/biped/rider/cavalry/javelin/idle_relax_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/javelin/idle_relax_02.dae.cached.psa",
+      "sha256": "eb17b1166a1b4e0f9c614681502cd9e2196156f76adb998b7186556acdfaf098"
+    },
+    "art/animation/biped/rider/cavalry/javelin/idle_relax_03.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/javelin/idle_relax_03.dae.cached.psa",
+      "sha256": "a04053cd5bcd6f036af469989dff57c832aa2f637e39c03f31cf83b930f33ca4"
+    },
+    "art/animation/biped/rider/cavalry/javelin/idle_relax_04.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/javelin/idle_relax_04.dae.cached.psa",
+      "sha256": "a9a80c792f5a02ecad22bffe80b1618e4cb411e9bdf3201f772fcbd5ff2a67ce"
+    },
+    "art/animation/biped/rider/cavalry/javelin/idle_relax_05.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/javelin/idle_relax_05.dae.cached.psa",
+      "sha256": "b6a9c92f21d7a855a8352d3516bcf675d3495d6b547372b15fc1478e64ef3eb4"
+    },
+    "art/animation/biped/rider/cavalry/generic/attack_capture_shield.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/attack_capture_shield.dae.cached.psa",
+      "sha256": "76cb5906a5668bfb984ca62624294dc6e4ccbd5fc7ba7201369c7b8e7ee09fd7"
+    },
+    "art/animation/biped/rider/cavalry/archer/death_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/archer/death_01.dae.cached.psa",
+      "sha256": "db7d2215d308100df305fdadcf9efc2c2ab11d2cf30cd2bcd8061ae88f0144d1"
+    },
+    "art/animation/biped/rider/cavalry/archer/death_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/archer/death_02.dae.cached.psa",
+      "sha256": "02c1d9e18618d2a77ad331ff58812a70659058d8317954d478db66ef4b769e6a"
+    },
+    "art/animation/biped/rider/cavalry/promotion_shield.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/promotion_shield.dae.cached.psa",
+      "sha256": "837db59de520d8dad9ad5f71cc784e20c3a80886cf69f5d668d700762feca2a2"
+    },
+    "art/animation/biped/rider/cavalry/archer/gallop_ready.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/archer/gallop_ready.dae.cached.psa",
+      "sha256": "05b759b097cd998d8f923d4555c69016528a9e87cd07cdaf3d3a3e4f876324ff"
+    },
+    "art/animation/biped/rider/cavalry/javelin/trot.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/javelin/trot.dae.cached.psa",
+      "sha256": "62d6bdbdb8a17d0c7a7e0d417e1d4494d8863c72615333d52f9132b2c54619c8"
+    },
+    "art/variants/biped/rider/carry_meat.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/rider/carry_meat.xml",
+      "sha256": "9f269f100cf7489a7cec8d5325c08abd516a8f2995061e79f8ae0fb5e7924c47"
+    },
+    "art/variants/biped/rider/base_carry_meat.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/rider/base_carry_meat.xml",
+      "sha256": "f0e0924d332cb437769b5556890bd38ef5e9a246fe3272f5ef33d04441dffa44"
+    },
+    "art/animation/biped/rider/cavalry/generic/idle_carry_meat.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/idle_carry_meat.dae.cached.psa",
+      "sha256": "3018f25aedce4c9d08a472ffb90109626672c1496ac09736fd27909c274f6b1f"
+    },
+    "art/animation/biped/rider/cavalry/generic/carry_meat.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/carry_meat.dae.cached.psa",
+      "sha256": "a9cc0bff63c97b41c3b5bfa9ed480be5eb796a7838e1d8ee8152befa023d96c0"
+    },
+    "art/actors/props/units/shuttle_meat_male_R.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/units/shuttle_meat_male_R.xml",
+      "sha256": "5590cbc17dcf35eae7393b6b8e4253523ae4c3445799acb7eac230c3f7d17c91"
+    },
+    "art/meshes/props/shuttle_meat_male_r.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/shuttle_meat_male_r.dae.cached.pmd",
+      "sha256": "8ecaa744cdad647f7370abba9583ad156f0bc873baf93e9007436af67eede870"
+    },
+    "art/textures/skins/props/shuttle_meat.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/shuttle_meat.png.cached.dds",
+      "sha256": "a67e6b3c7976fd2afb52be8f193803db0610514b2e2d6bb0774d71f9198dec6e"
+    },
+    "art/variants/biped/rider/cavalry/attack_ranged_archer_hip.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/rider/cavalry/attack_ranged_archer_hip.xml",
+      "sha256": "f28062a3d9a7a7cf08775c65583265e9ee7cb71ff8586b449632d1a5f5647725"
+    },
+    "art/actors/props/units/weapons/arrow_front.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/units/weapons/arrow_front.xml",
+      "sha256": "2f63911f3de879d522aba6d178e56d07d50484d8fb0730b94a52002642efb146"
+    },
+    "art/meshes/props/weap_arrow_front.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weap_arrow_front.dae.cached.pmd",
+      "sha256": "bba0f4c01f751fd5a6fddff74e8a3bb27b57891516933f55a13287b977d9fc9e"
+    },
+    "art/actors/props/units/weapons/arrow_back.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/units/weapons/arrow_back.xml",
+      "sha256": "9d4a13d599b999f330999c7f250565ee9b6191e259baac521c7d8b96cf3fa538"
+    },
+    "art/meshes/props/weap_arrow_back.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weap_arrow_back.dae.cached.pmd",
+      "sha256": "7479b68d7be9a6a23a3012f67301ae9fecda1221fd70ce2778cfaea9569d28f1"
+    },
+    "art/variants/biped/rider/promotion_shield.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/rider/promotion_shield.xml",
+      "sha256": "b232980aae62558e76ef067a440c4a911a248feeb5521a7452319b43131ecb5b"
+    },
+    "art/variants/biped/rider/attack_slaughter_shield_hele.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/rider/attack_slaughter_shield_hele.xml",
+      "sha256": "ad11e775a4797ac329e069421c17f535b698c57efa4a6e74e31911f9508a7c27"
+    },
+    "art/variants/biped/rider/attack_slaughter_shield.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/rider/attack_slaughter_shield.xml",
+      "sha256": "cc6ad77375601980673ad8d7dd127a29fa32e2f0d99a26e70af366871bc539e2"
+    },
+    "art/actors/props/units/weapons/xiphos.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/units/weapons/xiphos.xml",
+      "sha256": "352d4255193e19d2930b47b651a9027d71004573ef214e7e2e76047f3c011d7d"
+    },
+    "art/textures/skins/null_white.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/null_white.dds.cached.dds",
+      "sha256": "8552dc6e0cb6d92005d531258fdb0648f943c720eafff55b51659ec80b7c3e3c"
+    },
+    "art/meshes/props/weap_xiphos_a.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weap_xiphos_a.dae.cached.pmd",
+      "sha256": "89b50202d9342dc1232b8bb78832d9bc2d5474f4272a454d1064496e577b9f84"
+    },
+    "art/meshes/props/weap_xiphos_c.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weap_xiphos_c.dae.cached.pmd",
+      "sha256": "47039e1f2020a1de89346e8ad519c52c11c008d71b2436220a25c8644d47bc7b"
+    },
+    "art/meshes/props/weap_xiphos_d.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weap_xiphos_d.dae.cached.pmd",
+      "sha256": "38154b0edd7534694230fa8fa17aa3c371e7960a48605cd9f2655fbd95b6552a"
+    },
+    "art/meshes/props/weap_xiphos_e.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weap_xiphos_e.dae.cached.pmd",
+      "sha256": "63dc96f34a0ee07ab67982301ef6147fb8109053005b8fb661c26ac40e69be16"
+    },
+    "art/meshes/props/weap_xiphos_f.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weap_xiphos_f.dae.cached.pmd",
+      "sha256": "b4023a5c61df9b90eab80d1ce68bef589c900c07a6a4fb82a4023b9133376c8b"
+    },
+    "art/variants/biped/gather_meat.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/gather_meat.xml",
+      "sha256": "1016ed551c2937ad5c09126695ca2a15d36e37aabb4322a05b0cd6c85effa7c0"
+    },
+    "art/animation/biped/gatherer/gather_meat.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/gatherer/gather_meat.dae.cached.psa",
+      "sha256": "ad92cb7d88e465a47ced9a1d3d365db71ee516982549c5366689038199081690"
+    },
+    "art/actors/props/units/weapons/dagger.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/units/weapons/dagger.xml",
+      "sha256": "4b127f4094285cfe055e2a801cb38f93967d81a2df7dc677e035a0f2da7ddd7f"
+    },
+    "art/meshes/props/weapons/dagger_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weapons/dagger_01.dae.cached.pmd",
+      "sha256": "c9549135b5fb0314f304c36730f55d951a9cc2449ec7bcd607f18c2b378dba04"
+    },
+    "art/variants/biped/rider/death_ranged.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/rider/death_ranged.xml",
+      "sha256": "d522cd75f23afeee98486d07b647bb9f7799fac3f4eae2bf4cb74df61ae80404"
+    },
+    "art/actors/props/horse/cav_blanket_leather_basic.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/horse/cav_blanket_leather_basic.xml",
+      "sha256": "a98855b33782ce899cb756fbef17101773a1040faf9588e4e856aa03cc8daa33"
+    },
+    "art/variants/quadraped/horse/props/blanket_leather_01.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/horse/props/blanket_leather_01.xml",
+      "sha256": "99891e88a25b21604be78438cba854d4aaf62dfb7b0eee8ecc53379aa6c86f60"
+    },
+    "art/meshes/props/horse/blanket_short.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/horse/blanket_short.dae.cached.pmd",
+      "sha256": "7925f74c2d31a35db9c7dbd53dee63b7577e04a8c46f64ee29c244cff7525a02"
+    },
+    "art/textures/skins/props/horse/blanket_leather_01.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/horse/blanket_leather_01.png.cached.dds",
+      "sha256": "145980aa2a3f8a723ab399042734288b4bf8a62b0b97b6785e348134e15a958e"
+    },
+    "art/variants/quadraped/base_horse_javelin_fast.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_javelin_fast.xml",
+      "sha256": "0798d0e187699d8445dbb12aecff9a36ffcb0a16b24d1bc7a1a7183685d1f8d7"
+    },
+    "art/animation/quadraped/horse_attack_ranged_jav_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_attack_ranged_jav_01.dae.cached.psa",
+      "sha256": "25f5d8c84e6ee3997e6cebb340ea96d425447fe1967ec4a43d12c698caf312f6"
+    },
+    "art/animation/quadraped/horse_attack_ranged_jav_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_attack_ranged_jav_02.dae.cached.psa",
+      "sha256": "58a691aa28c5033f41c3510947bd5eeb0e14b44121e05805427e368c03c05012"
+    },
+    "art/animation/quadraped/horse_attack_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_attack_01.dae.cached.psa",
+      "sha256": "da3a2ba446eb8a2ecf6b5c563d8b662e5704b6c71db707a027527dfb527ee503"
+    },
+    "art/animation/quadraped/horse_attack_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_attack_02.dae.cached.psa",
+      "sha256": "4e3ec09638afed838cf62e1e4a01626a10afe138bb285dff5a90dfd45dcb4fc1"
+    },
+    "art/animation/quadraped/horse_idle_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_idle_01.dae.cached.psa",
+      "sha256": "5da55f75810d75288348e45ff6b65c265969ffffd640fa4e4fd05bca533bff91"
+    },
+    "art/animation/quadraped/horse_idle_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_idle_02.dae.cached.psa",
+      "sha256": "2cc5f42e259c51d826a81a526a489d9f7d0671c9a8101544f1ec580806e64127"
+    },
+    "art/animation/quadraped/horse_idle_03.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_idle_03.dae.cached.psa",
+      "sha256": "2512e35a7bb3f8020dc8819d3084f788d02d99694c9d9cad545ea7c8f5b176d2"
+    },
+    "art/animation/quadraped/horse_idle_04.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_idle_04.dae.cached.psa",
+      "sha256": "a1dfc42abf96603a0053afbe9dc995132a0e6255092bee8e4c88f53a1d55fab3"
+    },
+    "art/animation/quadraped/horse_idle_05.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_idle_05.dae.cached.psa",
+      "sha256": "c225e29650edf50bd97a4f65e3f43a439a8fed779a662891ed19323d69ecc587"
+    },
+    "art/animation/quadraped/horse_death_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_death_01.dae.cached.psa",
+      "sha256": "62cbaabff233b16aeefd18c161cc95c5a4ba883683ca7ba47695841ac6f6fdfe"
+    },
+    "art/animation/quadraped/horse_death_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_death_02.dae.cached.psa",
+      "sha256": "48c04f3b2cc207f9c55100b1c1374140d9d6489628c05d2e62d3a9dbcd887bd4"
+    },
+    "art/animation/quadraped/horse_gather_meat.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_gather_meat.dae.cached.psa",
+      "sha256": "9e79f971047c5651bd6cbdc5b6fc776b6e40dc793e781b5bd4a5f19e8a2679aa"
+    },
+    "art/animation/quadraped/horse_promotion.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_promotion.dae.cached.psa",
+      "sha256": "e7858ac6eaef022b15014ac542865db2456fb642d102de08f259a427f89ca851"
+    },
+    "art/animation/quadraped/horse_gallop.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_gallop.dae.cached.psa",
+      "sha256": "a0aa76b74b6a1a5e35f71a66414bccabc7cc38da1c712681d9843bbe63b65f5d"
+    },
+    "art/animation/quadraped/horse_pace.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_pace.dae.cached.psa",
+      "sha256": "ba67b16e6d2c3971ae341b55b97cbe96c32e7e6e8c246ee5ff8722fe82b3a2d6"
+    },
+    "art/variants/quadraped/base_horse_archer_fast.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_archer_fast.xml",
+      "sha256": "a21a4584751ae88d857ce8385fa6ed04468975219661cca782bf7253c2de888a"
+    },
+    "art/variants/quadraped/base_horse_javelin.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_javelin.xml",
+      "sha256": "9d9f96c1b859bb5f784f582ee0fe01323882ee4c55157a5c4fd85dbf731eb353"
+    },
+    "art/animation/quadraped/horse_trot.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_trot.dae.cached.psa",
+      "sha256": "2b1b7b056f7c7e0c66dc85898069ca016068e9cc3c38120338a1f5a4b360a2e2"
+    },
+    "art/variants/quadraped/base_horse_chariot.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_chariot.xml",
+      "sha256": "d754e34d3827de3d565da145dea164048939313fa485119a0bea78d890cd9158"
+    },
+    "art/variants/quadraped/base_horse_archer.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_archer.xml",
+      "sha256": "4633043f4f53ec251c18ec050ca6b177ae197ebff0e03ad0d227ce52a4dcefcf"
+    },
+    "art/variants/quadraped/base_horse_trader.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_trader.xml",
+      "sha256": "202097c91a15b8ebce49deb8c2f860457e97eb4264e87a9ab16db3d0ebd6d5ec"
+    },
+    "art/animation/quadraped/horse_walk.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_walk.dae.cached.psa",
+      "sha256": "a9881056ed55f6bd72cd33e5fe708dad5a8c28eec7cb1fb3a91f2b98d31caf73"
+    },
+    "art/variants/quadraped/base_horse_fauna.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_fauna.xml",
+      "sha256": "91810ba0723bfdfa77602b698461d173cb12de0463299208f64d1f13fd2d8593"
+    },
+    "art/variants/quadraped/base_horse_trot.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_trot.xml",
+      "sha256": "c8dc9bc76ea09e6ea27c02b69851f5d2ebb02343b4adcb5eb1d398f98cf9dca9"
+    },
+    "art/animation/quadraped/horse_attack_03.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/quadraped/horse_attack_03.dae.cached.psa",
+      "sha256": "b2e11204d05cb6e37ef20e37e01034cfcfe228993c79a6a15428ec283f9cdaed"
+    },
+    "art/variants/quadraped/base_horse_pace.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_pace.xml",
+      "sha256": "bf26803b6f4cff3776db48f23209b77090e8f8e355a79b3620e96cac2a30c949"
+    },
+    "art/variants/quadraped/base_horse_walk.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_walk.xml",
+      "sha256": "0e36367b26888bd08472568d505701b91f081a7fabd61a8b30d1182942998a34"
+    },
+    "art/variants/quadraped/base_horse_gather_meat.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_gather_meat.xml",
+      "sha256": "17eab082a883a153e06e2526100058673cd947d472171b0c4547de353dd72931"
+    },
+    "art/actors/props/horse/cav_rein_leather.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/horse/cav_rein_leather.xml",
+      "sha256": "089a542f49dc674ee5b877aee329e6c8c3efd9c9174aafc7b3fadfdf67dfe5bc"
+    },
+    "art/meshes/props/horse/rein_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/horse/rein_01.dae.cached.pmd",
+      "sha256": "22c0dce8afe2de7ccb723ff09771d4389a0652152bbfab2491dfee0c5dd2202f"
+    },
+    "art/textures/skins/props/horse/head_straps.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/horse/head_straps.png.cached.dds",
+      "sha256": "edcd896fe103bcb85f09c41a87fb9c05b12a62374b9174cdfb856682339809b3"
+    },
+    "art/textures/skins/props/horse/head_straps_norm.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/horse/head_straps_norm.png.cached.dds",
+      "sha256": "298a0a30dcb41ac5491490894ee45c64bdadc9fe845c8ce0f4686cb4ec8f3292"
+    },
+    "art/textures/skins/props/horse/head_straps_spec.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/horse/head_straps_spec.png.cached.dds",
+      "sha256": "36bf52252a067cf510e4f2ff2b6075ca90711346aa6694eaaff59f7c34530e41"
+    },
+    "art/variants/quadraped/horse/brown.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/horse/brown.xml",
+      "sha256": "b93316bd1e0ba6bff2778895982cf2db3909273729b28101959c9e3130655fd8"
+    },
+    "art/variants/quadraped/horse/base.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/horse/base.xml",
+      "sha256": "19402f08e2abe7c32ad402dca0a67c10c49da22eda9a5c7404d2ea548457c5d7"
+    },
+    "art/textures/skins/skeletal/horse_norm.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/skeletal/horse_norm.png.cached.dds",
+      "sha256": "03af5d69bd7e432f0865ca9e8074c16c623a72a008f9403bf848b99a49693a06"
+    },
+    "art/textures/skins/skeletal/horse_spec.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/skeletal/horse_spec.png.cached.dds",
+      "sha256": "55198e970d8580de93802c027386617313caa11fa9933450aee12b719370e67e"
+    },
+    "art/textures/skins/skeletal/horse_brown.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/skeletal/horse_brown.png.cached.dds",
+      "sha256": "f9befbdc9fb1a79d61c0c66656505bff631e278dbdd625477776351d6e4fd1cb"
+    },
+    "art/actors/props/horse/horse_hair_mane_black_brown.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/horse/horse_hair_mane_black_brown.xml",
+      "sha256": "78bdf30e850dffc4dc4a75ea299ac82c92dd4e18919741036a55ae8a76690c45"
+    },
+    "art/meshes/props/horse/hair_mane_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/horse/hair_mane_01.dae.cached.pmd",
+      "sha256": "98623badb6abadb499697f6a0ab6e72c6693b4cf9f8c5f7b81507b64d7ab666a"
+    },
+    "art/variants/quadraped/horse/props/hair_brown.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/horse/props/hair_brown.xml",
+      "sha256": "4e8431524522857c0ea7bd672e5cd05807bf69b62eae0de148d16619da391428"
+    },
+    "art/variants/quadraped/horse/props/hair_base.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/horse/props/hair_base.xml",
+      "sha256": "187b19d65e730d463e7cad235c788834630283a94d7fb1cdb582f0571d290275"
+    },
+    "art/textures/skins/props/horse/hair_norm.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/horse/hair_norm.png.cached.dds",
+      "sha256": "0b120acdb71edf81e1042ddde107fff68cd7d8b15025faad8e300b22ae872703"
+    },
+    "art/textures/skins/props/horse/hair_spec.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/horse/hair_spec.png.cached.dds",
+      "sha256": "9a8f08e7f195ecd457d38ffbf6168afb00d22ffb4b43f1cf774965a1a1a1e886"
+    },
+    "art/textures/skins/props/horse/hair_brown.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/horse/hair_brown.png.cached.dds",
+      "sha256": "086bbd747a18d281aa079427c2020b98537fcee68d72843d6179b72b4ec46aff"
+    },
+    "art/variants/quadraped/horse/props/hair_black.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/horse/props/hair_black.xml",
+      "sha256": "d73a7923ff7f6d3489891b6299be83151b9f9ddc5c26859e5bcee1c3a6b02777"
+    },
+    "art/textures/skins/props/horse/hair_black.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/horse/hair_black.png.cached.dds",
+      "sha256": "1f7bf59097088c082115cce46a2f99048e0fea01d96e0e6280dbeeeb896f8f61"
+    },
+    "art/variants/quadraped/horse/props/hair_beige.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/horse/props/hair_beige.xml",
+      "sha256": "09b3a81016fa2a03bbb1087157925bbcf035488650c9edf6bfa6ab295d686a8f"
+    },
+    "art/textures/skins/props/horse/hair_beige.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/horse/hair_beige.png.cached.dds",
+      "sha256": "9e415c2525df87abd26696e2704b3082293a2ee888fff273e56dd07b3feb94c3"
+    },
+    "art/materials/basic_trans_norm_spec.xml": {
+      "provider": "release28",
+      "physical_path": "art/materials/basic_trans_norm_spec.xml",
+      "sha256": "1d45ed04b40bcda4f06694987885eadcf2f8bf59d2838d5d870cd64bfea4a394"
+    },
+    "art/actors/props/horse/horse_hair_tail_black_brown.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/horse/horse_hair_tail_black_brown.xml",
+      "sha256": "5414878ea06567cbe1528cc614350f4b99d7207f6ac5ccd97512d017483a500f"
+    },
+    "art/meshes/props/horse/hair_tail_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/horse/hair_tail_01.dae.cached.pmd",
+      "sha256": "74b1ed2f696c21964b96e620fedb931688aff80c4c1f4036bc8b28de51e0b87c"
+    },
+    "art/variants/quadraped/horse/beige.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/horse/beige.xml",
+      "sha256": "eb963a8571e4115c60b83bfb0f9b05bfb2a3617cd2dca3631bf23b74eaefc243"
+    },
+    "art/textures/skins/skeletal/horse_beige.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/skeletal/horse_beige.png.cached.dds",
+      "sha256": "71546878535739e378dbc3d076da7c45db8f78c290d285292ca0ffad3c43660a"
+    },
+    "art/variants/quadraped/horse/tan.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/horse/tan.xml",
+      "sha256": "ee6977ef2b811392d071caf6228f0a61a69b621601070a398fe03bb72b77e50e"
+    },
+    "art/textures/skins/skeletal/horse_tan.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/skeletal/horse_tan.png.cached.dds",
+      "sha256": "62cb8b33df5889bc24aca148739369fedfebf0dc3168997b53da4ee9aaf1ce5d"
+    },
+    "art/variants/quadraped/horse/cherrybay.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/horse/cherrybay.xml",
+      "sha256": "eadfdf786a5489f11df6be93fe67feb24324c3c15b22cb8abc14b04bffab583c"
+    },
+    "art/textures/skins/skeletal/horse_cherrybay.png": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/skeletal/horse_cherrybay.png.cached.dds",
+      "sha256": "704ea7eb0e65733957754d90fb423e5f9790c2e75067bd11d3d545bd7a988e68"
+    },
+    "art/variants/quadraped/base_horse_death.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_death.xml",
+      "sha256": "e7571cc968f0ae20c70167f7c39cd9f3c3fba91b486f1df24c44bd4da5fe66f1"
+    },
+    "art/actors/props/units/blood_01.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/units/blood_01.xml",
+      "sha256": "656f50a90ee8b9c19e4ccad0574f61d4fdee6c30c7c64b8e08b1d8654e482a35"
+    },
+    "art/textures/skins/props/blood_01.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/blood_01.dds.cached.dds",
+      "sha256": "5f49a232e98f16fdbab85694af2ab221163f7716c480a87b9fc49be880c1ff73"
+    },
+    "art/textures/skins/props/blood_02.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/blood_02.dds.cached.dds",
+      "sha256": "603a2a0763c5b0562ca1f1b7eb1835335d3c2734db7d24d5f5ea9f0d528d99c9"
+    },
+    "art/textures/skins/props/blood_03.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/blood_03.dds.cached.dds",
+      "sha256": "e4776127c93d85b89617cb9d4a5300dbe528662e5ec5bd1450faf3553ab6b949"
+    },
+    "art/textures/skins/props/blood_04.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/blood_04.dds.cached.dds",
+      "sha256": "1bcff363621fce4f68714ee5a316e209e2dcb08da6d178bad25097f0ca6ce76e"
+    },
+    "art/textures/skins/props/blood_05.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/blood_05.dds.cached.dds",
+      "sha256": "4fa551113377c030e92c0dc5be5f8036f4a7e131134c9f5048ec53b8e882ca0b"
+    },
+    "art/textures/skins/props/blood_06.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/blood_06.dds.cached.dds",
+      "sha256": "a934966da2bbc2c74c4b4fda080867b0e49da079957dbe634c972a040c093094"
+    },
+    "art/textures/skins/props/blood_07.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/blood_07.dds.cached.dds",
+      "sha256": "79586778d40532a213330ddc666e321b2ed0c911c5221be2f9f09f1202763ae0"
+    },
+    "art/textures/skins/props/blood_08.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/blood_08.dds.cached.dds",
+      "sha256": "57cd24887a9bbddf68d15ef26460b0fcdc4fee17a9d2b2b3ed0fa91626a414a5"
+    },
+    "art/textures/skins/props/blood_09.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/blood_09.dds.cached.dds",
+      "sha256": "73f5196bd6a477e5dbbb53bc2c97b1c35744fc39862e5b08c19521a96a38c364"
+    },
+    "art/textures/skins/props/blood_10.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/blood_10.dds.cached.dds",
+      "sha256": "2059e1f91e801cde0c11f55c18512cbf8f7659098724a9023398fbc6dffcd014"
+    },
+    "art/textures/skins/props/blood_11.dds": {
+      "provider": "release28-cache",
+      "physical_path": "art/textures/skins/props/blood_11.dds.cached.dds",
+      "sha256": "87f82d2618bbf860c654bbff4c2b732a7b7ac38f7506f97e4d51753765b4551f"
+    },
+    "art/materials/terrain_norm_spec.xml": {
+      "provider": "release28",
+      "physical_path": "art/materials/terrain_norm_spec.xml",
+      "sha256": "6dbfdbb0d9e218cbd1dd550e17aae34c522c9774d8959ce7e195dc60b43aec23"
+    },
+    "art/variants/quadraped/base_horse_run.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/quadraped/base_horse_run.xml",
+      "sha256": "894f67c6dfe6e4bd39bb63686ec3960d00df43875cb15964f5cdaf5ca949d10f"
+    },
+    "art/actors/particle/dust_cav.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/particle/dust_cav.xml",
+      "sha256": "68d1366600168cf9003d65e302082ea8702e05bd0268c6edd20137b3bc18dc10"
+    },
+    "art/materials/no_trans_parallax_spec.xml": {
+      "provider": "release28",
+      "physical_path": "art/materials/no_trans_parallax_spec.xml",
+      "sha256": "a26ce2f3d1d69ac6c0c496876e1e9df7ac92d8d2a935e0c49633583f42d9b4e6"
+    },
+    "art/actors/ktw/units/light_cavalry.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/units/light_cavalry.xml",
+      "sha256": "4cf0d89b3edabafe1c95a1aef23a06b5f740fcc7c8e736d1d261b90b6d7b37e6"
+    },
+    "art/actors/ktw/units/light_cavalry_rider.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/units/light_cavalry_rider.xml",
+      "sha256": "01b820d906e34b25c4bed00135662e388fcc47863aee0f90b293ff4e3f681aac"
+    },
+    "art/actors/props/units/weapons/spear_lance_cavalry.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/units/weapons/spear_lance_cavalry.xml",
+      "sha256": "18f83e609f113806f86826a3cd48a824b6d6c04a5d6f38254279ed734e27db10"
+    },
+    "art/meshes/props/spear_lance_cavalry.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/spear_lance_cavalry.dae.cached.pmd",
+      "sha256": "a19f06de5563d2f0e5f2c5258ac0b208c58a52f249865aab7ae9391f8fcd56b3"
+    },
+    "art/variants/biped/rider/cavalry/base_spearman_relax_shield_01.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/rider/cavalry/base_spearman_relax_shield_01.xml",
+      "sha256": "e767ac08a95b81a685356533cbe6a88a3b5fd7b59fecca5a1e29ebc93a130672"
+    },
+    "art/animation/biped/rider/cavalry/spearman/attack_melee_shield_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/spearman/attack_melee_shield_01.dae.cached.psa",
+      "sha256": "a9460c82c75e3fa2f07e872de92393f8280557c639fe6ca36fdad26c48055e3d"
+    },
+    "art/animation/biped/rider/cavalry/spearman/attack_melee_shield_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/spearman/attack_melee_shield_02.dae.cached.psa",
+      "sha256": "6fc7810c9762da189ef1b45f38081354621ad3604ce7da81425129c3ec782fe8"
+    },
+    "art/animation/biped/rider/cavalry/spearman/attack_melee_shield_03.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/spearman/attack_melee_shield_03.dae.cached.psa",
+      "sha256": "e5ad1b6daefae364246e0db2abe8812dea6e87eb715af5369a8ea1ebe38f6b48"
+    },
+    "art/animation/biped/rider/cavalry/generic/idle_shield_relax_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/idle_shield_relax_01.dae.cached.psa",
+      "sha256": "972aecca6568b6ea4c925209ff993dd459088b80a2f9a77d3c1851f2ec5b860a"
+    },
+    "art/animation/biped/rider/cavalry/generic/idle_shield_relax_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/idle_shield_relax_02.dae.cached.psa",
+      "sha256": "908eb129625b453457deca5ef46dfab3ea5ccc260d19b7cfe4592ff51af8efd4"
+    },
+    "art/animation/biped/rider/cavalry/generic/idle_shield_relax_03.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/idle_shield_relax_03.dae.cached.psa",
+      "sha256": "57765bef7c90246e87845bdf4793e93712bfd2c5eae06464c18967eac4a3f743"
+    },
+    "art/animation/biped/rider/cavalry/generic/idle_shield_relax_04.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/idle_shield_relax_04.dae.cached.psa",
+      "sha256": "9bcf2d3800e099ec8045669fdcf1e85c9ffc4c20286f97dcec85f17bb8ef9be4"
+    },
+    "art/animation/biped/rider/cavalry/generic/idle_shield_relax_05.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/idle_shield_relax_05.dae.cached.psa",
+      "sha256": "b80c1a471bc81b884d28a59e564d787fad202d61b5f810eee65255fae5459024"
+    },
+    "art/animation/biped/rider/cavalry/generic/death_shield_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/death_shield_01.dae.cached.psa",
+      "sha256": "979a7122db390f74043a6169c9556ec4a05999c5e054d6a06b16a3ffde844e86"
+    },
+    "art/animation/biped/rider/cavalry/generic/death_shield_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/death_shield_02.dae.cached.psa",
+      "sha256": "109088beab9d267eb7b3d625caf56166b1f42992d57835d39b2186c7c504af7f"
+    },
+    "art/animation/biped/rider/cavalry/spearman/gallop_shield_ready.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/spearman/gallop_shield_ready.dae.cached.psa",
+      "sha256": "c19222ad47d03516b10a08806e278b11402e026932e506b2ce99e827bd30e41c"
+    },
+    "art/animation/biped/rider/cavalry/generic/trot_shield_relax.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/trot_shield_relax.dae.cached.psa",
+      "sha256": "56d9f38d8d7b12d1a42601151f61465650ec67a34e6bbae339e8eda0093a0227"
+    },
+    "art/variants/biped/rider/death.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/rider/death.xml",
+      "sha256": "fc9f213f0f71b2432463786d5015ab7f7d08e012839ea40a092166ba8c80a0e5"
+    },
+    "art/animation/biped/rider/cavalry/generic/death_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/death_01.dae.cached.psa",
+      "sha256": "60abaf62997bb587864faa4612c8af51b17a2b2865c0e7728b09f718f5a077d3"
+    },
+    "art/animation/biped/rider/cavalry/generic/death_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/rider/cavalry/generic/death_02.dae.cached.psa",
+      "sha256": "5f640dcc80407847437ab65e19aede7a0611272991db22314035c4adab18d16f"
+    },
+    "art/actors/ktw/units/heavy_cavalry.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/units/heavy_cavalry.xml",
+      "sha256": "188011a3a17a99ef2c1b72f4c87b5b0b8cfa6dac000ae53457f8bac29eaae5ae"
+    },
+    "art/actors/ktw/units/heavy_cavalry_rider.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/units/heavy_cavalry_rider.xml",
+      "sha256": "f15eed402704a0e00db45a4b77dfb6aad843a73c99b0a6300da268e8e54f3eab"
+    },
+    "art/actors/ktw/millennium/props/units/helmets/byza_archer_helmet_basic_iron.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/millennium/props/units/helmets/byza_archer_helmet_basic_iron.xml",
+      "sha256": "0809c031960d902cc29d703c9fe2fe42a93a348ab76ce0a40900f56953c9e1a5"
+    },
+    "art/meshes/ktw/millennium/props/helmet/byza_archer_helmet_basic.dae": {
+      "provider": "module",
+      "physical_path": "art/meshes/ktw/millennium/props/helmet/byza_archer_helmet_basic.dae",
+      "sha256": "847e6689c7242c435052d0befae7c861172851efae5e367c1050e78e250e2866"
+    },
+    "art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_iron.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_iron.png",
+      "sha256": "5414af27f58014d702fa0815e3ba495c160db35ecd8885d1226787dc14cdbf76"
+    },
+    "art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_norm.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_norm.png",
+      "sha256": "edb7a5572e377894b35b7382a3851bfebd313268eb15f90fee2a39e8eaeaac7f"
+    },
+    "art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_spec.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/helmet/byzantine_archer_helmet_spec.png",
+      "sha256": "c6559bb09b62b81e81f0cc1a510967ab8f6bcc4e26e9738ce8dfced3949cec5d"
+    },
+    "art/materials/basic_trans_parallax_spec.xml": {
+      "provider": "release28",
+      "physical_path": "art/materials/basic_trans_parallax_spec.xml",
+      "sha256": "5cb8456ecd1de25d85db182bf78e958686410db749c9884c589844a21d9c076b"
+    },
+    "art/actors/ktw/millennium/props/horse/cav_armor_umayyad_lamellar.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/millennium/props/horse/cav_armor_umayyad_lamellar.xml",
+      "sha256": "656b5b841f42c99a0376a09af522455ec5c2139b909548501f1b31ab30ba2d6a"
+    },
+    "art/meshes/ktw/millennium/props/horse/cataphract_armor.dae": {
+      "provider": "module",
+      "physical_path": "art/meshes/ktw/millennium/props/horse/cataphract_armor.dae",
+      "sha256": "3e9cdf2141d3fe429dd6f1cd8c6c103ce7d1793ee3c4b867de49ad43f1f8696d"
+    },
+    "art/textures/skins/ktw/millennium/props/horse/cataphract_armor_norm.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/horse/cataphract_armor_norm.png",
+      "sha256": "1a929c714b2d6c4258900ef1e762cb0b41e90e23eb5f3b358ffaae2b42e0caf7"
+    },
+    "art/textures/skins/ktw/millennium/props/horse/cataphract_armor_spec.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/horse/cataphract_armor_spec.png",
+      "sha256": "23c2ddbc818b591c210ea6b67a921576e671eddb5978bc9892dca20a19018dbc"
+    },
+    "art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar.png",
+      "sha256": "9d493266f8da9293c9205eae670bc23d6c330666a9191461c4e96755d30b297a"
+    },
+    "art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar2.png": {
+      "provider": "module",
+      "physical_path": "art/textures/skins/ktw/millennium/props/horse/cataphract_armor_lamellar2.png",
+      "sha256": "d36ba00dddd8c4ac6b2e5ffee2d5d86691bd0c77ead9415409cc5926c1e256cb"
+    },
+    "art/actors/ktw/units/spearman.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/units/spearman.xml",
+      "sha256": "9f14c5eaed34c6dbf5a8697e4003bf4317f49f40556bb58fbf4a51b2ae21dc45"
+    },
+    "art/actors/props/units/weapons/spear.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/units/weapons/spear.xml",
+      "sha256": "df1592f782d120ec2d1a0b8b27dcc3fd1b00842d99a33e470cffcb22d9424964"
+    },
+    "art/actors/props/units/weapons/blades/spear_blade.xml": {
+      "provider": "release28",
+      "physical_path": "art/actors/props/units/weapons/blades/spear_blade.xml",
+      "sha256": "7ec2799030a3a261dac5fefb9a75d74374a4c7dff21ab3d90b2c260943171b55"
+    },
+    "art/meshes/props/spear_blade_a.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/spear_blade_a.dae.cached.pmd",
+      "sha256": "9fffdf9ab0384010d09a9f719dd2d5edada571439f874bc2b23a8ca7f412b1a7"
+    },
+    "art/meshes/props/spear_blade_b.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/spear_blade_b.dae.cached.pmd",
+      "sha256": "d82b2e44e9ebc85ba7c445ae8fd841e2ac2512e0bee66df7db301a340aecbb0b"
+    },
+    "art/meshes/props/spear_blade_c.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/spear_blade_c.dae.cached.pmd",
+      "sha256": "e552e2005dce2814c0e4f4611692e287f02a35d69d4e6b10acc3b022becf612b"
+    },
+    "art/meshes/props/weap_shaft_wood_a.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weap_shaft_wood_a.dae.cached.pmd",
+      "sha256": "d9596dc512c5427372ae76482bef94d5b56dd514b54e31463a47eb54558d04a4"
+    },
+    "art/meshes/props/weap_shaft_wood_b.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weap_shaft_wood_b.dae.cached.pmd",
+      "sha256": "1ffbb073b02b904abce4ef2677e3262a89ee98bc1b8bae9fc5ab1e03dc4cd46f"
+    },
+    "art/meshes/props/weap_shaft_wood_c.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weap_shaft_wood_c.dae.cached.pmd",
+      "sha256": "cec476f8efba88e5b26fe20a0d32558a3759abd9b3cdf1b95555d687835991b6"
+    },
+    "art/meshes/props/weap_shaft_wood_d.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weap_shaft_wood_d.dae.cached.pmd",
+      "sha256": "cb12b64c5a708d8f811c6174888e6a848a89af2998894969f1f7faefd326510c"
+    },
+    "art/meshes/props/weap_shaft_wood_e.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/meshes/props/weap_shaft_wood_e.dae.cached.pmd",
+      "sha256": "8f1e639d0e1823548d1bff7c9a18e7564552d7d18d148a3116287f2073dd0eae"
+    },
+    "art/variants/biped/base_spearman_shield_relax_celt.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/base_spearman_shield_relax_celt.xml",
+      "sha256": "e39cd28a44f3f8589628cc3e0e5d846792bfbac2fab50d256926142b7cd0c282"
+    },
+    "art/animation/biped/infantry/spearman/idle_relax_shield_celt_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/spearman/idle_relax_shield_celt_01.dae.cached.psa",
+      "sha256": "7a9a938fcb3c0f615005ec95845f4c251877f1f8232ce319a37781124cdde443"
+    },
+    "art/animation/biped/infantry/spearman/idle_relax_shield_celt_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/spearman/idle_relax_shield_celt_02.dae.cached.psa",
+      "sha256": "e21c188bc39ac69975ad01146700372d6ed1bf68aef9c4669915e6995c7f7eb2"
+    },
+    "art/animation/biped/infantry/spearman/idle_relax_shield_celt_03.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/spearman/idle_relax_shield_celt_03.dae.cached.psa",
+      "sha256": "e38cc3b7aeeb14ec6b7445748cc4657d6641eead841204737d2f9522b3918456"
+    },
+    "art/animation/biped/infantry/spearman/idle_relax_shield_celt_04.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/spearman/idle_relax_shield_celt_04.dae.cached.psa",
+      "sha256": "397fb7659a0a94a91969c97c474982c2c1a9489266860f40b5bacfec079a21e5"
+    },
+    "art/animation/biped/infantry/spearman/idle_relax_shield_celt_05.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/spearman/idle_relax_shield_celt_05.dae.cached.psa",
+      "sha256": "d065fb1549d386bb1fd437135f3355bb16fa4634f7bb51417d67491aa2a877ba"
+    },
+    "art/animation/biped/infantry/spearman/idle_relax_shield_long_celt_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/spearman/idle_relax_shield_long_celt_01.dae.cached.psa",
+      "sha256": "112367013463dd47173788b5150cd7e96df29f92d9a1bed2eb99a9032998ff60"
+    },
+    "art/animation/biped/infantry/spearman/walk_relax_shield.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/spearman/walk_relax_shield.dae.cached.psa",
+      "sha256": "8e1c850166cf3634f7dfa38354bdf6a8aab7fc9436c5eae0d7881e4ec3402999"
+    },
+    "art/animation/biped/infantry/spearman/run_relax_shield.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/spearman/run_relax_shield.dae.cached.psa",
+      "sha256": "0af6582416c84aa8cda9e7d5e1ebae41c2eef822495261280fc4f52d44d0a928"
+    },
+    "art/animation/biped/infantry/swordsman/attack_melee_shield_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/swordsman/attack_melee_shield_01.dae.cached.psa",
+      "sha256": "08841a990bd704bb7ac2a7894872ed854fb0d348d0ba65103821e31115170906"
+    },
+    "art/animation/biped/infantry/swordsman/attack_melee_shield_03.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/swordsman/attack_melee_shield_03.dae.cached.psa",
+      "sha256": "f464dba2ce0070dfa9069346b4bf59aafbd2da4ae70aeaa2c45297905dfbb0ea"
+    },
+    "art/animation/biped/infantry/swordsman/attack_melee_shield_04.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/swordsman/attack_melee_shield_04.dae.cached.psa",
+      "sha256": "5ab5f04c1b5909dfc2e45ea9670ac9050d37f4e3988de46730395ea736544620"
+    },
+    "art/animation/biped/infantry/swordsman/attack_melee_shield_05.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/swordsman/attack_melee_shield_05.dae.cached.psa",
+      "sha256": "51d7d699faf02ddcdb49f7d79093e5ff2d744b840b0845c63f29437e69fe4f38"
+    },
+    "art/animation/biped/infantry/promotion.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/promotion.dae.cached.psa",
+      "sha256": "c17c5adfb91e63cca2b3c6b7d193c8545c224479bde51aa16ea3d118bd2a8949"
+    },
+    "art/variants/biped/death_infantry.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/death_infantry.xml",
+      "sha256": "711eb6a9a21647f2142e0ee90b291c2841c1df5461f0d49169a5632cb3167387"
+    },
+    "art/variants/biped/base_death_infantry.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/base_death_infantry.xml",
+      "sha256": "07cc21ddf39b73d75462b7373f17b79cdce34f2bc7b81e5416d299e0d45ff279"
+    },
+    "art/animation/biped/infantry/death_a.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/death_a.dae.cached.psa",
+      "sha256": "c130fc4767d18ccfa59b8b3410c3499a87ca875e81d5133bdc1f817f0066b041"
+    },
+    "art/animation/biped/infantry/death_b.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/death_b.dae.cached.psa",
+      "sha256": "ff7a016f7a9a1e69c66af6a8ee3ce28471fe339ace45702e5c030775bcfbab08"
+    },
+    "art/actors/ktw/units/infantry_archer.xml": {
+      "provider": "module",
+      "physical_path": "art/actors/ktw/units/infantry_archer.xml",
+      "sha256": "230d62c9129d2f6f6b2ac1469d62f5b8dc62cf260931460d92862c8b1d39422c"
+    },
+    "art/variants/biped/base_archer_relax.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/base_archer_relax.xml",
+      "sha256": "5d674ea8c6f346d8348b4d3d765226fc830810d0ef23178aa2fd7a5836fd0551"
+    },
+    "art/animation/biped/infantry/archer/idle_relax_01.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/archer/idle_relax_01.dae.cached.psa",
+      "sha256": "dd9c04a86e75566f4cf2a4b3cf568e3239131b8e050817569a9f4fb2ef7687e1"
+    },
+    "art/animation/biped/infantry/archer/idle_relax_02.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/archer/idle_relax_02.dae.cached.psa",
+      "sha256": "cf8de7679f62d0a037a26220b06ae98ef97839b648bbb80c559630505daf1241"
+    },
+    "art/animation/biped/infantry/archer/idle_relax_03.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/archer/idle_relax_03.dae.cached.psa",
+      "sha256": "e18a98309d0b5c3c1b1a56cb2bbcd69c48da34434a8576ef2a3b5de6d1541c7b"
+    },
+    "art/animation/biped/infantry/archer/idle_relax_04.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/archer/idle_relax_04.dae.cached.psa",
+      "sha256": "c6db221eae8373b1153baa027c32d431409d8d4af53eecca99aa80d877d838d2"
+    },
+    "art/animation/biped/infantry/archer/jog_relax.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/archer/jog_relax.dae.cached.psa",
+      "sha256": "713c13b313c235e1286470d368880455a71cf61f077330e2a699ef78deec8294"
+    },
+    "art/animation/biped/infantry/archer/run_ready.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/archer/run_ready.dae.cached.psa",
+      "sha256": "a18c9048ad136b4d1f18ecf28dc4bb297fc4c5a836ed8024f89de406bc1e7bb4"
+    },
+    "art/variants/biped/attack_ranged_archer.xml": {
+      "provider": "release28",
+      "physical_path": "art/variants/biped/attack_ranged_archer.xml",
+      "sha256": "f32d7634767506842f721ab7a0fa3219b0bb7cf05e353ed7ffbeedf926ff8d0d"
+    },
+    "art/animation/biped/infantry/archer/attack_ranged.dae": {
+      "provider": "release28-cache",
+      "physical_path": "art/animation/biped/infantry/archer/attack_ranged.dae.cached.psa",
+      "sha256": "e93ae9d870bb7de7cb605b69af4f88e583e12b251835984b53cefeec48e41e1e"
+    },
+    "art/skeletons/ktw_millennium_bow.xml": {
+      "provider": "module",
+      "physical_path": "art/skeletons/ktw_millennium_bow.xml",
+      "sha256": "d5cca7c728d5e6f5c55f24ecd23d7aab9dcac583bf914e1c0f54716335cd1d7c"
+    }
+  },
+  "missing": [],
+  "pass": true,
+  "resource_count": 232,
+  "providers": {
+    "module": 45,
+    "release28": 61,
+    "release28-cache": 126
+  }
+}

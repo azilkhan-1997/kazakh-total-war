@@ -1,0 +1,61 @@
+{
+  "millenniumad": {
+    "commit": "91636b405ee8d0088ec3a34fba6074dbd5c9d0f3",
+    "commit_date": "2026-04-02T23:57:38+02:00",
+    "tracked_file_count": 3335,
+    "xml_count": 1284,
+    "xml_syntax_errors": [],
+    "legacy_RequiredTechnology_paths": [],
+    "counts": {
+      "": 5,
+      ".yml": 1,
+      ".txt": 8,
+      ".xml": 1284,
+      ".dae": 630,
+      ".png": 1211,
+      ".psd": 2,
+      ".ogg": 50,
+      ".js": 12,
+      ".DELETED": 2,
+      ".ico": 1,
+      ".pmp": 20,
+      ".json": 108,
+      ".md": 1
+    }
+  },
+  "medievalad": {
+    "commit": "84e5b2d8caad8c8830cb6a3ac5c6d427c0d0462c",
+    "commit_date": "2022-07-05T20:54:25+02:00",
+    "tracked_file_count": 550,
+    "xml_count": 237,
+    "xml_syntax_errors": [],
+    "legacy_RequiredTechnology_paths": [
+      "simulation/templates/template_structure_special_mines.xml",
+      "simulation/templates/template_unit_support_bannerman.xml",
+      "simulation/templates/units/teutonic/cavalry_spearman_b.xml",
+      "simulation/templates/units/teutonic/cavalry_swordsman_b.xml",
+      "simulation/templates/units/teutonic/support_female_citizen_house.xml"
+    ],
+    "counts": {
+      "": 2,
+      ".blend": 87,
+      ".pdn": 43,
+      ".MD": 2,
+      ".xml": 237,
+      ".txt": 1,
+      ".dae": 66,
+      ".png": 100,
+      ".dds": 2,
+      ".pmp": 1,
+      ".json": 9
+    }
+  },
+  "inter_mod_path_collisions": [
+    ".gitattributes",
+    ".gitignore",
+    "art/actors/props/special/common/waypoint_flag.xml",
+    "art/actors/props/special/eyecandy/dontremove.txt",
+    "mod.json",
+    "simulation/data/settings/player_defaults.json"
+  ]
+}

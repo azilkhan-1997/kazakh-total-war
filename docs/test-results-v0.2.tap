@@ -1,0 +1,466 @@
+TAP version 13
+# Subtest: schema 1 pending fixture migrates without altering calendar, resources or troops
+ok 1 - schema 1 pending fixture migrates without altering calendar, resources or troops
+  ---
+  duration_ms: 8.075808
+  type: 'test'
+  ...
+# Subtest: schema 1 completed fixture preserves old receipt and remains idempotent
+ok 2 - schema 1 completed fixture preserves old receipt and remains idempotent
+  ---
+  duration_ms: 1.918077
+  type: 'test'
+  ...
+# Subtest: native-state upgrade returns independent validated clone and preserves source
+ok 3 - native-state upgrade returns independent validated clone and preserves source
+  ---
+  duration_ms: 1.975965
+  type: 'test'
+  ...
+# Subtest: checksum is checked before migration, and envelope/payload versions must match
+ok 4 - checksum is checked before migration, and envelope/payload versions must match
+  ---
+  duration_ms: 2.298561
+  type: 'test'
+  ...
+# Subtest: pending battle snapshots commanders, context and immutable army copies
+ok 5 - pending battle snapshots commanders, context and immutable army copies
+  ---
+  duration_ms: 1.479067
+  type: 'test'
+  ...
+# Subtest: stale commander snapshot and altered battle context reject loaded state
+ok 6 - stale commander snapshot and altered battle context reject loaded state
+  ---
+  duration_ms: 5.463635
+  type: 'test'
+  ...
+# Subtest: confirmed commander death triggers succession and keeps family archive
+ok 7 - confirmed commander death triggers succession and keeps family archive
+  ---
+  duration_ms: 5.026067
+  type: 'test'
+  ...
+# Subtest: commander death receipt survives restart and cannot apply consequences twice
+ok 8 - commander death receipt survives restart and cannot apply consequences twice
+  ---
+  duration_ms: 2.922099
+  type: 'test'
+  ...
+# Subtest: explicit all-alive outcome has same receipt as a legacy no-outcome result
+ok 9 - explicit all-alive outcome has same receipt as a legacy no-outcome result
+  ---
+  duration_ms: 1.7935
+  type: 'test'
+  ...
+# Subtest: unverified commander IDs, wrong types and unsupported outcome states are atomic rejections
+ok 10 - unverified commander IDs, wrong types and unsupported outcome states are atomic rejections
+  ---
+  duration_ms: 9.691831
+  type: 'test'
+  ...
+# Subtest: reported commander death requires an actual casualty in the same army
+ok 11 - reported commander death requires an actual casualty in the same army
+  ---
+  duration_ms: 1.545637
+  type: 'test'
+  ...
+# Subtest: transaction rollback includes failures after staged casualty mutation
+ok 12 - transaction rollback includes failures after staged casualty mutation
+  ---
+  duration_ms: 2.522668
+  type: 'test'
+  ...
+# Subtest: interrupted battle can be restored; corrupt report leaves checkpoint usable
+ok 13 - interrupted battle can be restored; corrupt report leaves checkpoint usable
+  ---
+  duration_ms: 2.43757
+  type: 'test'
+  ...
+# Subtest: death of sole enemy ruler leaves explicit vacancy without invented historical successor
+ok 14 - death of sole enemy ruler leaves explicit vacancy without invented historical successor
+  ---
+  duration_ms: 1.523063
+  type: 'test'
+  ...
+# Subtest: JSON recovery selects valid primary or validated backup and never repairs corrupt data in place
+ok 15 - JSON recovery selects valid primary or validated backup and never repairs corrupt data in place
+  ---
+  duration_ms: 2.481976
+  type: 'test'
+  ...
+# Subtest: stable event IDs and political IDs survive serialization without duplication
+ok 16 - stable event IDs and political IDs survive serialization without duplication
+  ---
+  duration_ms: 2.611372
+  type: 'test'
+  ...
+# Subtest: strategic movement and diplomatic changes expose reproducible reason factors
+ok 17 - strategic movement and diplomatic changes expose reproducible reason factors
+  ---
+  duration_ms: 1.331515
+  type: 'test'
+  ...
+# Subtest: codec rejects oversize envelopes rather than producing unloadable output
+ok 18 - codec rejects oversize envelopes rather than producing unloadable output
+  ---
+  duration_ms: 16.525288
+  type: 'test'
+  ...
+# Subtest: battle ID counters and malformed receipts cannot be reused after loading
+ok 19 - battle ID counters and malformed receipts cannot be reused after loading
+  ---
+  duration_ms: 8.535019
+  type: 'test'
+  ...
+# Subtest: dead character archive and battle receipt must agree after loading
+ok 20 - dead character archive and battle receipt must agree after loading
+  ---
+  duration_ms: 2.108794
+  type: 'test'
+  ...
+# Subtest: autoresolve of depleted one-warrior regiments retains a valid winner
+ok 21 - autoresolve of depleted one-warrior regiments retains a valid winner
+  ---
+  duration_ms: 2.300343
+  type: 'test'
+  ...
+# Subtest: battle terrain and retreat origins must agree with actual army positions
+ok 22 - battle terrain and retreat origins must agree with actual army positions
+  ---
+  duration_ms: 2.656619
+  type: 'test'
+  ...
+# Subtest: a forged internally matching roster cannot move the defender or attacker away from battle adjacency
+ok 23 - a forged internally matching roster cannot move the defender or attacker away from battle adjacency
+  ---
+  duration_ms: 1.493097
+  type: 'test'
+  ...
+# Subtest: deterministic seed, 8provinces,325individual soldiers and5unit types
+ok 24 - deterministic seed, 8provinces,325individual soldiers and5unit types
+  ---
+  duration_ms: 6.333585
+  type: 'test'
+  ...
+# Subtest: campaign runs in SpiderMonkey-style host without require/module and registers global
+ok 25 - campaign runs in SpiderMonkey-style host without require/module and registers global
+  ---
+  duration_ms: 6.479586
+  type: 'test'
+  ...
+# Subtest: adjacent movement captures province and uses one movement point
+ok 26 - adjacent movement captures province and uses one movement point
+  ---
+  duration_ms: 1.837586
+  type: 'test'
+  ...
+# Subtest: nonadjacent and unknown moves never change state
+ok 27 - nonadjacent and unknown moves never change state
+  ---
+  duration_ms: 1.435851
+  type: 'test'
+  ...
+# Subtest: strategic opponent attacks after two end turns
+ok 28 - strategic opponent attacks after two end turns
+  ---
+  duration_ms: 2.33185
+  type: 'test'
+  ...
+# Subtest: pendingbattle locks economic commands and turn progression
+ok 29 - pendingbattle locks economic commands and turn progression
+  ---
+  duration_ms: 4.476279
+  type: 'test'
+  ...
+# Subtest: tactical victory returns actual survivors, ownership,experience and campaign victory
+ok 30 - tactical victory returns actual survivors, ownership,experience and campaign victory
+  ---
+  duration_ms: 2.844192
+  type: 'test'
+  ...
+# Subtest: tactical defeat captures territory and marks defeat when player has no survivors
+ok 31 - tactical defeat captures territory and marks defeat when player has no survivors
+  ---
+  duration_ms: 4.10492
+  type: 'test'
+  ...
+# Subtest: surviving losing defender retreats to friendly adjacent province
+ok 32 - surviving losing defender retreats to friendly adjacent province
+  ---
+  duration_ms: 5.308121
+  type: 'test'
+  ...
+# Subtest: matching duplicate result applies once; changed duplicate rejected
+ok 33 - matching duplicate result applies once; changed duplicate rejected
+  ---
+  duration_ms: 2.65707
+  type: 'test'
+  ...
+# Subtest: stale IDs, foreign regiments,missing entries, soldier gains and impossible winners rejected atomically
+ok 34 - stale IDs, foreign regiments,missing entries, soldier gains and impossible winners rejected atomically
+  ---
+  duration_ms: 8.22352
+  type: 'test'
+  ...
+# Subtest: autoresolve deterministic and never creates survivors
+ok 35 - autoresolve deterministic and never creates survivors
+  ---
+  duration_ms: 3.269442
+  type: 'test'
+  ...
+# Subtest: retreat transfers provincial ownership and applies pursuit casualties
+ok 36 - retreat transfers provincial ownership and applies pursuit casualties
+  ---
+  duration_ms: 1.410213
+  type: 'test'
+  ...
+# Subtest: pendingbattle roundtrip, postbattle roundtrip,continued simulation unchanged
+ok 37 - pendingbattle roundtrip, postbattle roundtrip,continued simulation unchanged
+  ---
+  duration_ms: 6.146503
+  type: 'test'
+  ...
+# Subtest: checksum detects damaged save and validation rejects malformed native state
+ok 38 - checksum detects damaged save and validation rejects malformed native state
+  ---
+  duration_ms: 1.337513
+  type: 'test'
+  ...
+# Subtest: recruitment charges resources, limits counts and rejects prototype property names
+ok 39 - recruitment charges resources, limits counts and rejects prototype property names
+  ---
+  duration_ms: 2.780986
+  type: 'test'
+  ...
+# Subtest: buildings require owned land and funds; supply shortage causes attrition not negative stocks
+ok 40 - buildings require owned land and funds; supply shortage causes attrition not negative stocks
+  ---
+  duration_ms: 1.931678
+  type: 'test'
+  ...
+# Subtest: three-turn truce stops AI, blocks border capture,expires deterministically
+ok 41 - three-turn truce stops AI, blocks border capture,expires deterministically
+  ---
+  duration_ms: 0.98311
+  type: 'test'
+  ...
+# Subtest: stale battle snapshot in engine-native save is rejected
+ok 42 - stale battle snapshot in engine-native save is rejected
+  ---
+  duration_ms: 0.804451
+  type: 'test'
+  ...
+# Subtest: unimplemented future troop types cannot enter an engine battle roster
+ok 43 - unimplemented future troop types cannot enter an engine battle roster
+  ---
+  duration_ms: 1.05597
+  type: 'test'
+  ...
+# Subtest: native saved state cannot introduce an unimplemented troop template
+ok 44 - native saved state cannot introduce an unimplemented troop template
+  ---
+  duration_ms: 0.301584
+  type: 'test'
+  ...
+# Subtest: mocked controller spawns exact 325-warrior roster and assigns commanders to existing soldiers
+ok 45 - mocked controller spawns exact 325-warrior roster and assigns commanders to existing soldiers
+  ---
+  duration_ms: 11.777761
+  type: 'test'
+  ...
+# Subtest: mocked real Health death reaches transactional campaign succession exactly once
+ok 46 - mocked real Health death reaches transactional campaign succession exactly once
+  ---
+  duration_ms: 10.155599
+  type: 'test'
+  ...
+# Subtest: mocked controller does not convert ordinary troop casualties into commander deaths
+ok 47 - mocked controller does not convert ordinary troop casualties into commander deaths
+  ---
+  duration_ms: 3.999261
+  type: 'test'
+  ...
+# Subtest: schema-1 recorded midbattle snapshot upgrades without inventing commander entity history
+ok 48 - schema-1 recorded midbattle snapshot upgrades without inventing commander entity history
+  ---
+  duration_ms: 6.362427
+  type: 'test'
+  ...
+# Subtest: malformed recorded old save stays untouched and blocks commands and battle ticks
+ok 49 - malformed recorded old save stays untouched and blocks commands and battle ticks
+  ---
+  duration_ms: 4.899356
+  type: 'test'
+  ...
+# Subtest: rejected battle completion preserves pending state and can retry with corrected outcome
+ok 50 - rejected battle completion preserves pending state and can retry with corrected outcome
+  ---
+  duration_ms: 8.54266
+  type: 'test'
+  ...
+# Subtest: GUI gateway exposes simulation council and Health-based commander status without mutating campaign
+ok 51 - GUI gateway exposes simulation council and Health-based commander status without mutating campaign
+  ---
+  duration_ms: 2.507215
+  type: 'test'
+  ...
+# Subtest: schema-2 commander mapping corruption is rejected atomically for wrong side, duplicate and absent identity
+ok 52 - schema-2 commander mapping corruption is rejected atomically for wrong side, duplicate and absent identity
+  ---
+  duration_ms: 10.020886
+  type: 'test'
+  ...
+# Subtest: schema-2 valid dead commander mapping restores even after engine removes its Health entity
+ok 53 - schema-2 valid dead commander mapping restores even after engine removes its Health entity
+  ---
+  duration_ms: 6.106934
+  type: 'test'
+  ...
+# Subtest: schema-2 political corruption leaves recovery GUI readable without calculating council
+ok 54 - schema-2 political corruption leaves recovery GUI readable without calculating council
+  ---
+  duration_ms: 2.485812
+  type: 'test'
+  ...
+# Subtest: Continue accepts v0.1 native KTW saves and chooses newest compatible campaign
+ok 55 - Continue accepts v0.1 native KTW saves and chooses newest compatible campaign
+  ---
+  duration_ms: 4.365492
+  type: 'test'
+  ...
+# Subtest: Continue rejects future schema carrier, missing mod, extra dependency and incompatible engine
+ok 56 - Continue rejects future schema carrier, missing mod, extra dependency and incompatible engine
+  ---
+  duration_ms: 1.619588
+  type: 'test'
+  ...
+# Subtest: Autosave starts only on turn advance and alternates two slots without repeating on UI ticks
+ok 57 - Autosave starts only on turn advance and alternates two slots without repeating on UI ticks
+  ---
+  duration_ms: 3.237293
+  type: 'test'
+  ...
+# Subtest: RU KK EN explain enemy decisions with translated reasons and numeric factors
+ok 58 - RU KK EN explain enemy decisions with translated reasons and numeric factors
+  ---
+  duration_ms: 5.14768
+  type: 'test'
+  ...
+# Subtest: Council presents simulation factor weights, archive retains known family links and unknown dates
+ok 59 - Council presents simulation factor weights, archive retains known family links and unknown dates
+  ---
+  duration_ms: 3.839831
+  type: 'test'
+  ...
+# Subtest: Recovery screen blocks campaign controls and saving before malformed state is rendered
+ok 60 - Recovery screen blocks campaign controls and saving before malformed state is rendered
+  ---
+  duration_ms: 3.076432
+  type: 'test'
+  ...
+# Subtest: initial political state preserves persistent IDs, verified lineage, unknown dates and future rulers
+ok 61 - initial political state preserves persistent IDs, verified lineage, unknown dates and future rulers
+  ---
+  duration_ms: 3.714672
+  type: 'test'
+  ...
+# Subtest: initialization preserves existing political state and refuses partial state
+ok 62 - initialization preserves existing political state and refuses partial state
+  ---
+  duration_ms: 1.021448
+  type: 'test'
+  ...
+# Subtest: simulation helper registers in SpiderMonkey-style host without Node dependencies
+ok 63 - simulation helper registers in SpiderMonkey-style host without Node dependencies
+  ---
+  duration_ms: 3.283083
+  type: 'test'
+  ...
+# Subtest: council report gives reconstructible numeric reasons and excludes future/current rulers
+ok 64 - council report gives reconstructible numeric reasons and excludes future/current rulers
+  ---
+  duration_ms: 1.15563
+  type: 'test'
+  ...
+# Subtest: different military/political abilities can produce explained disagreement between groups
+ok 65 - different military/political abilities can produce explained disagreement between groups
+  ---
+  duration_ms: 0.580283
+  type: 'test'
+  ...
+# Subtest: commander death archives character, preserves family links and performs deterministic succession
+ok 66 - commander death archives character, preserves family links and performs deterministic succession
+  ---
+  duration_ms: 2.17864
+  type: 'test'
+  ...
+# Subtest: replayed death is idempotent inside political module as well as in BattleBridge
+ok 67 - replayed death is idempotent inside political module as well as in BattleBridge
+  ---
+  duration_ms: 0.779163
+  type: 'test'
+  ...
+# Subtest: both deaths are processed before succession, vacancy never invents a replacement ruler
+ok 68 - both deaths are processed before succession, vacancy never invents a replacement ruler
+  ---
+  duration_ms: 0.662107
+  type: 'test'
+  ...
+# Subtest: surviving commander or absent outcomes leave all political data unchanged
+ok 69 - surviving commander or absent outcomes leave all political data unchanged
+  ---
+  duration_ms: 0.612863
+  type: 'test'
+  ...
+# Subtest: invalid or non-participating commander outcomes reject before any death is applied
+ok 70 - invalid or non-participating commander outcomes reject before any death is applied
+  ---
+  duration_ms: 1.679849
+  type: 'test'
+  ...
+# Subtest: dead characters cannot be resurrected by alive result or killed in a different battle
+ok 71 - dead characters cannot be resurrected by alive result or killed in a different battle
+  ---
+  duration_ms: 3.138645
+  type: 'test'
+  ...
+# Subtest: unknown, duplicated and nonreciprocal family/dynasty references fail validation
+ok 72 - unknown, duplicated and nonreciprocal family/dynasty references fail validation
+  ---
+  duration_ms: 0.577109
+  type: 'test'
+  ...
+# Subtest: ancestry cycle rejected even when parent/child references are reciprocal
+ok 73 - ancestry cycle rejected even when parent/child references are reciprocal
+  ---
+  duration_ms: 0.181242
+  type: 'test'
+  ...
+# Subtest: dead commanders/rulers, malformed reasons and duplicate event IDs fail validation
+ok 74 - dead commanders/rulers, malformed reasons and duplicate event IDs fail validation
+  ---
+  duration_ms: 2.659764
+  type: 'test'
+  ...
+# Subtest: serialized political archive restores identical genealogy, election explanation and IDs
+ok 75 - serialized political archive restores identical genealogy, election explanation and IDs
+  ---
+  duration_ms: 0.852193
+  type: 'test'
+  ...
+# Subtest: reported authority loss matches clamped actual loss
+ok 76 - reported authority loss matches clamped actual loss
+  ---
+  duration_ms: 0.328394
+  type: 'test'
+  ...
+1..76
+# tests 76
+# suites 0
+# pass 76
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 197.274111
