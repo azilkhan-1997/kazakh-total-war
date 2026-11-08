@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-11-08",
+  "checks": {
+    "workflow_yaml_parse": "pass",
+    "read_only_workflow_token": "pass",
+    "pinned_actions_exist_on_github": "pass",
+    "source_archive_sha256": "pass",
+    "exact_r28_premake_sha256": "pass",
+    "flags_declared_in_exact_r28": "pass",
+    "workspace_and_collada_dependency_in_exact_r28": "pass",
+    "upstream_fetch_script_sha256_after_lf_normalization": "pass",
+    "git_diff_whitespace_check": "pass",
+    "powershell_parser": "pass: actual PowerShell Parser.ParseFile, zero errors",
+    "windows_engine_build": "not run in this local Linux environment; use real Actions run",
+    "native_gameplay": "not tested",
+    "non_windows_guard_and_failure_record": "pass: script rejected Linux and wrote accurate failure provenance",
+    "evidence_only_artifact": "pass: no compiled engine or dependency binary upload"
+  },
+  "files": [
+    {
+      "path": ".github/workflows/windows-r28-engine.yml",
+      "bytes": 1397,
+      "sha256": "64b287a8d38327447abb0c904522c17aa6c88ceaa685d0ba281e844f2ba5d510"
+    },
+    {
+      "path": "build/windows_ci/Build-R28.ps1",
+      "bytes": 13213,
+      "sha256": "991cecc820f0b2828722b18642cab9267545676210bc12365bd3b9235a186cb9"
+    },
+    {
+      "path": "build/windows_ci/README.md",
+      "bytes": 7453,
+      "sha256": "fb09679f034cf216a06dc1cf7400e611b7fac05b3f8dfea6f044ef9fb2acc540"
+    }
+  ]
+}

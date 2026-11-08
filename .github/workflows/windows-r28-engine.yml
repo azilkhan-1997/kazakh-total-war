@@ -1,0 +1,45 @@
+name: R28 Windows engine (no lobby)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/windows-r28-engine.yml'
+      - 'build/windows_ci/**'
+      - 'docs/distribution-evidence/get-windows-libs-r28.bat'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: r28-engine-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  engine:
+    runs-on: windows-2022
+    timeout-minutes: 100
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - name: Check out game build instructions
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Build real R28 Release engine and inspect imports
+        run: >-
+          ./build/windows_ci/Build-R28.ps1
+          -WorkRoot "$env:RUNNER_TEMP/ktw-r28-engine"
+          -OutputRoot "$env:GITHUB_WORKSPACE/ci-output"
+      - name: Preserve evidence even on a failed build
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: r28-engine-evidence-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ci-output/evidence/
+          if-no-files-found: error
+          retention-days: 14
+
+# Built binaries stay on the ephemeral runner. Only text evidence is uploaded.
+# No release, installer, website upload, signing or runtime DLL upload occurs here.
